@@ -8,6 +8,7 @@ Release：[v0.3.0](https://github.com/lisong2003-lgtm/simaguang-perspective/rele
 ## 产品说明
 
 完整产品介绍、能力簇、使用场景、输出结构和边界见 [产品说明.md](产品说明.md)。
+用户反馈的查看、分类、修复和回归流程见 [反馈处理流程.md](反馈处理流程.md)。
 
 ## 独立项目
 
