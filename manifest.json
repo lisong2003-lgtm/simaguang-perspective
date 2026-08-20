@@ -1,1 +1,24 @@
-ewogICJuYW1lIjogInNpbWFndWFuZy1wZXJzcGVjdGl2ZSIsCiAgInZlcnNpb24iOiAiMC4zLjAtcHVibGljIiwKICAiZGVzY3JpcHRpb24iOiAi5Y+46ams5YWJ57u85ZCI5oCd57u077ya5Lul5Y6G5Y+y5qCh5YeG5Li65bqV5bqn44CB6J6N5ZCI6Leo5Z+f55+l6K+G44CB6auY55Sf5Lqn5Yqb6L6T5Ye65ZKM5YaF5bWM6JK46aaP5by65YyW55qE57u85ZCI5Yik5pat57O757uf44CCIiwKICAiYXV0aG9yIjogIuWPuOmprOWFiee7vOWQiOaAnee7tCIsCiAgImxpY2Vuc2UiOiAiQ0MtQlktTkMtU0EtNC4wIiwKICAiZW50cnkiOiAiU0tJTEwubWQiLAogICJzY3JpcHRzIjogWwogICAgInNjcmlwdHMvYnVpbGRfdHJhY2VhYmlsaXR5X3BhbmVsLnB5IiwKICAgICJzY3JpcHRzL2NoZWNrX2Rpc3RpbGxhdGlvbl9xdWFsaXR5LnB5IiwKICAgICJzY3JpcHRzL2NoZWNrX2ludGVncmF0aW9uLnB5IiwKICAgICJzY3JpcHRzL2dlbmVyYXRlX3dvcmtfcHJvZHVjdC5weSIsCiAgICAic2NyaXB0cy9wcmVwYXJlX2lucHV0LnB5IiwKICAgICJzY3JpcHRzL3J1bl9oaWdoX3Byb2R1Y3Rpdml0eV9jaGVja3MucHkiLAogICAgInNjcmlwdHMvYXJjaGl2ZV93b3JrX3Byb2R1Y3RfZmVlZGJhY2sucHkiLAogICAgInNjcmlwdHMvcmV2aWV3X2xlYXJuaW5nX2xvZy5weSIsCiAgICAic2NyaXB0cy9ydW5fcmVncmVzc2lvbl9ldmFscy5weSIsCiAgICAic2NyaXB0cy9ydW5fdGVzdF9wcm9tcHRzLnB5IiwKICAgICJzY3JpcHRzL3NlbGYtbGVhcm4tbmV4dC5zaCIsCiAgICAic2NyaXB0cy92ZXJpZnlfdHJhY2VhYmlsaXR5LnB5IgogIF0sCiAgInRlc3QiOiAicHl0aG9uMyBzY3JpcHRzL3J1bl90ZXN0X3Byb21wdHMucHkgLS1wcm9tcHRzIHRlc3QtcHJvbXB0cy5qc29uIiwKICAicHJpdmFjeSI6ICJObyBvcmlnaW5hbCBib29rcywgcHJpdmF0ZSBsb2dzLCBvciBwZXJzb25hbCBkYXRhIGFyZSBidW5kbGVkLiIKfQo=
+{
+  "name": "simaguang-perspective",
+  "version": "0.3.0-public",
+  "description": "司马光综合思维：以历史校准为底座、融合跨域知识、高生产力输出和内嵌蒸馏强化的综合判断系统。",
+  "author": "lis",
+  "license": "CC-BY-NC-SA-4.0",
+  "entry": "SKILL.md",
+  "scripts": [
+    "scripts/build_traceability_panel.py",
+    "scripts/check_distillation_quality.py",
+    "scripts/check_integration.py",
+    "scripts/generate_work_product.py",
+    "scripts/prepare_input.py",
+    "scripts/run_high_productivity_checks.py",
+    "scripts/archive_work_product_feedback.py",
+    "scripts/review_learning_log.py",
+    "scripts/run_regression_evals.py",
+    "scripts/run_test_prompts.py",
+    "scripts/self-learn-next.sh",
+    "scripts/verify_traceability.py"
+  ],
+  "test": "python3 scripts/run_test_prompts.py --prompts test-prompts.json",
+  "privacy": "No original books, private logs, or personal data are bundled."
+}
