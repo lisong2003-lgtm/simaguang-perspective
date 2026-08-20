@@ -1,1 +1,25 @@
-ewogICJuYW1lIjogInNpbWFndWFuZy1wZXJzcGVjdGl2ZSIsCiAgInZlcnNpb24iOiAiMC4zLjAiLAogICJkZXNjcmlwdGlvbiI6ICLlj7jpqazlhYnnu7zlkIjmgJ3nu7TvvJrljoblj7LmoKHlh4bjgIHot6jln5/lhrPnrZbjgIHmjqjmvJTlhrPnrZbml7bmnLrkuI7oh6rlrabkuaDpl63njq/jgIIiLAogICJhdXRob3IiOiB7CiAgICAibmFtZSI6ICLlj7jpqazlhYnnu7zlkIjmgJ3nu7QiCiAgfSwKICAibGljZW5zZSI6ICJDQy1CWS1OQy1TQS00LjAiLAogICJza2lsbHMiOiAiLi9za2lsbHMvIiwKICAiaW50ZXJmYWNlIjogewogICAgImRpc3BsYXlOYW1lIjogIuWPuOmprOWFiee7vOWQiOaAnee7tCIsCiAgICAic2hvcnREZXNjcmlwdGlvbiI6ICLljoblj7LmoKHlh4bjgIHot6jln5/lhrPnrZbjgIHmjqjmvJTlhrPnrZbml7bmnLrkuI7oh6rlrabkuaDpl63njq8iLAogICAgImxvbmdEZXNjcmlwdGlvbiI6ICLku6XjgIrotYTmsrvpgJrpibTjgIvlvI/ljoblj7LliKTmlq3kuLrln7rnoYDvvIzono3lkIjnjrDku6Pns7vnu5/mgJ3nu7TjgIHlv4PnkIbjgIHms5XlvovjgIHmipXotYTjgIHkvqbmn6XjgIHmmJPlrabjgIHlpYfpl6jlkozmjqjmvJTlhrPnrZbml7bmnLrvvIzmj5Dkvpvot6jln5/liIbmnpDjgIHmnaXmupDov73muq/kuI7oh6rlrabkuaDpl63njq/jgIIiLAogICAgImRldmVsb3Blck5hbWUiOiAi5Y+46ams5YWJ57u85ZCI5oCd57u0IiwKICAgICJjYXRlZ29yeSI6ICJQcm9kdWN0aXZpdHkiLAogICAgImNhcGFiaWxpdGllcyI6IFsKICAgICAgIkludGVyYWN0aXZlIgogICAgXSwKICAgICJkZWZhdWx0UHJvbXB0IjogWwogICAgICAi55So5Y+46ams5YWJ57u85ZCI5oCd57u05YiG5p6Q6L+Z5Liq6Leo6YOo6Zeo6aG555uu5piv5ZCm6K+l57un57ut44CCIiwKICAgICAgIueUqOWPuOmprOWFiee7vOWQiOaAnee7tOW4ruaIkeaLhuino+W9k+WJjeWGs+etlueahOWFs+mUruWPmOmHj+WSjOaXtuacuuOAgiIsCiAgICAgICLnlKjlj7jpqazlhYnnu7zlkIjmgJ3nu7TliIbmnpDkuIDkuKrogYzlnLrkuKTpmr7pgInmi6njgIIiCiAgICBdCiAgfQp9Cg==
+{
+  "name": "simaguang-perspective",
+  "version": "0.3.0",
+  "description": "司马光综合思维：历史校准、跨域决策、推演决策时机与自学习闭环。",
+  "author": {
+    "name": "lis"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "司马光综合思维",
+    "shortDescription": "历史校准、跨域决策、推演决策时机与自学习闭环",
+    "longDescription": "以《资治通鉴》式历史判断为基础，融合现代系统思维、心理、法律、投资、侦查、易学、奇门和推演决策时机，提供跨域分析、来源追溯与自学习闭环。",
+    "developerName": "lis",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "用司马光综合思维分析这个跨部门项目是否该继续。",
+      "用司马光综合思维帮我拆解当前决策的关键变量和时机。",
+      "用司马光综合思维分析一个职场两难选择。"
+    ]
+  }
+}
