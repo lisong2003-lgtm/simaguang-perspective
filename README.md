@@ -1,1 +1,92 @@
-IyDlj7jpqazlhYnnu7zlkIjmgJ3nu7TvvIjlhazlvIDniYjvvIkKCuS4gOS4quS7peOAiui1hOayu+mAmumJtOOAi+W8j+WOhuWPsuagoeWHhuS4uuWfuuehgO+8jOiejeWQiOeOsOS7o+ezu+e7n+aAnee7tOOAgeW/g+eQhuOAgeazleW+i+OAgeaKlei1hOOAgeS+puafpeOAgeaYk+WtpuOAgeWlh+mXqOWSjOaOqOa8lOWGs+etluaXtuacuueahOe7vOWQiOWGs+etluaKgOiDveOAggoKIyMg5Lqn5ZOB6K+05piOCgrlrozmlbTkuqflk4Hku4vnu43jgIHog73lipvnsIfjgIHkvb/nlKjlnLrmma/jgIHovpPlh7rnu5PmnoTlkozovrnnlYzop4EgW+S6p+WTgeivtOaYji5tZF0o5Lqn5ZOB6K+05piOLm1kKeOAggoKIyMg54us56uL6aG555uuCgrmnKznm67lvZXmmK/ni6znq4vlj5HluIPpobnnm67vvIzkuI3kvp3otZbku7vkvZXlhoXpg6jpobnnm67mlofku7bvvJvlj6/nm7TmjqXlpI3liLbjgIHlronoo4XjgIHmiZPljIXmiJbkuIrkvKDliLDmioDog73lubPlj7DjgIIKCiMjIOeJueeCuQoKLSAyOCDkuKrog73lipvnsIcKLSAzMDMg5p2h5rWL6K+VCi0g5p2l5rqQ5Y+v6L+95rqvCi0g6Ieq5a2m5Lmg6Zet546vCi0g5qih5Z2X5oyJ6ZyA5aKe5by677yM5pel5bi45LiN5by65Yi25bGV56S6Ci0g6auY55Sf5Lqn5Yqb6L6T5Ye677ya6aG555uu562W5YiS44CB5Lqn5ZOB5pa55qGI44CB6K665paH5oql5ZGK44CB6L6p6K+N44CB6Lev5ryU44CB5ZWG5Lia6K6h5YiS5Lmm44CB5bCP6K+05LiO5Ymn5pysCi0g5YaF5bWM6JK46aaP5by65YyW77ya5LiN5L6d6LWW5aSW6YOo6JK46aaPIHNraWxs77yM5by65YyW4oCc5aaC5L2V5oqK5Lmm5Y+Y5oiQ5Y+v5omn6KGM5Yik5pat5bC64oCdCi0g5b2x6KeG5pGE5b2x5LiOIEFJIOefreWJp++8muWIhumVnOOAgU1pbmlNYXggSDPjgIFTZWVkYW5jZSAyLjUg5o+Q56S66K+N5ZKMIEFJIOefreWJp+a1geeoiwotIOmrmOi0qOmHj+S6pOS7mO+8mui+k+WHuuiHquajgOOAgeS6i+WunuaguOmqjOOAgeS4k+S4mui+ueeVjOWkjeaguOOAgeecn+WunuWPjemmiOmXreeOrwotIEFJR0Mg576O5a2m44CB6ZWc5aS06K+t5rOV44CB55S15b2x5p6E5Zu+44CB5Ymq6L6R6K+t5rOVCgrlt7LlubblhaXmlrDlop7mioDog73vvJrkuK3ljLvlhaXpl6jjgIHmt7Hluqblt6XkvZzjgIHnvZHnu5zmmK/mgI7moLfov57mjqXnmoTjgIHmiJjkuonoibrmnK/lj7LjgIHliLvmnb/ljbDosaHjgIHkuozljYHlm5vlj7LjgIIK5pys6L2u5YWs5byA54mI5ZCM5q2l6KGl6b2QIDIxNSDkuKrpgJDkuabmioDog73ljIXvvIzopobnm5bpnZ7omZrmnoTlhpnkvZzjgIHlhpnkvZzlt6XoibrjgIHlvbHop4bmkYTlvbHjgIFBSUdDIOaPkOekuuivjeOAgeaImOS6ieiuuuOAgeS4nOWRqOWIl+WbveW/l+etieacgOaWsOW5tuWFpeWGheWuueOAggoKIyMg5a6J6KOFCgrlsIbmnKznm67lvZXkvZzkuLogQ29kZXggU2tpbGwg5a6J6KOF77yM5oiW5oyJ55uu5qCH5bmz5Y+w55qEIFNraWxsIOagvOW8j+aJk+WMheOAggoKIyMg55uu5b2VCgotIGBTS0lMTC5tZGDvvJrkuLvmioDog73lhaXlj6MKLSBgQUdFTlRTLm1kYO+8mumhueebruinhOWImQotIGByZWZlcmVuY2VzL2DvvJrljY/orq7jgIHmlrnms5XnvZHnu5zjgIHntKLlvJXlkozmqKHmnb8KLSBgc2NyaXB0cy9g77ya5qCh6aqM44CB5aSN55uY44CB5rqv5rqQ5ZKM6JK46aaP6ISa5pysCi0gYHRlc3QtcHJvbXB0cy5qc29uYO+8mua1i+ivlembhgotIGBleGFtcGxlcy9g77ya5b+r6YCf5LiK5omL56S65L6LCi0gYHBsYXRmb3Jtcy9g77yaQ29kZXgg5o+S5Lu25ZKM6YCa55SoIFNraWxsIOW5s+WPsOmAgumFjeaWh+S7tgotIGBkaXN0L2DvvJrlt7LmiZPljIXnmoTlj5HooYzljovnvKnljIUKCiMjIOWkmuW5s+WPsOWPkeW4g+WMhQoKLSBDb2RleCDmj5Lku7bvvJpgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtcGx1Z2luLnppcGAKLSBDb2RleCDnn6Xor4bmianlsZXvvJpgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgta25vd2xlZGdlLnppcGAKLSBDb2RleCDluILlnLrku5PlupPvvJpgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtbWFya2V0cGxhY2UuemlwYAotIOmAmueUqCBTa2lsbO+8mmBkaXN0L3NpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMtMC4zLjAuemlwYAotIOefpeivhuaJqeWxleWMhe+8mmBkaXN0L3NpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMtMC4zLjAta25vd2xlZGdlLnppcGAKLSDlubPlj7Dor7TmmI7vvJpbcGxhdGZvcm1zL1JFQURNRS5tZF0ocGxhdGZvcm1zL1JFQURNRS5tZCkKLSBXb3JrQnVkZHkg5a6J6KOF77yaW3BsYXRmb3Jtcy9Xb3JrQnVkZHnlronoo4UubWRdKHBsYXRmb3Jtcy9Xb3JrQnVkZHnlronoo4UubWQpCi0gQ29kZXgg5o+S5Lu25Y+R5biD77yaW3BsYXRmb3Jtcy9Db2RleOaPkuS7tuWPkeW4gy5tZF0ocGxhdGZvcm1zL0NvZGV45o+S5Lu25Y+R5biDLm1kKQotIOe7vOWQiCBTa2lsbCDlubPlj7Dlj5HluIPvvJpbcGxhdGZvcm1zL+e7vOWQiFNraWxs5bmz5Y+w5Y+R5biDLm1kXShwbGF0Zm9ybXMv57u85ZCIU2tpbGzlubPlj7Dlj5HluIMubWQpCi0g5LuL57uN5LiO5ryU56S677yaW3BsYXRmb3Jtcy/ku4vnu43kuI7mvJTnpLoubWRdKHBsYXRmb3Jtcy/ku4vnu43kuI7mvJTnpLoubWQpCi0g5Y+R5biD5rWB56iL77yaW3BsYXRmb3Jtcy/lj5HluIPmtYHnqIsubWRdKHBsYXRmb3Jtcy/lj5HluIPmtYHnqIsubWQpCi0g5bmz5Y+w5Y+R5biD5q2l6aqk77yaW3BsYXRmb3Jtcy/lubPlj7Dlj5HluIPmraXpqqQubWRdKHBsYXRmb3Jtcy/lubPlj7Dlj5HluIPmraXpqqQubWQpCi0g5Y+R5biD5qOA5p+l5riF5Y2V77yaW3BsYXRmb3Jtcy/lj5HluIPmo4Dmn6XmuIXljZUubWRdKHBsYXRmb3Jtcy/lj5HluIPmo4Dmn6XmuIXljZUubWQpCi0g5Y+R5biD5o+Q5Lqk5p2Q5paZ77yaW3BsYXRmb3Jtcy/lj5HluIPmj5DkuqTmnZDmlpkubWRdKHBsYXRmb3Jtcy/lj5HluIPmj5DkuqTmnZDmlpkubWQpCi0g5Y+R5biD5YmN5qOA5p+l5oql5ZGK77yaW+WPkeW4g+WJjeajgOafpeaKpeWRii5tZF0o5Y+R5biD5YmN5qOA5p+l5oql5ZGKLm1kKQoK6YeN5paw5omT5YyF77yaCgpgYGBiYXNoCnB5dGhvbjMgc2NyaXB0cy9idWlsZF9yZWxlYXNlLnB5CnB5dGhvbjMgc2NyaXB0cy9idWlsZF9rbm93bGVkZ2VfZXh0ZW5zaW9uLnB5CmBgYAoKIyMg55So5oi36YCJ5oupCgotIOi9u+mHj+WMhe+8muS4uyBTS0lMTCArIHJlZmVyZW5jZXMgKyAyMTUg5pys5Lmm5pGY6KaB77yMdG9rZW4g5pu055yB44CCCi0g55+l6K+G5omp5bGV5YyF77ya6aKd5aSW5YyF5ZCrIDIxNSDkuKrpgJDkuabmioDog73ljIXvvIzmt7Hluqbog73lipvmm7TlvLrvvIzmjInpnIDor7vlj5bjgIIKCiMjIOW/q+mAn+W8gOWniwoKYGBgdGV4dArnlKjlj7jpqazlhYnnu7zlkIjmgJ3nu7TluK7miJHliIbmnpDkuIDkuKrot6jpg6jpl6jpobnnm67or6XkuI3or6Xnu6fnu63jgIIKCuivt+e7meWHuu+8mgoxLiDlhbPplK7lj5jph4/lkozmnIDlpKfpo47pmakKMi4g5Lik5p2h5Lul5LiK5Y+v6IO96Lev5b6ECjMuIOW9k+WJjeacgOS9s+ihjOWKqOaXtueCuQo0LiDnm7jlj43ovqnor4Hop4bop5IKNS4g6ZyA6KaB6aqM6K+B55qE5L+h5oGvCmBgYAoKIyMg5o6I5p2DCgpDQyBCWS1OQy1TQSA0LjDjgILkuI3pmo/lhazlvIDniYjlj5HluIPljp/lp4vkuabnsY3mlofmnKzjgIIK
+# 司马光综合思维（公开版）
+
+一个以《资治通鉴》式历史校准为基础，融合现代系统思维、心理、法律、投资、侦查、易学、奇门和推演决策时机的综合决策技能。
+
+GitHub：[lisong2003-lgtm/simaguang-perspective](https://github.com/lisong2003-lgtm/simaguang-perspective)
+Release：[v0.3.0](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.0)
+
+## 产品说明
+
+完整产品介绍、能力簇、使用场景、输出结构和边界见 [产品说明.md](产品说明.md)。
+
+## 独立项目
+
+本目录是独立发布项目，不依赖任何内部项目文件；可直接复制、安装、打包或上传到技能平台。
+
+## 特点
+
+- 28 个能力簇
+- 303 条测试
+- 来源可追溯
+- 自学习闭环
+- 模块按需增强，日常不强制展示
+- 高生产力输出：项目策划、产品方案、论文报告、辩词、路演、商业计划书、小说与剧本
+- 内嵌蒸馏强化：不依赖外部蒸馏 skill，强化“如何把书变成可执行判断尺”
+- 影视摄影与 AI 短剧：分镜、MiniMax H3、Seedance 2.5 提示词和 AI 短剧流程
+- 高质量交付：输出自检、事实核验、专业边界复核、真实反馈闭环
+- AIGC 美学、镜头语法、电影构图、剪辑语法
+
+已并入新增技能：中医入门、深度工作、网络是怎样连接的、战争艺术史、刻板印象、二十四史。
+本轮公开版同步补齐 215 个逐书技能包，覆盖非虚构写作、写作工艺、影视摄影、AIGC 提示词、战争论、东周列国志等最新并入内容。
+
+## 安装
+
+将本目录作为 Codex Skill 安装，或按目标平台的 Skill 格式打包。
+
+## 目录
+
+- `SKILL.md`：主技能入口
+- `AGENTS.md`：项目规则
+- `references/`：协议、方法网络、索引和模板
+- `scripts/`：校验、复盘、溯源和蒸馏脚本
+- `test-prompts.json`：测试集
+- `examples/`：快速上手示例
+- `platforms/`：Codex 插件和通用 Skill 平台适配文件
+- `dist/`：已打包的发行压缩包
+
+## 多平台发布包
+
+- Codex 插件：`dist/simaguang-perspective-0.3.0-codex-plugin.zip`
+- Codex 知识扩展：`dist/simaguang-perspective-0.3.0-codex-knowledge.zip`
+- Codex 市场仓库：`dist/simaguang-perspective-0.3.0-codex-marketplace.zip`
+- 通用 Skill：`dist/simaguang-perspective-public-0.3.0.zip`
+- 知识扩展包：`dist/simaguang-perspective-public-0.3.0-knowledge.zip`
+- 平台说明：[platforms/README.md](platforms/README.md)
+- WorkBuddy 安装：[platforms/WorkBuddy安装.md](platforms/WorkBuddy安装.md)
+- Codex 插件发布：[platforms/Codex插件发布.md](platforms/Codex插件发布.md)
+- 综合 Skill 平台发布：[platforms/综合Skill平台发布.md](platforms/综合Skill平台发布.md)
+- 介绍与演示：[platforms/介绍与演示.md](platforms/介绍与演示.md)
+- 发布流程：[platforms/发布流程.md](platforms/发布流程.md)
+- 平台发布步骤：[platforms/平台发布步骤.md](platforms/平台发布步骤.md)
+- 发布检查清单：[platforms/发布检查清单.md](platforms/发布检查清单.md)
+- 发布提交材料：[platforms/发布提交材料.md](platforms/发布提交材料.md)
+- 发布前检查报告：[发布前检查报告.md](发布前检查报告.md)
+
+重新打包：
+
+```bash
+python3 scripts/build_release.py
+python3 scripts/build_knowledge_extension.py
+```
+
+## 用户选择
+
+- 轻量包：主 SKILL + references + 215 本书摘要，token 更省。
+- 知识扩展包：额外包含 215 个逐书技能包，深度能力更强，按需读取。
+
+## 快速开始
+
+```text
+用司马光综合思维帮我分析一个跨部门项目该不该继续。
+
+请给出：
+1. 关键变量和最大风险
+2. 两条以上可能路径
+3. 当前最佳行动时点
+4. 相反辩证视角
+5. 需要验证的信息
+```
+
+## 授权
+
+CC BY-NC-SA 4.0。不随公开版发布原始书籍文本。
