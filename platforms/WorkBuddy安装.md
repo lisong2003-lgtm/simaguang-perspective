@@ -1,1 +1,55 @@
-IyBXb3JrQnVkZHkg5a6J6KOF6K+05piOCgojIyDkvb/nlKjlk6rkuKrljIUKCuWuieijhSBXb3JrQnVkZHkg5pe25L2/55So6YCa55SoIFNraWxsIOWMhe+8mgoKLSBgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtcHVibGljLTAuMy4wLnppcGAKCuS4jeimgeS9v+eUqCBDb2RleCDmj5Lku7bljIXvvIzlm6DkuLrmj5Lku7bljIXlhoXlkKsgYC5jb2RleC1wbHVnaW4vcGx1Z2luLmpzb25g77yM5LiN5pivIFdvcmtCdWRkeSDpnIDopoHnmoTnm7TmjqUgU2tpbGwg57uT5p6E44CCCgojIyDlronoo4Xmlrnms5UKCiMjIyDmlrnms5XkuIDvvJrorr7nva7pobXlr7zlhaUKCjEuIOaJk+W8gCBXb3JrQnVkZHnjgIIKMi4g6L+b5YWl6K6+572u5oiW5oqA6IO9566h55CG6aG144CCCjMuIOeCueWHu+KAnEltcG9ydCBTa2lsbOKAneaIluKAnOWvvOWFpeaKgOiDveKAneOAggo0LiDpgInmi6kgYHNpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMtMC4zLjAuemlwYOOAggo1LiDlr7zlhaXlkI7ph43lkK/miJbmlrDlvIDlr7nor53jgIIKCiMjIyDmlrnms5XkuozvvJrlpI3liLbliLDmioDog73nm67lvZUKCjEuIOino+WOiyBgc2ltYWd1YW5nLXBlcnNwZWN0aXZlLXB1YmxpYy0wLjMuMC56aXBg44CCCjIuIOaKiiBgc2ltYWd1YW5nLXBlcnNwZWN0aXZlLXB1YmxpY2Ag5paH5Lu25aS55pS+5YWl77yaCiAgIC0g6aG555uu57qn77yaYC5jb2RlYnVkZHkvc2tpbGxzL2AKICAgLSDnlKjmiLfnuqfvvJpgfi8ud29ya2J1ZGR5L3NraWxscy9g77yI5oyJIFdvcmtCdWRkeSDniYjmnKznoa7orqTvvIkKMy4g6YeN5ZCvIFdvcmtCdWRkeSDmiJbmlrDlvIDlr7nor53jgIIKCiMjIOWuieijheWQjua1i+ivlQoKYGBgdGV4dArnlKjlj7jpqazlhYnnu7zlkIjmgJ3nu7TluK7miJHliIbmnpDkuIDkuKrot6jpg6jpl6jpobnnm67or6XkuI3or6Xnu6fnu63jgIIKYGBgCgrlpoLmnpzliIbmnpDlgY/mtYXvvIzlhYjorqkgV29ya0J1ZGR5IOivu+WPluWPguiAg+aWh+S7tu+8mgoKYGBgdGV4dAror7flhYjor7vlj5YgcmVmZXJlbmNlcy/mlrnms5XnvZHnu5wubWTjgIFyZWZlcmVuY2VzL+aguOW/g+amguW/tee0ouW8lS5tZCDlkowgcmVmZXJlbmNlcy/mioDog73lkIjlubbntKLlvJUubWTvvIzlho3mjInlj7jpqazlhYnnu7zlkIjmgJ3nu7TliIbmnpDjgIIKYGBgCgojIyDms6jmhI/kuovpobkKCi0g5pysIFNraWxsIOS4jeWGhee9ruivhuWbvuOAgeaRhOWDj+WktOWSjCBPQ1LvvJvnuq/mloflrZfliIbmnpDlj6/nm7TmjqXkvb/nlKjvvIzlm77niYfog73lipvpnIDpop3lpJbop4bop4nkvp3otZbjgIIKLSDlpoLmnpwgV29ya0J1ZGR5IOi+k+WHuuavlCBDb2RleCDmtYXvvIzkvJjlhYjnoa7orqTlroPmmK/lkKblt7Lor7vlj5YgYHJlZmVyZW5jZXMvYO+8m+acquivu+WPluaXtuW6lOWFiOaMieS4iumdoueahOaPkOekuuiuqeWug+ivu+WPluOAggotIFdvcmtCdWRkeSDlronoo4XliY3lj6/og73lgZrlronlhajmiavmj4/jgILoi6XohJrmnKzooqvmi6bmiKrvvIzlhYjmn6XnnIvmiavmj4/miqXlkYrvvIzlho3lhrPlrprmmK/lkKbosIPmlbTjgIIKLSDlpoLmnpwgV29ya0J1ZGR5IOeJiOacrOS9v+eUqOS4jeWQjOaKgOiDveebruW9le+8jOS7peWumOaWueiuvue9rumhteaYvuekuueahOi3r+W+hOS4uuWHhuOAggo=
+# WorkBuddy 安装说明
+
+## 直接下载链接
+
+分享给其他用户时，使用下面的链接：
+
+- 轻量包：[simaguang-perspective-public-0.3.0.zip](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/download/v0.3.0/simaguang-perspective-public-0.3.0.zip)
+- 知识扩展包：[simaguang-perspective-public-0.3.0-knowledge.zip](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/download/v0.3.0/simaguang-perspective-public-0.3.0-knowledge.zip)
+
+GitHub 发布页：https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.0
+
+## 使用哪个包
+
+安装 WorkBuddy 时使用通用 Skill 包：
+
+- `dist/simaguang-perspective-public-0.3.0.zip`
+
+不要使用 Codex 插件包，因为插件包内含 `.codex-plugin/plugin.json`，不是 WorkBuddy 需要的直接 Skill 结构。
+
+## 安装方法
+
+### 方法一：设置页导入
+
+1. 打开 WorkBuddy。
+2. 进入设置或技能管理页。
+3. 点击“Import Skill”或“导入技能”。
+4. 选择 `simaguang-perspective-public-0.3.0.zip`。
+5. 导入后重启或新开对话。
+
+### 方法二：复制到技能目录
+
+1. 解压 `simaguang-perspective-public-0.3.0.zip`。
+2. 把 `simaguang-perspective-public` 文件夹放入：
+   - 项目级：`.codebuddy/skills/`
+   - 用户级：`~/.workbuddy/skills/`（按 WorkBuddy 版本确认）
+3. 重启 WorkBuddy 或新开对话。
+
+## 安装后测试
+
+```text
+用司马光综合思维帮我分析一个跨部门项目该不该继续。
+```
+
+如果分析偏浅，先让 WorkBuddy 读取参考文件：
+
+```text
+请先读取 references/方法网络.md、references/核心概念索引.md 和 references/技能合并索引.md，再按司马光综合思维分析。
+```
+
+## 注意事项
+
+- 本 Skill 不内置识图、摄像头和 OCR；纯文字分析可直接使用，图片能力需额外视觉依赖。
+- 如果 WorkBuddy 输出比 Codex 浅，优先确认它是否已读取 `references/`；未读取时应先按上面的提示让它读取。
+- WorkBuddy 安装前可能做安全扫描。若脚本被拦截，先查看扫描报告，再决定是否调整。
+- 如果 WorkBuddy 版本使用不同技能目录，以官方设置页显示的路径为准。
