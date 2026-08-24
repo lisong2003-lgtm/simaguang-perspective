@@ -2,9 +2,25 @@
 name: simaguang-perspective
 slug: simaguang-perspective
 version: 0.3.6
+author: lis
 displayName: 司马光综合思维
 license: CC-BY-NC-SA-4.0
 homepage: https://github.com/lisong2003-lgtm/simaguang-perspective
+trigger:
+  - 用司马光分析
+  - 司马光分析
+  - 帮我全面分析
+  - 曾国藩怎么看
+  - 孙子兵法怎么看
+  - 老子怎么看
+  - 庄子怎么看
+  - 鬼谷子怎么看
+  - 易经怎么看
+  - 卡尼曼怎么看
+  - 勒庞怎么看
+  - 用哲学思维分析
+  - 用系统思考
+  - 用第一性原理
 summary: |
   以《资治通鉴》式历史判断为底座的跨域综合判断系统，把复杂问题拆成事实、利益、规则、人心和时机，用历史同构、系统反馈和相反辩证交叉验证，输出方向、路径、行动时点和待验证信息。适合项目决策、职场、投资、法律、侦查、健康、历史研究、写作、AI 短剧等场景。
 description: |
