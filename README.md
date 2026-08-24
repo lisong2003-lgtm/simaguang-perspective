@@ -75,6 +75,25 @@ python3 scripts/build_knowledge_extension.py
 - 轻量包：主 SKILL + references + 215 条书籍摘要，token 更省。
 - 知识扩展包：额外包含 215 个逐书知识文件，深度能力更强，按需读取。
 
+## 常见问题
+
+### 为什么完整版只显示一个 Skill？
+
+完整版把 215 本书放在 `knowledge/books/<书>.md`，这些是知识数据，不是独立 Skill。
+
+`v0.3.1` 已修复 WorkBuddy 把每个 `SKILL.md` 当成独立技能的问题：
+
+- 旧版结构：`knowledge/books/<书>/SKILL.md`
+- 新版结构：`knowledge/books/<书>.md`
+
+如果旧版已经在 WorkBuddy 中出现多个技能，请删除旧版安装和残留技能，再安装 `v0.3.1`。
+
+### SkillHub 版本会有这个问题吗？
+
+SkillHub 当前提供的是轻量版，不包含 `knowledge/books/`，因此不会出现多个技能。
+
+如果需要在 SkillHub 版中使用完整知识库，请从 GitHub Release 下载 `simaguang-perspective-public-0.3.1-knowledge.zip`，并按安装说明合并 `knowledge/books/`。
+
 ## 快速开始
 
 ```text
