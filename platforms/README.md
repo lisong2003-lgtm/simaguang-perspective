@@ -18,7 +18,7 @@
 - `skills/simaguang-perspective/`：可被 Codex 识别的 Skill 目录
 - `README.md`、`LICENSE`：安装说明和许可
 
-本地测试时，解压后将 `skills/simaguang-perspective` 放入 `~/.codex/skills/`，或通过已配置的本地插件市场安装。
+本地测试时，解压后将 `skills/simaguang-perspective` 放入目标平台的 Codex 技能目录，或通过已配置的本地插件市场安装。
 
 ## 通用 Skill 包
 
