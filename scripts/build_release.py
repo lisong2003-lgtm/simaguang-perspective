@@ -1,1 +1,163 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJCdWlsZCByZXByb2R1Y2libGUgcHVibGljIHJlbGVhc2UgcGFja2FnZXMgZm9yIENvZGV4IGFuZCBnZW5lcmljIHNraWxsIHBsYXRmb3Jtcy4iIiIKCmltcG9ydCBoYXNobGliCmltcG9ydCBqc29uCmltcG9ydCBzaHV0aWwKaW1wb3J0IHRlbXBmaWxlCmltcG9ydCB6aXBmaWxlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHppcGZpbGUgaW1wb3J0IFppcEluZm8KCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0KRElTVCA9IFJPT1QgLyAiZGlzdCIKVkVSU0lPTiA9ICIwLjMuMCIKR0VORVJJQ19OQU1FID0gInNpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMiClBMVUdJTl9OQU1FID0gInNpbWFndWFuZy1wZXJzcGVjdGl2ZSIKUkVMRUFTRV9EQVRFID0gKDIwMjYsIDgsIDIwLCAwLCAwLCAwKQoKR0VORVJJQ19GSUxFUyA9IFsKICAgICJBR0VOVFMubWQiLAogICAgIkNIQU5HRUxPRy5tZCIsCiAgICAiTElDRU5TRSIsCiAgICAiUkVBRE1FLm1kIiwKICAgICJTS0lMTC5tZCIsCiAgICAibWFuaWZlc3QuanNvbiIsCiAgICAi5Lqn5ZOB6K+05piOLm1kIiwKICAgICJleGFtcGxlcyIsCiAgICAicmVmZXJlbmNlcyIsCiAgICAic2NyaXB0cyIsCiAgICAic291cmNlcyIsCiAgICAidGVzdC1wcm9tcHRzLmpzb24iLAogICAgImtub3dsZWRnZS9SRUFETUUubWQiLAogICAgImtub3dsZWRnZS9zdW1tYXJpZXMiLApdCgpTS0lMTF9GSUxFUyA9IFsKICAgICJMSUNFTlNFIiwKICAgICJTS0lMTC5tZCIsCiAgICAiZXhhbXBsZXMiLAogICAgInJlZmVyZW5jZXMiLAogICAgInNjcmlwdHMiLAogICAgInNvdXJjZXMiLAogICAgInRlc3QtcHJvbXB0cy5qc29uIiwKXQoKCmRlZiBpZ25vcmVkX2ZpbGVzKGRpcmVjdG9yeTogc3RyLCBuYW1lczogbGlzdFtzdHJdKSAtPiBzZXRbc3RyXToKICAgIGlnbm9yZWQgPSB7Ii5EU19TdG9yZSIsICJfX3B5Y2FjaGVfXyJ9CiAgICBpZ25vcmVkLnVwZGF0ZShuYW1lIGZvciBuYW1lIGluIG5hbWVzIGlmIG5hbWUuZW5kc3dpdGgoIi5weWMiKSBvciBuYW1lID09ICJidWlsZF9yZWxlYXNlLnB5IikKICAgIHJldHVybiBpZ25vcmVkCgoKZGVmIGNvcHlfcGF0aChzcmM6IFBhdGgsIGRzdDogUGF0aCkgLT4gTm9uZToKICAgIGlmIHNyYy5pc19kaXIoKToKICAgICAgICBzaHV0aWwuY29weXRyZWUoc3JjLCBkc3QsIGlnbm9yZT1pZ25vcmVkX2ZpbGVzLCBkaXJzX2V4aXN0X29rPVRydWUpCiAgICBlbHNlOgogICAgICAgIGRzdC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgICAgIHNodXRpbC5jb3B5MihzcmMsIGRzdCkKCgpkZWYgY29weV9wdWJsaWNfZmlsZXMoZGVzdDogUGF0aCkgLT4gTm9uZToKICAgIGRlc3QubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgZm9yIHJlbCBpbiBHRU5FUklDX0ZJTEVTOgogICAgICAgIGNvcHlfcGF0aChST09UIC8gcmVsLCBkZXN0IC8gcmVsKQoKCmRlZiBjb3B5X3NraWxsX2ZpbGVzKGRlc3Q6IFBhdGgpIC0+IE5vbmU6CiAgICBkZXN0Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGZvciByZWwgaW4gU0tJTExfRklMRVM6CiAgICAgICAgY29weV9wYXRoKFJPT1QgLyByZWwsIGRlc3QgLyByZWwpCgoKZGVmIHdyaXRlX3BsdWdpbl9tYW5pZmVzdChwbHVnaW5fcm9vdDogUGF0aCkgLT4gTm9uZToKICAgIG1hbmlmZXN0X3BhdGggPSBST09UIC8gInBsYXRmb3JtcyIgLyAiY29kZXgtcGx1Z2luIiAvICJwbHVnaW4uanNvbiIKICAgIHBheWxvYWQgPSBqc29uLmxvYWRzKG1hbmlmZXN0X3BhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgcGx1Z2luX2RpciA9IHBsdWdpbl9yb290IC8gIi5jb2RleC1wbHVnaW4iCiAgICBwbHVnaW5fZGlyLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIChwbHVnaW5fZGlyIC8gInBsdWdpbi5qc29uIikud3JpdGVfdGV4dCgKICAgICAgICBqc29uLmR1bXBzKHBheWxvYWQsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpICsgIlxuIiwKICAgICAgICBlbmNvZGluZz0idXRmLTgiLAogICAgKQoKCmRlZiBtYWtlX3ppcChzb3VyY2VfZGlyOiBQYXRoLCBvdXRwdXRfcGF0aDogUGF0aCkgLT4gTm9uZToKICAgIG91dHB1dF9wYXRoLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICB3aXRoIHppcGZpbGUuWmlwRmlsZShvdXRwdXRfcGF0aCwgInciLCBjb21wcmVzc2lvbj16aXBmaWxlLlpJUF9ERUZMQVRFRCkgYXMgYXJjaGl2ZToKICAgICAgICBmb3IgcGF0aCBpbiBzb3J0ZWQoc291cmNlX2Rpci5yZ2xvYigiKiIpKToKICAgICAgICAgICAgaWYgcGF0aC5pc19maWxlKCkgYW5kIHBhdGgubmFtZSBub3QgaW4gKCIuRFNfU3RvcmUiLCk6CiAgICAgICAgICAgICAgICByZWwgPSBwYXRoLnJlbGF0aXZlX3RvKHNvdXJjZV9kaXIpCiAgICAgICAgICAgICAgICBpbmZvID0gWmlwSW5mbyhmIntzb3VyY2VfZGlyLm5hbWV9L3tyZWx9IiwgZGF0ZV90aW1lPVJFTEVBU0VfREFURSkKICAgICAgICAgICAgICAgIGluZm8uY29tcHJlc3NfdHlwZSA9IHppcGZpbGUuWklQX0RFRkxBVEVECiAgICAgICAgICAgICAgICBpbmZvLmV4dGVybmFsX2F0dHIgPSAocGF0aC5zdGF0KCkuc3RfbW9kZSAmIDB4RkZGRikgPDwgMTYKICAgICAgICAgICAgICAgIHdpdGggcGF0aC5vcGVuKCJyYiIpIGFzIGhhbmRsZToKICAgICAgICAgICAgICAgICAgICBhcmNoaXZlLndyaXRlc3RyKGluZm8sIGhhbmRsZS5yZWFkKCkpCgoKZGVmIHNoYTI1NihwYXRoOiBQYXRoKSAtPiBzdHI6CiAgICBkaWdlc3QgPSBoYXNobGliLnNoYTI1NigpCiAgICB3aXRoIHBhdGgub3BlbigicmIiKSBhcyBoYW5kbGU6CiAgICAgICAgZm9yIGNodW5rIGluIGl0ZXIobGFtYmRhOiBoYW5kbGUucmVhZCgxMDI0ICogMTAyNCksIGIiIik6CiAgICAgICAgICAgIGRpZ2VzdC51cGRhdGUoY2h1bmspCiAgICByZXR1cm4gZGlnZXN0LmhleGRpZ2VzdCgpCgoKZGVmIG1haW4oKSAtPiBpbnQ6CiAgICBESVNULm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHdpdGggdGVtcGZpbGUuVGVtcG9yYXJ5RGlyZWN0b3J5KHByZWZpeD0ic2ltYWd1YW5nLWdlbmVyaWMtIikgYXMgdG1wOgogICAgICAgIHRtcF9yb290ID0gUGF0aCh0bXApCiAgICAgICAgZ2VuZXJpY19yb290ID0gdG1wX3Jvb3QgLyBHRU5FUklDX05BTUUKICAgICAgICBjb3B5X3B1YmxpY19maWxlcyhnZW5lcmljX3Jvb3QpCiAgICAgICAgc2h1dGlsLmNvcHkyKFJPT1QgLyAicGxhdGZvcm1zIiAvICJnZW5lcmljIiAvICJSRUFETUUubWQiLCBnZW5lcmljX3Jvb3QgLyAiUkVBRE1FLm1kIikKICAgICAgICBnZW5lcmljX3ppcCA9IERJU1QgLyBmIntHRU5FUklDX05BTUV9LXtWRVJTSU9OfS56aXAiCiAgICAgICAgbWFrZV96aXAoZ2VuZXJpY19yb290LCBnZW5lcmljX3ppcCkKCiAgICB3aXRoIHRlbXBmaWxlLlRlbXBvcmFyeURpcmVjdG9yeShwcmVmaXg9InNpbWFndWFuZy1wbHVnaW4tIikgYXMgdG1wOgogICAgICAgIHRtcF9yb290ID0gUGF0aCh0bXApCiAgICAgICAgcGx1Z2luX3Jvb3QgPSB0bXBfcm9vdCAvIFBMVUdJTl9OQU1FCiAgICAgICAgcGx1Z2luX3Jvb3QubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgICAgIGNvcHlfcGF0aChST09UIC8gIkxJQ0VOU0UiLCBwbHVnaW5fcm9vdCAvICJMSUNFTlNFIikKICAgICAgICB3cml0ZV9wbHVnaW5fbWFuaWZlc3QocGx1Z2luX3Jvb3QpCiAgICAgICAgc2tpbGxfcm9vdCA9IHBsdWdpbl9yb290IC8gInNraWxscyIgLyBQTFVHSU5fTkFNRQogICAgICAgIGNvcHlfc2tpbGxfZmlsZXMoc2tpbGxfcm9vdCkKCiAgICAgICAgcGx1Z2luX3JlYWRtZSA9IFJPT1QgLyAicGxhdGZvcm1zIiAvICJjb2RleC1wbHVnaW4iIC8gIlJFQURNRS5tZCIKICAgICAgICBzaHV0aWwuY29weTIocGx1Z2luX3JlYWRtZSwgcGx1Z2luX3Jvb3QgLyAiUkVBRE1FLm1kIikKCiAgICAgICAgcGx1Z2luX3ppcCA9IERJU1QgLyBmIntQTFVHSU5fTkFNRX0te1ZFUlNJT059LWNvZGV4LXBsdWdpbi56aXAiCiAgICAgICAgbWFrZV96aXAocGx1Z2luX3Jvb3QsIHBsdWdpbl96aXApCgogICAgICAgIG1hcmtldHBsYWNlX3Jvb3QgPSB0bXBfcm9vdCAvICJzaW1hZ3VhbmctcGVyc3BlY3RpdmUtbWFya2V0cGxhY2UiCiAgICAgICAgbWFya2V0cGxhY2Vfcm9vdC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICAgICAgc2h1dGlsLmNvcHl0cmVlKAogICAgICAgICAgICBwbHVnaW5fcm9vdCwKICAgICAgICAgICAgbWFya2V0cGxhY2Vfcm9vdCAvICJwbHVnaW5zIiAvIFBMVUdJTl9OQU1FLAogICAgICAgICAgICBpZ25vcmU9aWdub3JlZF9maWxlcywKICAgICAgICApCiAgICAgICAgc2h1dGlsLmNvcHkyKAogICAgICAgICAgICBST09UIC8gInBsYXRmb3JtcyIgLyAiY29kZXgtcGx1Z2luIiAvICJtYXJrZXRwbGFjZS5qc29uIiwKICAgICAgICAgICAgbWFya2V0cGxhY2Vfcm9vdCAvICJtYXJrZXRwbGFjZS5qc29uIiwKICAgICAgICApCiAgICAgICAgbWFya2V0cGxhY2VfemlwID0gRElTVCAvIGYie1BMVUdJTl9OQU1FfS17VkVSU0lPTn0tY29kZXgtbWFya2V0cGxhY2UuemlwIgogICAgICAgIG1ha2VfemlwKG1hcmtldHBsYWNlX3Jvb3QsIG1hcmtldHBsYWNlX3ppcCkKCiAgICBwYWNrYWdlX3BhdGhzID0gW2dlbmVyaWNfemlwLCBwbHVnaW5femlwLCBtYXJrZXRwbGFjZV96aXBdCiAgICBvcHRpb25hbCA9IFsKICAgICAgICBESVNUIC8gZiJ7R0VORVJJQ19OQU1FfS17VkVSU0lPTn0ta25vd2xlZGdlLnppcCIsCiAgICAgICAgRElTVCAvIGYie1BMVUdJTl9OQU1FfS17VkVSU0lPTn0tY29kZXgta25vd2xlZGdlLnppcCIsCiAgICBdCiAgICBwYWNrYWdlX3BhdGhzLmV4dGVuZChwYXRoIGZvciBwYXRoIGluIG9wdGlvbmFsIGlmIHBhdGguZXhpc3RzKCkpCgogICAgY2hlY2tzdW1zID0gW10KICAgIGZvciBwYXRoIGluIHBhY2thZ2VfcGF0aHM6CiAgICAgICAgY2hlY2tzdW0gPSBzaGEyNTYocGF0aCkKICAgICAgICBjaGVja3N1bXMuYXBwZW5kKGYie2NoZWNrc3VtfSAge3BhdGgubmFtZX0iKQogICAgICAgIHByaW50KGYie3BhdGgubmFtZX06IHtwYXRoLnN0YXQoKS5zdF9zaXplfSBieXRlcywgc2hhMjU2IHtjaGVja3N1bX0iKQoKICAgIChESVNUIC8gIlNIQTI1NlNVTVMudHh0Iikud3JpdGVfdGV4dCgiXG4iLmpvaW4oY2hlY2tzdW1zKSArICJcbiIsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICByYWlzZSBTeXN0ZW1FeGl0KG1haW4oKSkK
+#!/usr/bin/env python3
+"""Build reproducible public release packages for Codex and generic skill platforms."""
+
+import hashlib
+import json
+import shutil
+import tempfile
+import zipfile
+from pathlib import Path
+from zipfile import ZipInfo
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DIST = ROOT / "dist"
+VERSION = "0.3.1"
+GENERIC_NAME = "simaguang-perspective-public"
+PLUGIN_NAME = "simaguang-perspective"
+RELEASE_DATE = (2026, 8, 24, 0, 0, 0)
+
+GENERIC_FILES = [
+    "AGENTS.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "SKILL.md",
+    "manifest.json",
+    "产品说明.md",
+    "examples",
+    "references",
+    "scripts",
+    "sources",
+    "test-prompts.json",
+    "knowledge/README.md",
+    "knowledge/summaries",
+]
+
+SKILL_FILES = [
+    "LICENSE",
+    "SKILL.md",
+    "examples",
+    "references",
+    "scripts",
+    "sources",
+    "test-prompts.json",
+]
+
+
+def ignored_files(directory: str, names: list[str]) -> set[str]:
+    ignored = {".DS_Store", "__pycache__"}
+    ignored.update(name for name in names if name.endswith(".pyc") or name == "build_release.py")
+    return ignored
+
+
+def copy_path(src: Path, dst: Path) -> None:
+    if src.is_dir():
+        shutil.copytree(src, dst, ignore=ignored_files, dirs_exist_ok=True)
+    else:
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dst)
+
+
+def copy_public_files(dest: Path) -> None:
+    dest.mkdir(parents=True, exist_ok=True)
+    for rel in GENERIC_FILES:
+        copy_path(ROOT / rel, dest / rel)
+
+
+def copy_skill_files(dest: Path) -> None:
+    dest.mkdir(parents=True, exist_ok=True)
+    for rel in SKILL_FILES:
+        copy_path(ROOT / rel, dest / rel)
+
+
+def write_plugin_manifest(plugin_root: Path) -> None:
+    manifest_path = ROOT / "platforms" / "codex-plugin" / "plugin.json"
+    payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+    plugin_dir = plugin_root / ".codex-plugin"
+    plugin_dir.mkdir(parents=True, exist_ok=True)
+    (plugin_dir / "plugin.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+
+
+def make_zip(source_dir: Path, output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(output_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for path in sorted(source_dir.rglob("*")):
+            if path.is_file() and path.name not in (".DS_Store",):
+                rel = path.relative_to(source_dir)
+                info = ZipInfo(f"{source_dir.name}/{rel}", date_time=RELEASE_DATE)
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = (path.stat().st_mode & 0xFFFF) << 16
+                with path.open("rb") as handle:
+                    archive.writestr(info, handle.read())
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def main() -> int:
+    DIST.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix="simaguang-generic-") as tmp:
+        tmp_root = Path(tmp)
+        generic_root = tmp_root / GENERIC_NAME
+        copy_public_files(generic_root)
+        shutil.copy2(ROOT / "platforms" / "generic" / "README.md", generic_root / "README.md")
+        generic_zip = DIST / f"{GENERIC_NAME}-{VERSION}.zip"
+        make_zip(generic_root, generic_zip)
+
+    with tempfile.TemporaryDirectory(prefix="simaguang-plugin-") as tmp:
+        tmp_root = Path(tmp)
+        plugin_root = tmp_root / PLUGIN_NAME
+        plugin_root.mkdir(parents=True, exist_ok=True)
+        copy_path(ROOT / "LICENSE", plugin_root / "LICENSE")
+        write_plugin_manifest(plugin_root)
+        skill_root = plugin_root / "skills" / PLUGIN_NAME
+        copy_skill_files(skill_root)
+
+        plugin_readme = ROOT / "platforms" / "codex-plugin" / "README.md"
+        shutil.copy2(plugin_readme, plugin_root / "README.md")
+
+        plugin_zip = DIST / f"{PLUGIN_NAME}-{VERSION}-codex-plugin.zip"
+        make_zip(plugin_root, plugin_zip)
+
+        marketplace_root = tmp_root / "simaguang-perspective-marketplace"
+        marketplace_root.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(
+            plugin_root,
+            marketplace_root / "plugins" / PLUGIN_NAME,
+            ignore=ignored_files,
+        )
+        shutil.copy2(
+            ROOT / "platforms" / "codex-plugin" / "marketplace.json",
+            marketplace_root / "marketplace.json",
+        )
+        marketplace_zip = DIST / f"{PLUGIN_NAME}-{VERSION}-codex-marketplace.zip"
+        make_zip(marketplace_root, marketplace_zip)
+
+    package_paths = [generic_zip, plugin_zip, marketplace_zip]
+    optional = [
+        DIST / f"{GENERIC_NAME}-{VERSION}-knowledge.zip",
+        DIST / f"{PLUGIN_NAME}-{VERSION}-codex-knowledge.zip",
+    ]
+    package_paths.extend(path for path in optional if path.exists())
+
+    checksums = []
+    for path in package_paths:
+        checksum = sha256(path)
+        checksums.append(f"{checksum}  {path.name}")
+        print(f"{path.name}: {path.stat().st_size} bytes, sha256 {checksum}")
+
+    (DIST / "SHA256SUMS.txt").write_text("\n".join(checksums) + "\n", encoding="utf-8")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

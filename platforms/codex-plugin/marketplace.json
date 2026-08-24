@@ -1,1 +1,20 @@
-ewogICJuYW1lIjogInNpbWFndWFuZy1wZXJzcGVjdGl2ZSIsCiAgImludGVyZmFjZSI6IHsKICAgICJkaXNwbGF5TmFtZSI6ICLlj7jpqazlhYnnu7zlkIjmgJ3nu7QiCiAgfSwKICAicGx1Z2lucyI6IFsKICAgIHsKICAgICAgIm5hbWUiOiAic2ltYWd1YW5nLXBlcnNwZWN0aXZlIiwKICAgICAgInNvdXJjZSI6IHsKICAgICAgICAic291cmNlIjogImxvY2FsIiwKICAgICAgICAicGF0aCI6ICIuL3BsdWdpbnMvc2ltYWd1YW5nLXBlcnNwZWN0aXZlIgogICAgICB9LAogICAgICAicG9saWN5IjogewogICAgICAgICJpbnN0YWxsYXRpb24iOiAiQVZBSUxBQkxFIiwKICAgICAgICAiYXV0aGVudGljYXRpb24iOiAiT05fSU5TVEFMTCIKICAgICAgfSwKICAgICAgImNhdGVnb3J5IjogIlByb2R1Y3Rpdml0eSIKICAgIH0KICBdCn0K
+{
+  "name": "simaguang-perspective",
+  "interface": {
+    "displayName": "司马光综合思维"
+  },
+  "plugins": [
+    {
+      "name": "simaguang-perspective",
+      "source": {
+        "source": "local",
+        "path": "./plugins/simaguang-perspective"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

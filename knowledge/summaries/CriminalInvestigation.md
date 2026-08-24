@@ -1,1 +1,28 @@
-IyBDcmltaW5hbEludmVzdGlnYXRpb24g5pGY6KaBCgojIyDlrprkvY0KCuOAikNyaW1pbmFsIEludmVzdGlnYXRpb27jgIvmioDog73ljIXvvIgxNCDkuKrvvIkKCiMjIOaguOW/g+e7k+aehAoKLSAxLiBFdmlkZW5jZSBhbmQgUHJvb2YKLSAyLiBSZWFjdGl2ZSBhbmQgUHJvYWN0aXZlIEludmVzdGlnYXRpb25zCi0gMy4gSW52ZXN0aWdhdGlvbiBhcyBCYXR0bGUsIEdhbWUsIGFuZCBQdXp6bGUKLSA0LiBNZW50YWwgTWlzdGFrZXMKLSA1LiBEb2N1bWVudGF0aW9uIGFuZCBSZXBvcnQgV3JpdGluZwotIDYuIFBoeXNpY2FsIEV2aWRlbmNlCi0gNy4gTGF3IG9mIFNlYXJjaCBhbmQgU2VpenVyZQotIDguIEludGVydmlld3MgYW5kIEV5ZXdpdG5lc3MgSWRlbnRpZmljYXRpb24KLSA5LiBDb25mZXNzaW9ucwotIDEwLiBCZWhhdmlvcmFsIEV2aWRlbmNlIGFuZCBDcmltZSBBbmFseXNpcwotIDExLiBEaWdpdGFsIERldmljZXMgYW5kIFNvY2lhbCBNZWRpYQotIDEyLiBDcmltZS1TcGVjaWZpYyBJbnZlc3RpZ2F0aW9ucwotIDEzLiBUZXN0aW1vbnkgYW5kIENvdXJ0IFByZXNlbnRhdGlvbgotIDE0LiBUZWNobm9sb2d5IGFuZCBGdXR1cmUKCiMjIOS9v+eUqOaWueW8jwoKLSDlrozmlbTmioDog73ljIXvvJpga25vd2xlZGdlL2Jvb2tzL0NyaW1pbmFsSW52ZXN0aWdhdGlvbi9TS0lMTC5tZGAKLSDmjInpnIDor7vlj5bvvIzkuI3luLjpqbvkuIrkuIvmlofjgIIKLSDpu5jorqTlj6rliqDovb3mkZjopoHvvIzmt7HluqbliIbmnpDml7blho3or7vlrozmlbTljIXjgIIK
+# CriminalInvestigation 摘要
+
+## 定位
+
+《Criminal Investigation》技能包（14 个）
+
+## 核心结构
+
+- 1. Evidence and Proof
+- 2. Reactive and Proactive Investigations
+- 3. Investigation as Battle, Game, and Puzzle
+- 4. Mental Mistakes
+- 5. Documentation and Report Writing
+- 6. Physical Evidence
+- 7. Law of Search and Seizure
+- 8. Interviews and Eyewitness Identification
+- 9. Confessions
+- 10. Behavioral Evidence and Crime Analysis
+- 11. Digital Devices and Social Media
+- 12. Crime-Specific Investigations
+- 13. Testimony and Court Presentation
+- 14. Technology and Future
+
+## 使用方式
+
+- 完整技能包：`knowledge/books/CriminalInvestigation.md`
+- 按需读取，不常驻上下文。
+- 默认只加载摘要，深度分析时再读完整包。

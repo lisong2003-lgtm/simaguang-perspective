@@ -1,1 +1,73 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJWZXJpZnkgdHJhY2VhYmlsaXR5IEhUTUwgcGFuZWxzIGNvbnRhaW4gb25seSBleGlzdGluZyBsb2NhbCBzb3VyY2UgcGF0aHMuIiIiCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IHJlCmltcG9ydCBzeXMKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgoKZGVmIHBhcnNlX2FyZ3MoKToKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tcGFuZWxzIiwKICAgICAgICBuYXJncz0iKiIsCiAgICAgICAgZGVmYXVsdD1bIui/kOihjOebruW9lS9vdXRwdXQv5Y+v5p+l5oqA6IO95Y6f5paHIl0sCiAgICAgICAgaGVscD0iSFRNTCBwYW5lbCBmaWxlKHMpIG9yIGEgZGlyZWN0b3J5IGNvbnRhaW5pbmcgSFRNTCBwYW5lbHMuIiwKICAgICkKICAgIHJldHVybiBwYXJzZXIucGFyc2VfYXJncygpCgoKZGVmIGl0ZXJfcGFuZWxzKHBhdGhzKToKICAgIGZvciByYXcgaW4gcGF0aHM6CiAgICAgICAgcGF0aCA9IFBhdGgocmF3KQogICAgICAgIGlmIHBhdGguaXNfZGlyKCk6CiAgICAgICAgICAgIHlpZWxkIGZyb20gc29ydGVkKHBhdGguZ2xvYigiKi5odG1sIikpCiAgICAgICAgZWxpZiBwYXRoLmlzX2ZpbGUoKToKICAgICAgICAgICAgeWllbGQgcGF0aAoKCmRlZiBleHRyYWN0X2xpbmtzKHRleHQpOgogICAgcmV0dXJuIHJlLmZpbmRhbGwocidocmVmPSIoW14iXSspIicsIHRleHQpCgoKZGVmIGNoZWNrX3BhbmVsKHBhdGgpOgogICAgdGV4dCA9IHBhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIsIGVycm9ycz0iaWdub3JlIikKICAgIGxpbmtzID0gZXh0cmFjdF9saW5rcyh0ZXh0KQogICAgaXNzdWVzID0gW10KICAgIGZvciBsaW5rIGluIGxpbmtzOgogICAgICAgIHRhcmdldCA9IFBhdGgobGluaykKICAgICAgICBpZiBub3QgdGFyZ2V0LmV4aXN0cygpOgogICAgICAgICAgICBpc3N1ZXMuYXBwZW5kKGYiTUlTU0lORyB7bGlua30iKQogICAgICAgIGVsaWYgdGFyZ2V0LnN0YXQoKS5zdF9zaXplID09IDA6CiAgICAgICAgICAgIGlzc3Vlcy5hcHBlbmQoZiJFTVBUWSB7bGlua30iKQogICAgcmV0dXJuIGlzc3VlcwoKCmRlZiBtYWluKCk6CiAgICBhcmdzID0gcGFyc2VfYXJncygpCiAgICBwYW5lbHMgPSBsaXN0KGl0ZXJfcGFuZWxzKGFyZ3MucGFuZWxzKSkKICAgIGlmIG5vdCBwYW5lbHM6CiAgICAgICAgcHJpbnQoIk5PX1BBTkVMU19GT1VORCIpCiAgICAgICAgcmV0dXJuIDEKCiAgICB0b3RhbF9pc3N1ZXMgPSAwCiAgICBmb3IgcGFuZWwgaW4gcGFuZWxzOgogICAgICAgIGlzc3VlcyA9IGNoZWNrX3BhbmVsKHBhbmVsKQogICAgICAgIGlmIGlzc3VlczoKICAgICAgICAgICAgdG90YWxfaXNzdWVzICs9IGxlbihpc3N1ZXMpCiAgICAgICAgICAgIHByaW50KGYiUEFORUwge3BhbmVsfSIpCiAgICAgICAgICAgIGZvciBpc3N1ZSBpbiBpc3N1ZXM6CiAgICAgICAgICAgICAgICBwcmludChmIiAge2lzc3VlfSIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcHJpbnQoZiJPSyB7cGFuZWx9IikKCiAgICBpZiB0b3RhbF9pc3N1ZXM6CiAgICAgICAgcHJpbnQoZiJWRVJJRllfRkFJTEVEIGlzc3Vlcz17dG90YWxfaXNzdWVzfSIpCiAgICAgICAgcmV0dXJuIDEKICAgIHByaW50KGYiVkVSSUZZX09LIHBhbmVscz17bGVuKHBhbmVscyl9IikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python3
+"""Verify traceability HTML panels contain only existing local source paths."""
+
+import argparse
+import re
+import sys
+from pathlib import Path
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--panels",
+        nargs="*",
+        default=["运行目录/output/可查技能原文"],
+        help="HTML panel file(s) or a directory containing HTML panels.",
+    )
+    return parser.parse_args()
+
+
+def iter_panels(paths):
+    for raw in paths:
+        path = Path(raw)
+        if path.is_dir():
+            yield from sorted(path.glob("*.html"))
+        elif path.is_file():
+            yield path
+
+
+def extract_links(text):
+    return re.findall(r'href="([^"]+)"', text)
+
+
+def check_panel(path):
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    links = extract_links(text)
+    issues = []
+    for link in links:
+        target = Path(link)
+        if not target.exists():
+            issues.append(f"MISSING {link}")
+        elif target.stat().st_size == 0:
+            issues.append(f"EMPTY {link}")
+    return issues
+
+
+def main():
+    args = parse_args()
+    panels = list(iter_panels(args.panels))
+    if not panels:
+        print("NO_PANELS_FOUND")
+        return 1
+
+    total_issues = 0
+    for panel in panels:
+        issues = check_panel(panel)
+        if issues:
+            total_issues += len(issues)
+            print(f"PANEL {panel}")
+            for issue in issues:
+                print(f"  {issue}")
+        else:
+            print(f"OK {panel}")
+
+    if total_issues:
+        print(f"VERIFY_FAILED issues={total_issues}")
+        return 1
+    print(f"VERIFY_OK panels={len(panels)}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

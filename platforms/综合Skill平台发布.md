@@ -1,1 +1,42 @@
-IyDnu7zlkIggU2tpbGwg5bmz5Y+w5Y+R5biD6K+05piOCgojIyDmj5DkuqTljIUKCue7vOWQiCBTa2lsbCDlubPlj7Dkvb/nlKjpgJrnlKjljIXvvJoKCi0gYGRpc3Qvc2ltYWd1YW5nLXBlcnNwZWN0aXZlLXB1YmxpYy0wLjMuMC56aXBgCgrljIXlhoXmmK/moIflh4YgQWdlbnQgU2tpbGxzIOebruW9le+8mgoKYGBgdGV4dApzaW1hZ3VhbmctcGVyc3BlY3RpdmUtcHVibGljLwrilJzilIDilIAgU0tJTEwubWQK4pSc4pSA4pSAIHJlZmVyZW5jZXMvCuKUnOKUgOKUgCBzY3JpcHRzLwrilJzilIDilIAgZXhhbXBsZXMvCuKUnOKUgOKUgCBzb3VyY2VzLwrilJzilIDilIAgdGVzdC1wcm9tcHRzLmpzb24K4pSc4pSA4pSAIFJFQURNRS5tZArilJzilIDilIAgTElDRU5TRQrilJTilIDilIAgbWFuaWZlc3QuanNvbgpgYGAKCiMjIOaPkOS6pOa1geeoiwoKMS4g6L+b5YWl55uu5qCH5bmz5Y+w55qEIFNraWxsIOW4guWcuuaIluWvvOWFpeWFpeWPo+OAggoyLiDpgInmi6kgYHNpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMtMC4zLjAuemlwYOOAggozLiDloavlhpnlubPlj7DopoHmsYLnmoTlkI3np7DjgIHnroDku4vjgIHliIbnsbvjgIHkvZzogIXjgIHpmpDnp4HlkozlhY3otKPlo7DmmI7jgIIKNC4g6ZmE5LiK5rWL6K+V57uT5p6c5ZKMIGBTSEEyNTZg44CCCjUuIOaPkOS6pOWQjuetieW+heW5s+WPsOWuoeaguOOAggoKIyMg5LiN5ZCM5bmz5Y+w5beu5byCCgotIFdvcmtCdWRkee+8muS9v+eUqOmAmueUqOWMhe+8jOaUr+aMgeiuvue9rumhteWvvOWFpeaIluaUvuWFpeaKgOiDveebruW9leOAggotIENsYXVkZSBTa2lsbHMgLyBPcGVuQUkgU2tpbGxz77ya6YCa5bi455u05o6l6K+G5YirIGBTS0lMTC5tZGDvvIzlr7zlhaXlkI7mjInlubPlj7DopoHmsYLnoa7orqTnm67lvZXkvY3nva7jgIIKLSDlhbbku5bnu7zlkIggU2tpbGwg5bmz5Y+w77ya5Lul5bmz5Y+w5a6Y5pa56KaB5rGC5Li65YeG44CCCgojIyDmj5DkuqTmnZDmlpkKCi0gYGRpc3Qvc2ltYWd1YW5nLXBlcnNwZWN0aXZlLXB1YmxpYy0wLjMuMC56aXBgCi0gYGRpc3QvU0hBMjU2U1VNUy50eHRgCi0gW+WPkeW4g+aPkOS6pOadkOaWmV0o5Y+R5biD5o+Q5Lqk5p2Q5paZLm1kKQo=
+# 综合 Skill 平台发布说明
+
+## 提交包
+
+综合 Skill 平台使用通用包：
+
+- `dist/simaguang-perspective-public-0.3.1.zip`
+
+包内是标准 Agent Skills 目录：
+
+```text
+simaguang-perspective-public/
+├── SKILL.md
+├── references/
+├── scripts/
+├── examples/
+├── sources/
+├── test-prompts.json
+├── README.md
+├── LICENSE
+└── manifest.json
+```
+
+## 提交流程
+
+1. 进入目标平台的 Skill 市场或导入入口。
+2. 选择 `simaguang-perspective-public-0.3.1.zip`。
+3. 填写平台要求的名称、简介、分类、作者、隐私和免责声明。
+4. 附上测试结果和 `SHA256`。
+5. 提交后等待平台审核。
+
+## 不同平台差异
+
+- WorkBuddy：使用通用包，支持设置页导入或放入技能目录。
+- Claude Skills / OpenAI Skills：通常直接识别 `SKILL.md`，导入后按平台要求确认目录位置。
+- 其他综合 Skill 平台：以平台官方要求为准。
+
+## 提交材料
+
+- `dist/simaguang-perspective-public-0.3.1.zip`
+- `dist/SHA256SUMS.txt`
+- [发布提交材料](发布提交材料.md)

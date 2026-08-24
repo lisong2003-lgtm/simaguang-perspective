@@ -1,1 +1,810 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJHZW5lcmF0ZSBNYXJrZG93biB3b3JrLXByb2R1Y3Qgc2tlbGV0b25zIGZvciBoaWdoLXByb2R1Y3Rpdml0eSBtb2RlLiIiIgoKaW1wb3J0IGFyZ3BhcnNlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKClRFTVBMQVRFUyA9IHsKICAgICJwcm9qZWN0LXBsYW4iOiAiIiIjIOmhueebruetluWIkuS5pgoKIyMg5LiA5Y+l6K+d5Lu35YC8Cgo+IOeUqOS4gOWPpeivneivtOaYju+8muS4uuiwgeino+WGs+S7gOS5iOmXrumimO+8jOS4uuS7gOS5iOeOsOWcqOW/hemhu+WBmu+8jOWBmuaIkOWQjueahOacgOWwj+aIkOWKn+aYr+S7gOS5iOOAggoKIyMg6Zeu6aKY5LiO5py65LyaCgotIOeOsOeKtuS4jueXm+eCuQotIOebruagh+eUqOaIt+aIluWPl+ebiuaWuQotIOWklumDqOWPmOWMluS4jueql+WPo+acnwotIOacuuS8muaIkOeri+eahOWFs+mUruWBh+iuvgoKIyMg5Li75pa55qGICgotIOaguOW/g+i3r+W+hAotIOWFs+mUruS6pOS7mOeJqQotIOacgOWwj+WPr+ihjOiMg+WbtAoKIyMg5aSH6YCJ5pa55qGICgotIOS/neWuiOeJiAotIOi/m+WPlueJiAotIOacgOWwj+mqjOivgeeJiAoKIyMg5YWz6ZSu5Y+Y6YeP5LiO5pWP5oSf5oCnCgp8IOWPmOmHjyB8IOW9k+WJjeWBh+iuviB8IOWPmOWdj+S/oeWPtyB8IOWPmOWlveS/oeWPtyB8CnwtLS18LS0tfC0tLXwtLS18CnwgIHwgIHwgIHwgIHwKCiMjIOmHjOeoi+eikQoKMS4g56ysIDEg5ZGo77yaCjIuIOesrCAyIOWRqO+8mgozLiDnrKwgNCDlkajvvJoKCiMjIOmjjumZqeS4juW6lOWvuQoKfCDpo47pmakgfCDmpoLnjocgfCDlvbHlk40gfCDlupTlr7kgfCDlpI3mn6XngrkgfAp8LS0tfC0tLXwtLS18LS0tfC0tLXwKfCAgfCAgfCAgfCAgfCAgfAoKIyMg5aSN5p+l5oyH5qCHCgotIOesrCBYIOWRqO+8mgotIOesrCBYIOWRqO+8mgotIOWkseaViOadoeS7tu+8mgoKIyMg5b6F6KGl5YWFCgotIOWGs+etluiAhe+8mgotIOmihOeul++8mgotIOaXtumXtO+8mgotIOecn+WunuaVsOaNru+8mgoiIiIsCiAgICAicHJvZHVjdC1waXRjaCI6ICIiIiMg5Lqn5ZOB5pa55qGI5LiA6aG157q4CgojIyDkuIDlj6Xor53ku7flgLwKCj4g5Li66LCB6Kej5Yaz5LuA5LmI6Zeu6aKY77yM5Li65LuA5LmI546w5Zyo5b+F6aG75YGa44CCCgojIyDnm67moIflj5fkvJcKCi0g5Li76KaB55So5oi3Ci0g5Yaz562W6ICFCi0g6LSt5Lmw6ICFCgojIyDnl5vngrkKCi0g55So5oi35Y6f6K+d5oiW6KGM5Li66K+B5o2uCi0g5YW35L2T5pWw5a2X5oiW6aKR546HCi0g5LiN6Kej5Yaz55qE5ZCO5p6cCgojIyDmlrnmoYgKCi0g5qC45b+D5Yqf6IO9Ci0g5pyA5bCP5Y+v55So5b2i5oCBCi0g5YWz6ZSu5beu5byCCgojIyDor4Hmja4KCi0g5bey6aqM6K+B5LqL5a6eCi0g5YGH6K6+Ci0g5b6F6aqM6K+B6aG5CgojIyDlpIfpgInmlrnmoYgKCi0g5L+d5a6I54mICi0g5pyA5bCP6aqM6K+B54mICi0g6L+b5Y+W54mICgojIyDkuIvkuIDmraXooYzliqgKCjEuIAoyLiAKMy4gCgojIyDpo47pmankuI7lpI3mn6XngrkKCi0g5pyA5aSn6aOO6Zmp77yaCi0g5Lik5ZGo5ZCO55yL5LuA5LmI77yaCi0g5LiA5Liq5pyI5ZCO55yL5LuA5LmI77yaCiIiIiwKICAgICJwYXBlciI6ICIiIiMg6K665paHL+aKpeWRiuahhuaetgoKIyMg6Zeu6aKYCgotIOeglOeptumXrumimAotIOS4uuS7gOS5iOmHjeimgQotIOWbnuetlOWIsOS7gOS5iOeoi+W6pgoKIyMg5paH54yu5LiO5bey5pyJ6KeC54K5CgotIOWFs+mUruadpea6kAotIOW3suaciee7k+iuugotIOe8uuWPowoKIyMg5qC45b+D6K6654K5CgotIOS4u+iuuueCuQotIOWIhuiuuueCuSAxCi0g5YiG6K6654K5IDIKCiMjIOaWueazleS4juivgeaNrgoKLSDmlrnms5UKLSDmlbDmja4v5p2Q5paZCi0g6K+B5o2u562J57qnCgojIyDorrror4EKCjEuIOWIhuiuuueCuSAxIOeahOaOqOeQhgoyLiDliIborrrngrkgMiDnmoTmjqjnkIYKMy4g5a+55Y+N5pa555qE5Zue5bqUCgojIyDnu5PorrrkuI7lsYDpmZAKCi0g57uT6K66Ci0g5bGA6ZmQCi0g5LiL5LiA5q2lCgojIyDlvJXnlKjkuI7moLjpqowKCi0g5p2l5rqQ5riF5Y2VCi0g5b6F6KGl6K+B6aG5CiIiIiwKICAgICJkZWJhdGUiOiAiIiIjIOi+qeivjS/or7TmnI3nqL8KCiMjIOS4gOWPpeivneeri+WcugoKPiDmiJHmlrnorqTkuLrvvJoKCiMjIOWQrOS8l+S4juWcuuWQiAoKLSDlkKzkvJfmmK/osIEKLSDku5bku6zmnIDlhbPlv4Pku4DkuYgKLSDml7bpl7TpmZDliLYKCiMjIOaguOW/g+iuuueCuQoKMS4g6K6654K55LiACjIuIOiuuueCueS6jAozLiDorrrngrnkuIkKCiMjIOivgeaNrgoKLSDmr4/kuKrorrrngrnphY3or4Hmja4KLSDmnaXmupDkuI7lj6/kv6HluqYKCiMjIOWvueacgOW8uuWPjeaWueeahOWbnuW6lAoKLSDlj43mlrnop4LngrkKLSDlj43mlrnmnIDmnInlipvor4Hmja4KLSDmiJHmlrnlm57lupQKCiMjIOS7t+WAvOaUtuWwvgoKPiDmiornq4vlnLrkuI7lkKzkvJflhbPlv4PnmoTku7flgLzov57mjqXotbfmnaXjgIIKIiIiLAogICAgInJlcG9ydCI6ICIiIiMg5bel5L2cL+WIhuaekOaKpeWRigoKIyMg5pGY6KaBCgotIOe7k+iuugotIOWFs+mUruS+neaNrgotIOW7uuiurgoKIyMg6IOM5pmv5LiO55uu5qCHCgojIyDkuovlrp4KCiMjIOWIhuaekAoKIyMg57uT6K66CgojIyDpo47pmakKCiMjIOS4i+S4gOatpQoKIyMg6ZmE5b2VCgotIOadpea6kAotIOW+heaguOmqjOmhuQoiIiIsCiAgICAibWVldGluZy1taW51dGVzIjogIiIiIyDkvJrorq7nuqropoEKCiMjIOS8muiuruS/oeaBrwoKLSDml7bpl7TvvJoKLSDlnLDngrnvvJoKLSDkuLvmjIHkurrvvJoKLSDorrDlvZXkurrvvJoKLSDlj4LliqDkurrvvJoKCiMjIOiurumimAoKIyMg6K6o6K66CgojIyDlhrPorq4KCiMjIOihjOWKqOmhuQoKfCDooYzliqjpobkgfCDotJ/otKPkurogfCDmiKrmraLml7bpl7QgfCDnirbmgIEgfAp8LS0tfC0tLXwtLS18LS0tfAp8ICB8ICB8ICB8ICB8CgojIyDkuIvmrKHkvJrorq4KCi0g5pe26Ze077yaCi0g6K6u6aKY77yaCiIiIiwKICAgICJyaXNrLXBsYW4iOiAiIiIjIOmjjumZqemihOahiAoKIyMg55uu5qCHCgojIyDpo47pmanmuIXljZUKCnwg6aOO6ZmpIHwg6Kem5Y+R5p2h5Lu2IHwg5b2x5ZONIHwg5qaC546HIHwg5bqU5a+5IHwg6LSj5Lu75Lq6IHwg5aSN5p+l54K5IHwKfC0tLXwtLS18LS0tfC0tLXwtLS18LS0tfC0tLXwKfCAgfCAgfCAgfCAgfCAgfCAgfCAgfAoKIyMg5pyA6auY6aOO6Zmp6Lev5b6ECgojIyDlpJbpg6jnvJPlhrIKCi0g6LWE6YeRCi0g5Lq65YqbCi0g56ys5LiJ5pa56LWE5rqQCi0g5pu/5Luj6Lev5b6ECgojIyDmiafooYzpobrluo8KCjEuIAoyLiAKMy4gCgojIyDlpLHmlYjmnaHku7YKCiIiIiwKICAgICJyb2Fkc2hvdy0xMiI6ICIiIiMg5Lqn5ZOB6Lev5ryUIFBQVCDpu4Tph5EgMTIg6aG1CgojIyDnrKwgMSDpobXvvJrlsIHpnaIKCi0g5LiA5Y+l6K+d5Lu35YC877yaCi0g5b2T5YmN6L+b5bGV77yaCi0g5pys6L2u6K+J5rGC77yaCgojIyDnrKwgMiDpobXvvJrnl5vngrkKCi0g5YW35L2T5Zy65pmv5oiW55So5oi35Y6f6K+d77yaCi0g6aKR546H5LiO5ZCO5p6c77yaCi0g5LiN6Kej5Yaz55qE5Luj5Lu377yaCgojIyDnrKwgMyDpobXvvJrop6PlhrPmlrnmoYgKCi0g5LiA5Y+l6K+d5pa55qGI77yaCi0g5pSv5pKR54K5IDHvvJoKLSDmlK/mkpHngrkgMu+8mgotIOaUr+aSkeeCuSAz77yaCgojIyDnrKwgNCDpobXvvJrkuqflk4EKCi0g5Y6f5Z6LL+a8lOekui/lr7nmr5Tlm77vvJoKLSDlj6/pqozor4Hnu5PmnpzvvJoKCiMjIOesrCA1IOmhte+8muWVhuS4muaooeW8jwoKfCDmlLblhaXmnaXmupAgfCDosIHku5jpkrEgfCDku5jlpJrlsJEgfCDlpJrkuYXku5jkuIDmrKEgfAp8LS0tfC0tLXwtLS18LS0tfAp8ICB8ICB8ICB8ICB8CgojIyDnrKwgNiDpobXvvJrluILlnLoKCi0gVEFN77yaCi0gU0FN77yaCi0gU09N77yaCi0g6ZyA5rGC6K+B5o2u77yaCgojIyDnrKwgNyDpobXvvJrov5DokKXmlbDmja4KCi0g5pWw5o2u54K5IDHvvJoKLSDmlbDmja7ngrkgMu+8mgotIOe7k+iuuu+8mgoKIyMg56ysIDgg6aG177ya5Zui6ZifCgotIOaKgOacr+inkuiJsu+8mgotIOW4guWcuuinkuiJsu+8mgotIOi/kOiQpeinkuiJsu+8mgotIOW+heihpeinkuiJsu+8mgoKIyMg56ysIDkg6aG177ya6LSi5YqhCgotIOWinumVv+absue6v++8mgotIOaIkOacrOe7k+aehO+8mgotIOavm+WIqe+8mgotIOeOsOmHkea1ge+8mgoKIyMg56ysIDEwIOmhte+8muiejei1hOeUqOmAlAoKfCDnlKjpgJQgfCDph5Hpop0gfCDlkajmnJ8gfCDph4znqIvnopEgfAp8LS0tfC0tLXwtLS18LS0tfAp8ICB8ICB8ICB8ICB8CgojIyDnrKwgMTEg6aG177ya5oS/5pmvCgo+IOacquadpeeUu+mdou+8mgoKIyMg56ysIDEyIOmhte+8muWwgeW6lQoKLSDkuIvkuIDmraXooYzliqjvvJoKLSDogZTns7vmlrnlvI/vvJoKLSDlpIfnlKjmnZDmlpnlhaXlj6PvvJoKCiMjIOaVsOaNruS4jumjjumZqQoKLSDmlbDmja7mnaXmupDvvJoKLSDlvoXpqozor4HpobnvvJoKLSDmnIDlpKfpo47pmanvvJoKLSDlpI3mn6XngrnvvJoKIiIiLAogICAgImJpZC1yZXNwb25zZSI6ICIiIiMg5oub5qCH5bqU5qCH5pa55qGICgojIyDor4TliIbmoIflh4bmi4bop6MKCnwg6K+E5YiG6aG5IHwg5YiG5YC8IHwg5a6e6LSo5oCnL+mHjeimgS/kuIDoiKwgfCDmiJHmlrnlk43lupQgfCDor4HmmI7mnZDmlpkgfAp8ICB8ICB8ICB8ICB8ICB8CnwgIHwgIHwgIHwgIHwgIHwKCiMjIOW6n+agh+mjjumZqea4heWNlQoKLSDmnKrlk43lupTmnaHmrL7vvJoKLSDnvLrlpLHmnZDmlpnvvJoKLSDmiKrmraLml7bpl7TvvJoKCiMjIOaKgOacr+aWueahiAoKLSDpobnnm67nkIbop6PvvJoKLSDpkojlr7nmgKfmlrnmoYjvvJoKLSDotKjph4/kv53or4HvvJoKLSDov5vluqblronmjpLvvJoKLSDkurrlkZjphY3nva7vvJoKLSDotYTmupDmipXlhaXvvJoKCiMjIOWVhuWKoeS4juS4mue7qQoKLSDotYTotKjvvJoKLSDlkIznsbvkuJrnu6nvvJoKLSDmnI3liqHmib/or7rvvJoKCiMjIOmjjumZqeS4juWkjeafpQoKLSDmnIDlpKfpo47pmanvvJoKLSDmj5DkuqTliY3lpI3mn6XngrnvvJoKLSDmj5DkuqTlkI7ov73ouKrngrnvvJoKIiIiLAogICAgInRoZXNpcy1kZWZlbnNlIjogIiIiIyDorrrmlofnrZTovqkgUFBUCgojIyDor77popjog4zmma/kuI7mhI/kuYkKCi0g56CU56m26Zeu6aKY77yaCi0g5Li65LuA5LmI6YeN6KaB77yaCi0g5bey5pyJ56CU56m257y65Y+j77yaCgojIyDnoJTnqbbmlrnms5XkuI7moLjlv4PlhoXlrrkKCi0g5pa55rOV77yaCi0g5pWw5o2uL+adkOaWme+8mgotIOaguOW/g+atpemqpO+8mgoKIyMg5pWw5o2u5LiO5YiG5p6Q57uT5p6cCgp8IOe7k+aenCB8IOivgeaNriB8IOivtOaYjiB8CnwtLS18LS0tfC0tLXwKfCAgfCAgfCAgfAoKIyMg5Yib5paw54K5CgoxLiAKMi4gCjMuIAoKIyMg5bGA6ZmQ5oCn5LiO5pyq5p2l5bel5L2cCgotIOWxgOmZkO+8mgotIOWklumDqOWboOe0oO+8mgotIOS4i+S4gOatpe+8mgoKIyMg57uT6K66Cgo+IOe7k+iuuu+8mgoKIyMg6Zeu562U6aKE5YikCgp8IOivhOWuoeWPr+iDvei0qOeWkSB8IOivgeaNruS4juWbnuW6lCB8CnwtLS18LS0tfAp8ICB8ICB8CiIiIiwKICAgICJidXNpbmVzcy1wbGFuIjogIiIiIyDllYbkuJrorqHliJLkuaYKCiMjIOeXm+eCuQoKLSDosIHlnKjnl5vvvJoKLSDnl5vlpJrkuYXvvJoKLSDnjrDmnInmlrnmoYjkuLrku4DkuYjkuI3lpJ/vvJoKCiMjIOaWueahiAoKLSDmoLjlv4Pkuqflk4Ev5pyN5Yqh77yaCi0g5pyA5bCP5Y+v5omn6KGM5b2i5oCB77yaCi0g5Li65LuA5LmI546w5Zyo5b+F6aG75YGa77yaCgojIyDlo4HlnpIKCi0g5LiT5YipL+aKgOacr++8mgotIOaVsOaNri/nvZHnu5zmlYjlupTvvJoKLSDmiJDmnKwv5rig6YGT77yaCi0g5Zui6Zif77yaCgojIyDluILlnLrkuI7llYbkuJrmqKHlvI8KCi0gVEFNL1NBTS9TT03vvJoKLSDmlLblhaXmnaXmupDvvJoKLSDljZXkvY3nu4/mtY7vvJoKLSDojrflrqLkuI7lpI3otK3vvJoKCiMjIOi0ouWKoeS4juWbnuaKpQoKLSDlop7plb/ot6/lvoTvvJoKLSDono3otYTnlKjpgJTvvJoKLSDlm57miqXkuI7ph4znqIvnopHvvJoKCiMjIOmjjumZqeS4juWkjeafpQoKLSDmnIDlpKfpo47pmanvvJoKLSDlhbPplK7lgYforr7vvJoKLSDlvoXpqozor4HpobnvvJoKLSDlpI3mn6XngrnvvJoKIiIiLAogICAgIm5vdmVsLW91dGxpbmUiOiAiIiIjIOWwj+ivtOaPkOe6sgoKIyMg5LiA5Y+l6K+d6auY5qaC5b+1Cgo+IOiwgeWcqOS7gOS5iOS4lueVjOmHjO+8jOS4uuS6huS7gOS5iO+8jOS7mOWHuuS7gOS5iOS7o+S7t+OAggoKIyMg6K+76ICF5om/6K+6CgotIOmYheivu+WQjueahOaguOW/g+S9k+mqjO+8mgotIOeIveaEny/mmbror4Yv5YWx5oOFL+mch+aSvOeahOavlOS+i++8mgotIOebruagh+ivu+iAhe+8mgoKIyMg5LiW55WM6KeC5LiO6KeE5YiZCgotIOeJqeeQhuinhOWIme+8mgotIOekvuS8muinhOWIme+8mgotIOS7o+S7t+inhOWIme+8mgotIOinhOWImeW/hemhu+iHqua0veeahOehrOe6puadn++8mgoKIyMg5Lq654mp5byn5YWJCgp8IOS6uueJqSB8IOassuacmyB8IOaBkOaDpyB8IOe8uumZtyB8IOiwjuiogCB8IOi9rOWPmCB8CnwtLS18LS0tfC0tLXwtLS18LS0tfC0tLXwKfCAgfCAgfCAgfCAgfCAgfCAgfAoKIyMg5Li757q/5Yay56qBCgotIOS4u+inkuebruagh++8mgotIOS4u+imgemYu+WKm++8mgotIOWPjeaWueaIluWPjeWvueWKm+mHj++8mgotIOS4jeWPr+mAhui9rOaKmO+8mgoKIyMg5YiG5Y23L+eroOiKguaPkOe6sgoKfCDljbcv56ugIHwg5LqL5Lu2IHwg5Lq654mp5Y+Y5YyWIHwg6ZKp5a2QIHwKfC0tLXwtLS18LS0tfC0tLXwKfCAgfCAgfCAgfCAgfAoKIyMg5YWz6ZSu6L2s5oqYCgotIOS4reeCue+8mgotIOacgOS9juiwt++8mgotIOecn+ebuOaPremcsu+8mgotIOe7iOWxgOmAieaLqe+8mgoKIyMg5Y+Z5LqL5pa55byPCgotIOinhuinku+8mgotIOivreawlO+8mgotIOaXtumXtOe6v++8mgotIOeroOiKguiKguWlj++8mgoKIyMg6IOM5Lmm5p2l5rqQCgotIOWOhuWPsi/mnYPlipvotKjmhJ/vvJoKLSDkurrnianlv4PnkIbvvJoKLSDmgqznlpHor4Hmja7pk77vvJoKLSDlhrLnqoHkuI7ml7bmnLrvvJoKLSDnp5HmioAv5Yi25bqm57uG6IqC77yaCgojIyDlj43mlrnmo4DpqowKCi0g5pyA5a655piT6KKr6K+76ICF5pS+5byD55qE5YmN5LiJ56ug77yaCi0g5pyA5Y+v6IO96YC76L6R5pat6KOC55qE5oOF6IqC77yaCi0g5pyA5Y+v6IO96KKr6K+76ICF6LSo55aR55qE6K6+5a6a77yaCi0g5b6F5a6a6aG577yaCiIiIiwKICAgICJzY3JlZW5wbGF5LW91dGxpbmUiOiAiIiIjIOWJp+acrC/liafpm4bmj5DnurIKCiMjIOS4gOWPpeivnemrmOamguW/tQoKPiDkuIDlj6Xor53or7TmuIXnsbvlnovjgIHkuLvop5LjgIHnm67moIfkuI7ku6Pku7fjgIIKCiMjIOWPl+S8l+S4juW5s+WPsAoKLSDnm67moIflj5fkvJfvvJoKLSDlubPlj7Av56+H5bmF77yaCi0g5Y2V6ZuG5oiW5Y2V5bmV5pe26ZW/77yaCgojIyDnsbvlnovkuI7osIPmgKcKCi0g57G75Z6L77yaCi0g5oOF57uq5puy57q/77yaCi0g6KeG6KeJ6aOO5qC877yaCgojIyDkuJbnlYzop4LkuI7op4TliJkKCi0g5pe26Ze05LiO5Zyw54K577yaCi0g56S+5Lya6KeE5YiZ77yaCi0g5LiN5Y+v6L+d6IOM55qE6K6+5a6a77yaCgojIyDkurrnianooagKCnwg5Lq654mpIHwg56uL5Zy6IHwg55uu5qCHIHwg56eY5a+GIHwg5YWz57O7IHwg5Y+Y5YyWIHwKfC0tLXwtLS18LS0tfC0tLXwtLS18LS0tfAp8ICB8ICB8ICB8ICB8ICB8ICB8CgojIyDliIbluZUv5YiG6ZuG5o+Q57qyCgp8IOW5lS/pm4YgfCDnm67moIcgfCDlhrLnqoEgfCDovazmipggfCDkvZnms6IgfAp8LS0tfC0tLXwtLS18LS0tfC0tLXwKfCAgfCAgfCAgfCAgfCAgfAoKIyMg5a+555m95LiO6IqC5aWPCgotIOavj+WcuuaIj+aOqOi/m+S7gOS5iO+8mgotIOWTquWcuuaIj+WPr+S7peWIoOmZpO+8mgotIOWPsOivjemakOWQq+eahOS/oeaBr++8mgoKIyMg5Zy65pmv5riF5Y2VCgp8IOWcuuasoSB8IOWGhS/lpJbmma8gfCDml7bpl7QgfCDkurrniakgfCDku7vliqEgfCDnu5PlsL7mgqzlv7UgfAp8LS0tfC0tLXwtLS18LS0tfC0tLXwtLS18CnwgIHwgIHwgIHwgIHwgIHwgIHwKCiMjIOiDjOS5puadpea6kAoKLSDlj5nkuovnu5PmnoTvvJoKLSDkurrnianliqjmnLrvvJoKLSDmgqznlpEv6K+B5o2u77yaCi0g5Y6G5Y+yL+WItuW6pu+8mgoKIyMg5Y+v6KGM5oCn5qOA6aqMCgotIOacgOWPr+iDveiiq+WIoOaOieeahOWcuuaZr++8mgotIOacgOWPr+iDveaUueWGmeeahOWvueeZve+8mgotIOmihOeul+aIluWItuS9nOmavueCue+8mgotIOW+heWumumhue+8mgoiIiIsCiAgICAibm92ZWwtY2hhcHRlciI6ICIiIiMg5bCP6K+05q2j5paH77ya56ysIFgg56ugCgojIyDmnKznq6Dku7vliqEKCi0g5o6o5Yqo5LuA5LmI77yaCi0g5Lq654mp5Y+Y5YyW77yaCi0g5Z+L5LiL5LuA5LmI77yaCgojIyDop4bop5LkuI7or63msJQKCi0g6KeG6KeS77yaCi0g6K+t5rCU77yaCi0g5pe26Ze05LiO5Zyw54K577yaCgojIyDlvIDlpLTpkqnlrZAKCj4g55So5Yqo5L2c44CB5byC5bi444CB5aiB6IOB5oiW6YCJ5oup5byA5Zy644CCCgojIyDmraPmlocKCu+8iOato+aWh+iNieeov++8iQoKIyMg5pys56ug57uT5bC+Cgo+IOeVmeS4i+S4gOS4quacquino+WGs+eahOW8oOWKm+aIluaWsOeahOmXrumimOOAggoKIyMg5YaZ5L2c5ZCO5qOA5p+lCgotIOinhuinkuaYr+WQpuS4gOiHtO+8mgotIOS6uueJqeaYr+WQpuaMieassuacm+WSjOaBkOaDp+ihjOWKqO+8mgotIOavj+auteaYr+WQpuaOqOWKqOaDheiKguaIluaPreekuuS6uueJqe+8mgotIOS4k+S4muefpeivhuaYr+WQpuWHhuehruaIluW3suagh+iZmuaehO+8mgotIOW+heivu+iAheWPjemmiOmhue+8mgoiIiIsCiAgICAic2NlbmUtc2NyaXB0IjogIiIiIyDliafmnKzlnLrmma/vvJrnrKwgWCDlnLoKCiMjIOWcuuaZr+S/oeaBrwoKLSDlhoXmma8v5aSW5pmv77yaCi0g5pe26Ze077yaCi0g5Lq654mp77yaCgojIyDlnLrmma/ku7vliqEKCj4g6L+Z5Zy65oiP6KaB6L6+5oiQ5LuA5LmI44CCCgojIyDliqjkvZzkuI7op4bop4kKCi0g5byA5Zy655S76Z2i77yaCi0g5YWz6ZSu5Yqo5L2c77yaCi0g5Y+v6KeB5oOF57uq77yaCgojIyDlr7nnmb0KCu+8iOS6uueJqSBB77yJCgo+IOWPsOivjQoK77yI5Lq654mpIELvvIkKCj4g5Y+w6K+NCgojIyDnu5PlsL7mgqzlv7UKCj4g6K6p6KeC5LyX5Zyo5LiL5LiA5Zy65oiP5YmN5Lqn55Sf5pyf5b6F44CCCgojIyDlhpnkvZzlkI7mo4Dmn6UKCi0g5q+P5Y+l5Y+w6K+N5piv5ZCm5o6o5Yqo6YCJ5oup44CB5Yay56qB5oiW5L+h5oGv5Y+Y5YyW77yaCi0g5oOF57uq5piv5ZCm6Z2g6KGM5Yqo6KGo6L6+6ICM6Z2e5peB55m96Kej6YeK77yaCi0g5piv5ZCm5LiO5YmN5ZCO5Zy65qyh6YC76L6R5LiA6Ie077yaCi0g5b6F5a6a6aG577yaCiIiIiwKICAgICJub25maWN0aW9uLWFydGljbGUiOiAiIiIjIOmdnuiZmuaehOaWh+eroC/ph4forr/nqL8KCiMjIOmdnuiZmuaehOi+ueeVjAoKLSDlt7Lnoa7orqTkuovlrp7vvJoKLSDlj5nkuovliKTmlq3vvJoKLSDmjqjmlq3vvJoKLSDlvoXmoLjpqozpobnvvJoKCiMjIOmAiemimOS7t+WAvAoKLSDnpL7kvJrmgKfvvJoKLSDml7bku6PmgKfvvJoKLSDkuJbnlYzmgKfvvJoKLSDmlofljJbku7flgLzvvJoKLSDmg4XmhJ/lhbHpuKPvvJoKCiMjIOS4u+mimAoKPiDov5nnr4fmlofnq6Dlj6rorrLkuIDku7bkuovvvJoKCiMjIOmHh+iuv+S4jue0oOadkAoKfCDntKDmnZDnsbvlnosgfCDmnaXmupAgfCDlt7Lnoa7orqQgfCDlvoXnoa7orqQgfAp8LS0tfC0tLXwtLS18LS0tfAp8IOeOsOWcuuinguWvnyB8ICB8ICB8ICB8Cnwg5qC45b+D5Lq654mpIHwgIHwgIHwgIHwKfCDlkajovrnph4forr8gfCAgfCAgfCAgfAp8IOi1hOaWmeS4juS4k+WutiB8ICB8ICB8ICB8CgojIyDkurrnianmlYXkuosKCi0g5Li75Lq65YWs77yaCi0g5qyy5pyb77yaCi0g5Yay56qB77yaCi0g5bqU5a+55Yqo5L2c77yaCi0g5oCn5qC85pys6LSo77yaCi0g5LiO5pe25LujL+ivu+iAheeahOi/nuaOpe+8mgoKIyMg5Y+Z5LqL57uT5p6ECgotIOe7k+aehOexu+Wei++8iOaXtumXtOe6vy/mqKHlnZcv5Yml5rSL6JGx77yJ77yaCi0g5byA5aS077yaCi0g5Lit5q6177yaCi0g57uT5bC+77yaCi0g5YWz6ZSu57Sg5p2Q5pS+572u5L2N572u77yaCgojIyDlj5nkuovlm5vopoHntKAKCnwg6KaB57SgIHwg6K6h5YiS5q+U5L6LIHwg5L2c55SoIHwg56S65L6LL+S9jee9riB8CnwtLS18LS0tfC0tLXwtLS18Cnwg55u05o6l5byV6K+tIHwgIHwgIHwgIHwKfCDpl7TmjqXlvJXor60gfCAgfCAgfCAgfAp8IOamgui/sCB8ICB8ICB8ICB8Cnwg5o+P5YaZIHwgIHwgIHwgIHwKCiMjIOivreiogOS4juS/ruaUuQoKLSDlvoXmuIXnkIbnmoTpmYjor40v5aWX6K+dL+a1geihjOivre+8mgotIOW+heabv+aNoueahOW8seWKqOivje+8mgotIOacl+ivu+WQjuS4jemhuueVheWkhO+8mgotIOmcgOimgeiwg+aVtOmhuuW6j+aIlumHjeeCueWkhO+8mgoKIyMg57yW6L6R57uI5a6hCgotIOS6i+WunuaYr+WQpuWPr+aguOmqjO+8mgotIOmAu+i+keaYr+WQpumXreeOr++8mgotIOaWh+eslOaYr+WQpua4heaZsO+8mgotIOW8leeUqOS4juWQiOinhOaYr+WQpuWkhOeQhu+8mgotIOWPr+ivu+aAp+S4juW5s+WPsOiwg+aAp+aYr+WQpuWMuemFje+8mgotIOWPkeW4g+WJjeWkjeafpeeCue+8mgoiIiIsCiAgICAiY29weXdyaXRpbmciOiAiIiIjIOW5v+WRiuaWh+ahiAoKIyMg55uu5qCH6K+76ICFCgotIOiwge+8mgotIOeXm+eCue+8mgotIOi0reS5sOWGs+etlui3r+W+hO+8mgoKIyMg5Lqn5ZOB5LiO5Y2W54K5CgotIOeJueiJsu+8mgotIOWKn+aViO+8mgotIOeLrOeJuemUgOWUruWNlueCue+8mgoKIyMg5qCH6aKY5YCZ6YCJCgoxLiAKMi4gCjMuIAoKIyMg5q2j5paHCgojIyMg5byA5aS06ZKp5a2QCgo+IOaJv+aOpeagh+mimO+8jOWItumAoOe7p+e7reivu+eahOeQhueUseOAggoKIyMjIOWNlueCueS4juivgeaNrgoKLSDliKnnm4ogMe+8mgotIOivgeaNriAx77yaCi0g5Yip55uKIDLvvJoKLSDor4Hmja4gMu+8mgoKIyMjIOmjjumZqea2iOmZpAoKLSDkv53or4HvvJoKLSDlrqLmiLfmoYjkvovvvJoKLSDluLjop4HnlpHpl67vvJoKCiMjIyDooYzliqjlj6zllKQKCi0g5LiL5LiA5q2l77yaCi0g5Li65LuA5LmI546w5Zyo77yaCi0g6IGU57O75pa55byPL+WFpeWPo++8mgoKIyMg5rWL6K+V5LiO5aSN5p+lCgotIOa1i+ivleaMh+agh++8mgotIOWvueavlOeJiOacrO+8mgotIOWkjeafpeeCue+8mgoiIiIsCn0KCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS10eXBlIiwgcmVxdWlyZWQ9VHJ1ZSwgY2hvaWNlcz1zb3J0ZWQoVEVNUExBVEVTKSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tb3V0cHV0IiwgcmVxdWlyZWQ9VHJ1ZSkKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCgogICAgb3V0ID0gUGF0aChhcmdzLm91dHB1dCkKICAgIG91dC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgb3V0LndyaXRlX3RleHQoVEVNUExBVEVTW2FyZ3MudHlwZV0sIGVuY29kaW5nPSJ1dGYtOCIpCiAgICBwcmludCgib3V0cHV0Iiwgb3V0KQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+"""Generate Markdown work-product skeletons for high-productivity mode."""
+
+import argparse
+from pathlib import Path
+
+
+TEMPLATES = {
+    "project-plan": """# 项目策划书
+
+## 一句话价值
+
+> 用一句话说明：为谁解决什么问题，为什么现在必须做，做成后的最小成功是什么。
+
+## 问题与机会
+
+- 现状与痛点
+- 目标用户或受益方
+- 外部变化与窗口期
+- 机会成立的关键假设
+
+## 主方案
+
+- 核心路径
+- 关键交付物
+- 最小可行范围
+
+## 备选方案
+
+- 保守版
+- 进取版
+- 最小验证版
+
+## 关键变量与敏感性
+
+| 变量 | 当前假设 | 变坏信号 | 变好信号 |
+|---|---|---|---|
+|  |  |  |  |
+
+## 里程碑
+
+1. 第 1 周：
+2. 第 2 周：
+3. 第 4 周：
+
+## 风险与应对
+
+| 风险 | 概率 | 影响 | 应对 | 复查点 |
+|---|---|---|---|---|
+|  |  |  |  |  |
+
+## 复查指标
+
+- 第 X 周：
+- 第 X 周：
+- 失效条件：
+
+## 待补充
+
+- 决策者：
+- 预算：
+- 时间：
+- 真实数据：
+""",
+    "product-pitch": """# 产品方案一页纸
+
+## 一句话价值
+
+> 为谁解决什么问题，为什么现在必须做。
+
+## 目标受众
+
+- 主要用户
+- 决策者
+- 购买者
+
+## 痛点
+
+- 用户原话或行为证据
+- 具体数字或频率
+- 不解决的后果
+
+## 方案
+
+- 核心功能
+- 最小可用形态
+- 关键差异
+
+## 证据
+
+- 已验证事实
+- 假设
+- 待验证项
+
+## 备选方案
+
+- 保守版
+- 最小验证版
+- 进取版
+
+## 下一步行动
+
+1. 
+2. 
+3. 
+
+## 风险与复查点
+
+- 最大风险：
+- 两周后看什么：
+- 一个月后看什么：
+""",
+    "paper": """# 论文/报告框架
+
+## 问题
+
+- 研究问题
+- 为什么重要
+- 回答到什么程度
+
+## 文献与已有观点
+
+- 关键来源
+- 已有结论
+- 缺口
+
+## 核心论点
+
+- 主论点
+- 分论点 1
+- 分论点 2
+
+## 方法与证据
+
+- 方法
+- 数据/材料
+- 证据等级
+
+## 论证
+
+1. 分论点 1 的推理
+2. 分论点 2 的推理
+3. 对反方的回应
+
+## 结论与局限
+
+- 结论
+- 局限
+- 下一步
+
+## 引用与核验
+
+- 来源清单
+- 待补证项
+""",
+    "debate": """# 辩词/说服稿
+
+## 一句话立场
+
+> 我方认为：
+
+## 听众与场合
+
+- 听众是谁
+- 他们最关心什么
+- 时间限制
+
+## 核心论点
+
+1. 论点一
+2. 论点二
+3. 论点三
+
+## 证据
+
+- 每个论点配证据
+- 来源与可信度
+
+## 对最强反方的回应
+
+- 反方观点
+- 反方最有力证据
+- 我方回应
+
+## 价值收尾
+
+> 把立场与听众关心的价值连接起来。
+""",
+    "report": """# 工作/分析报告
+
+## 摘要
+
+- 结论
+- 关键依据
+- 建议
+
+## 背景与目标
+
+## 事实
+
+## 分析
+
+## 结论
+
+## 风险
+
+## 下一步
+
+## 附录
+
+- 来源
+- 待核验项
+""",
+    "meeting-minutes": """# 会议纪要
+
+## 会议信息
+
+- 时间：
+- 地点：
+- 主持人：
+- 记录人：
+- 参加人：
+
+## 议题
+
+## 讨论
+
+## 决议
+
+## 行动项
+
+| 行动项 | 负责人 | 截止时间 | 状态 |
+|---|---|---|---|
+|  |  |  |  |
+
+## 下次会议
+
+- 时间：
+- 议题：
+""",
+    "risk-plan": """# 风险预案
+
+## 目标
+
+## 风险清单
+
+| 风险 | 触发条件 | 影响 | 概率 | 应对 | 责任人 | 复查点 |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |
+
+## 最高风险路径
+
+## 外部缓冲
+
+- 资金
+- 人力
+- 第三方资源
+- 替代路径
+
+## 执行顺序
+
+1. 
+2. 
+3. 
+
+## 失效条件
+
+""",
+    "roadshow-12": """# 产品路演 PPT 黄金 12 页
+
+## 第 1 页：封面
+
+- 一句话价值：
+- 当前进展：
+- 本轮诉求：
+
+## 第 2 页：痛点
+
+- 具体场景或用户原话：
+- 频率与后果：
+- 不解决的代价：
+
+## 第 3 页：解决方案
+
+- 一句话方案：
+- 支撑点 1：
+- 支撑点 2：
+- 支撑点 3：
+
+## 第 4 页：产品
+
+- 原型/演示/对比图：
+- 可验证结果：
+
+## 第 5 页：商业模式
+
+| 收入来源 | 谁付钱 | 付多少 | 多久付一次 |
+|---|---|---|---|
+|  |  |  |  |
+
+## 第 6 页：市场
+
+- TAM：
+- SAM：
+- SOM：
+- 需求证据：
+
+## 第 7 页：运营数据
+
+- 数据点 1：
+- 数据点 2：
+- 结论：
+
+## 第 8 页：团队
+
+- 技术角色：
+- 市场角色：
+- 运营角色：
+- 待补角色：
+
+## 第 9 页：财务
+
+- 增长曲线：
+- 成本结构：
+- 毛利：
+- 现金流：
+
+## 第 10 页：融资用途
+
+| 用途 | 金额 | 周期 | 里程碑 |
+|---|---|---|---|
+|  |  |  |  |
+
+## 第 11 页：愿景
+
+> 未来画面：
+
+## 第 12 页：封底
+
+- 下一步行动：
+- 联系方式：
+- 备用材料入口：
+
+## 数据与风险
+
+- 数据来源：
+- 待验证项：
+- 最大风险：
+- 复查点：
+""",
+    "bid-response": """# 招标应标方案
+
+## 评分标准拆解
+
+| 评分项 | 分值 | 实质性/重要/一般 | 我方响应 | 证明材料 |
+|  |  |  |  |  |
+|  |  |  |  |  |
+
+## 废标风险清单
+
+- 未响应条款：
+- 缺失材料：
+- 截止时间：
+
+## 技术方案
+
+- 项目理解：
+- 针对性方案：
+- 质量保证：
+- 进度安排：
+- 人员配置：
+- 资源投入：
+
+## 商务与业绩
+
+- 资质：
+- 同类业绩：
+- 服务承诺：
+
+## 风险与复查
+
+- 最大风险：
+- 提交前复查点：
+- 提交后追踪点：
+""",
+    "thesis-defense": """# 论文答辩 PPT
+
+## 课题背景与意义
+
+- 研究问题：
+- 为什么重要：
+- 已有研究缺口：
+
+## 研究方法与核心内容
+
+- 方法：
+- 数据/材料：
+- 核心步骤：
+
+## 数据与分析结果
+
+| 结果 | 证据 | 说明 |
+|---|---|---|
+|  |  |  |
+
+## 创新点
+
+1. 
+2. 
+3. 
+
+## 局限性与未来工作
+
+- 局限：
+- 外部因素：
+- 下一步：
+
+## 结论
+
+> 结论：
+
+## 问答预判
+
+| 评审可能质疑 | 证据与回应 |
+|---|---|
+|  |  |
+""",
+    "business-plan": """# 商业计划书
+
+## 痛点
+
+- 谁在痛：
+- 痛多久：
+- 现有方案为什么不够：
+
+## 方案
+
+- 核心产品/服务：
+- 最小可执行形态：
+- 为什么现在必须做：
+
+## 壁垒
+
+- 专利/技术：
+- 数据/网络效应：
+- 成本/渠道：
+- 团队：
+
+## 市场与商业模式
+
+- TAM/SAM/SOM：
+- 收入来源：
+- 单位经济：
+- 获客与复购：
+
+## 财务与回报
+
+- 增长路径：
+- 融资用途：
+- 回报与里程碑：
+
+## 风险与复查
+
+- 最大风险：
+- 关键假设：
+- 待验证项：
+- 复查点：
+""",
+    "novel-outline": """# 小说提纲
+
+## 一句话高概念
+
+> 谁在什么世界里，为了什么，付出什么代价。
+
+## 读者承诺
+
+- 阅读后的核心体验：
+- 爽感/智识/共情/震撼的比例：
+- 目标读者：
+
+## 世界观与规则
+
+- 物理规则：
+- 社会规则：
+- 代价规则：
+- 规则必须自洽的硬约束：
+
+## 人物弧光
+
+| 人物 | 欲望 | 恐惧 | 缺陷 | 谎言 | 转变 |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+
+## 主线冲突
+
+- 主角目标：
+- 主要阻力：
+- 反方或反对力量：
+- 不可逆转折：
+
+## 分卷/章节提纲
+
+| 卷/章 | 事件 | 人物变化 | 钩子 |
+|---|---|---|---|
+|  |  |  |  |
+
+## 关键转折
+
+- 中点：
+- 最低谷：
+- 真相揭露：
+- 终局选择：
+
+## 叙事方式
+
+- 视角：
+- 语气：
+- 时间线：
+- 章节节奏：
+
+## 背书来源
+
+- 历史/权力质感：
+- 人物心理：
+- 悬疑证据链：
+- 冲突与时机：
+- 科技/制度细节：
+
+## 反方检验
+
+- 最容易被读者放弃的前三章：
+- 最可能逻辑断裂的情节：
+- 最可能被读者质疑的设定：
+- 待定项：
+""",
+    "screenplay-outline": """# 剧本/剧集提纲
+
+## 一句话高概念
+
+> 一句话说清类型、主角、目标与代价。
+
+## 受众与平台
+
+- 目标受众：
+- 平台/篇幅：
+- 单集或单幕时长：
+
+## 类型与调性
+
+- 类型：
+- 情绪曲线：
+- 视觉风格：
+
+## 世界观与规则
+
+- 时间与地点：
+- 社会规则：
+- 不可违背的设定：
+
+## 人物表
+
+| 人物 | 立场 | 目标 | 秘密 | 关系 | 变化 |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+
+## 分幕/分集提纲
+
+| 幕/集 | 目标 | 冲突 | 转折 | 余波 |
+|---|---|---|---|---|
+|  |  |  |  |  |
+
+## 对白与节奏
+
+- 每场戏推进什么：
+- 哪场戏可以删除：
+- 台词隐含的信息：
+
+## 场景清单
+
+| 场次 | 内/外景 | 时间 | 人物 | 任务 | 结尾悬念 |
+|---|---|---|---|---|---|
+|  |  |  |  |  |  |
+
+## 背书来源
+
+- 叙事结构：
+- 人物动机：
+- 悬疑/证据：
+- 历史/制度：
+
+## 可行性检验
+
+- 最可能被删掉的场景：
+- 最可能改写的对白：
+- 预算或制作难点：
+- 待定项：
+""",
+    "novel-chapter": """# 小说正文：第 X 章
+
+## 本章任务
+
+- 推动什么：
+- 人物变化：
+- 埋下什么：
+
+## 视角与语气
+
+- 视角：
+- 语气：
+- 时间与地点：
+
+## 开头钩子
+
+> 用动作、异常、威胁或选择开场。
+
+## 正文
+
+（正文草稿）
+
+## 本章结尾
+
+> 留下一个未解决的张力或新的问题。
+
+## 写作后检查
+
+- 视角是否一致：
+- 人物是否按欲望和恐惧行动：
+- 每段是否推动情节或揭示人物：
+- 专业知识是否准确或已标虚构：
+- 待读者反馈项：
+""",
+    "scene-script": """# 剧本场景：第 X 场
+
+## 场景信息
+
+- 内景/外景：
+- 时间：
+- 人物：
+
+## 场景任务
+
+> 这场戏要达成什么。
+
+## 动作与视觉
+
+- 开场画面：
+- 关键动作：
+- 可见情绪：
+
+## 对白
+
+（人物 A）
+
+> 台词
+
+（人物 B）
+
+> 台词
+
+## 结尾悬念
+
+> 让观众在下一场戏前产生期待。
+
+## 写作后检查
+
+- 每句台词是否推动选择、冲突或信息变化：
+- 情绪是否靠行动表达而非旁白解释：
+- 是否与前后场次逻辑一致：
+- 待定项：
+""",
+    "nonfiction-article": """# 非虚构文章/采访稿
+
+## 非虚构边界
+
+- 已确认事实：
+- 叙事判断：
+- 推断：
+- 待核验项：
+
+## 选题价值
+
+- 社会性：
+- 时代性：
+- 世界性：
+- 文化价值：
+- 情感共鸣：
+
+## 主题
+
+> 这篇文章只讲一件事：
+
+## 采访与素材
+
+| 素材类型 | 来源 | 已确认 | 待确认 |
+|---|---|---|---|
+| 现场观察 |  |  |  |
+| 核心人物 |  |  |  |
+| 周边采访 |  |  |  |
+| 资料与专家 |  |  |  |
+
+## 人物故事
+
+- 主人公：
+- 欲望：
+- 冲突：
+- 应对动作：
+- 性格本质：
+- 与时代/读者的连接：
+
+## 叙事结构
+
+- 结构类型（时间线/模块/剥洋葱）：
+- 开头：
+- 中段：
+- 结尾：
+- 关键素材放置位置：
+
+## 叙事四要素
+
+| 要素 | 计划比例 | 作用 | 示例/位置 |
+|---|---|---|---|
+| 直接引语 |  |  |  |
+| 间接引语 |  |  |  |
+| 概述 |  |  |  |
+| 描写 |  |  |  |
+
+## 语言与修改
+
+- 待清理的陈词/套话/流行语：
+- 待替换的弱动词：
+- 朗读后不顺畅处：
+- 需要调整顺序或重点处：
+
+## 编辑终审
+
+- 事实是否可核验：
+- 逻辑是否闭环：
+- 文笔是否清晰：
+- 引用与合规是否处理：
+- 可读性与平台调性是否匹配：
+- 发布前复查点：
+""",
+    "copywriting": """# 广告文案
+
+## 目标读者
+
+- 谁：
+- 痛点：
+- 购买决策路径：
+
+## 产品与卖点
+
+- 特色：
+- 功效：
+- 独特销售卖点：
+
+## 标题候选
+
+1. 
+2. 
+3. 
+
+## 正文
+
+### 开头钩子
+
+> 承接标题，制造继续读的理由。
+
+### 卖点与证据
+
+- 利益 1：
+- 证据 1：
+- 利益 2：
+- 证据 2：
+
+### 风险消除
+
+- 保证：
+- 客户案例：
+- 常见疑问：
+
+### 行动召唤
+
+- 下一步：
+- 为什么现在：
+- 联系方式/入口：
+
+## 测试与复查
+
+- 测试指标：
+- 对比版本：
+- 复查点：
+""",
+}
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--type", required=True, choices=sorted(TEMPLATES))
+    parser.add_argument("--output", required=True)
+    args = parser.parse_args()
+
+    out = Path(args.output)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(TEMPLATES[args.type], encoding="utf-8")
+    print("output", out)
+
+
+if __name__ == "__main__":
+    main()

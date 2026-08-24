@@ -1,1 +1,134 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSZXZpZXcg5a2m5Lmg6K6w5b2VL+WtpuS5oOaXpeW/ly5tZCBhbmQgcHJvZHVjZSBhIGxlYXJuaW5nLWN5Y2xlIHJlcG9ydC4iIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgZGF0ZXRpbWUKaW1wb3J0IHJlCmZyb20gY29sbGVjdGlvbnMgaW1wb3J0IENvdW50ZXIKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpUT1BJQ19QQVRURVJOUyA9IHsKICAgICLlirPliqjms5Uv6IGM5Zy65p2D55uKIjogWyLlirPliqjms5UiLCAi5Yqz5Yqo5LqJ6K6uIiwgIuernuS4miIsICLlirPliqjlkIjlkIwiLCAiTiszIiwgIuijgeWRmCIsICLlt6XotYQiLCAi56S+5L+dIiwgIuWKs+WKqOadg+ebiiJdLAogICAgIkFJL+aKgOacr+ayu+eQhiI6IFsiQUkiLCAi566X5rOVIiwgIuebkeeuoSIsICLlubPlj7DmsrvnkIYiLCAi5oqA5pyv5rK755CGIiwgIkNGSVVTIl0sCiAgICAi5a6e5pe25pWw5o2uL+S6i+WunuaguOmqjCI6IFsi5a6e5pe2IiwgIuaVsOaNriIsICLmoLjpqowiLCAi6aKE5rWLIiwgIue7n+iuoSIsICLmpoLnjociXSwKICAgICLms5Xlvosv6K+B5o2uL+eoi+W6jyI6IFsi5rOV5b6LIiwgIuivgeaNriIsICLnqIvluo8iLCAi6Z2e5rOV6K+B5o2uIiwgIuivgeaYjuagh+WHhiIsICLlj7jms5UiXSwKICAgICLlrrbluq3nhafmiqQv6LWE5rqQIjogWyLnhafmiqQiLCAi5a625bqtIiwgIuaKpOW3pSIsICLlurflpI0iLCAi5YW76ICBIiwgIuWMu+eWlyIsICLlgaXlurciXSwKICAgICLlv4PnkIYv5YWz57O7L+mZquS8tCI6IFsi5b+D55CGIiwgIuWFs+ezuyIsICLpmarkvLQiLCAi5oOF57uqIiwgIuS6suWvhiJdLAogICAgIuWOhuWPsi/moaPmoYgv5Yi25bqm5L+h5oGvIjogWyLljoblj7IiLCAi5qGj5qGIIiwgIuWPsuaWmSIsICLliLbluqYiLCAi5piO5LujIiwgIuWksei4qiIsICLkv6Hmga/mjqfliLYiXSwKICAgICLmipXotYQv6YeR6J6NL+W4guWcuiI6IFsi5oqV6LWEIiwgIumHkeiejSIsICLluILlnLoiLCAi6IKh56WoIiwgIui0ouWKoSIsICLnjrDph5HmtYEiXSwKICAgICLkvqbmn6Uv5o6o55CGL+aKgOacr+ivgeaNriI6IFsi5L6m5p+lIiwgIuaOqOeQhiIsICLmlbDlrZflj5bor4EiLCAi54mp6K+BIiwgIuazleWMuyIsICLor4Hmja7pk74iXSwKfQoKCmRlZiBwYXJzZV9hcmdzKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWxvZyIsIHJlcXVpcmVkPVRydWUpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLW91dCIsIHJlcXVpcmVkPVRydWUpCiAgICByZXR1cm4gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKCmRlZiBwYXJzZV9lbnRyaWVzKHRleHQpOgogICAgZW50cmllcyA9IFtdCiAgICBjdXJyZW50ID0gTm9uZQogICAgZm9yIGxpbmUgaW4gdGV4dC5zcGxpdGxpbmVzKCk6CiAgICAgICAgbSA9IHJlLm1hdGNoKHIiXiMjIChcZHs0fS1cZHsyfS1cZHsyfSkg5YiG5p6Q77yaKC4rKSQiLCBsaW5lKQogICAgICAgIGlmIG06CiAgICAgICAgICAgIGlmIGN1cnJlbnQ6CiAgICAgICAgICAgICAgICBlbnRyaWVzLmFwcGVuZChjdXJyZW50KQogICAgICAgICAgICBjdXJyZW50ID0geyJkYXRlIjogbS5ncm91cCgxKSwgInRpdGxlIjogbS5ncm91cCgyKS5zdHJpcCgpLCAiYm9keSI6IFtdfQogICAgICAgIGVsaWYgY3VycmVudCBpcyBub3QgTm9uZToKICAgICAgICAgICAgY3VycmVudFsiYm9keSJdLmFwcGVuZChsaW5lKQogICAgaWYgY3VycmVudDoKICAgICAgICBlbnRyaWVzLmFwcGVuZChjdXJyZW50KQoKICAgIGZvciBlbnRyeSBpbiBlbnRyaWVzOgogICAgICAgIGZpZWxkcyA9IHt9CiAgICAgICAgZm9yIGxpbmUgaW4gZW50cnlbImJvZHkiXToKICAgICAgICAgICAgZm0gPSByZS5tYXRjaChyIl4tICguKz8pWzrvvJpdKC4qKSQiLCBsaW5lKQogICAgICAgICAgICBpZiBmbToKICAgICAgICAgICAgICAgIGZpZWxkc1tmbS5ncm91cCgxKS5zdHJpcCgpXSA9IGZtLmdyb3VwKDIpLnN0cmlwKCkKICAgICAgICBlbnRyeVsiZmllbGRzIl0gPSBmaWVsZHMKICAgIHJldHVybiBlbnRyaWVzCgoKZGVmIGNvdW50X3RvcGljcyhlbnRyaWVzKToKICAgIGNvdW50ZXIgPSBDb3VudGVyKCkKICAgIGZvciBlbnRyeSBpbiBlbnRyaWVzOgogICAgICAgIGZpZWxkcyA9IGVudHJ5WyJmaWVsZHMiXQogICAgICAgIHRleHQgPSAiICIuam9pbigKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgZmllbGRzLmdldCgi5LiN56Gu5a6a6YOo5YiGIiwgIiIpLAogICAgICAgICAgICAgICAgZmllbGRzLmdldCgi55+l6K+G57y65Y+jIiwgIiIpLAogICAgICAgICAgICAgICAgZmllbGRzLmdldCgi5bu66K6u6KGl5YWFIiwgIiIpLAogICAgICAgICAgICBdCiAgICAgICAgKQogICAgICAgIGZvciB0b3BpYywga2V5cyBpbiBUT1BJQ19QQVRURVJOUy5pdGVtcygpOgogICAgICAgICAgICBpZiBhbnkoa2V5IGluIHRleHQgZm9yIGtleSBpbiBrZXlzKToKICAgICAgICAgICAgICAgIGNvdW50ZXJbdG9waWNdICs9IDEKICAgIHJldHVybiBjb3VudGVyCgoKZGVmIG1haW4oKToKICAgIGFyZ3MgPSBwYXJzZV9hcmdzKCkKICAgIHRleHQgPSBQYXRoKGFyZ3MubG9nKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IiwgZXJyb3JzPSJpZ25vcmUiKQogICAgZW50cmllcyA9IHBhcnNlX2VudHJpZXModGV4dCkKICAgIGNvbmZpZGVuY2UgPSBDb3VudGVyKCkKICAgIHVuY2VydGFpbiA9IFtdCiAgICBjb3JyZWN0aW9ucyA9IFtdCgogICAgZm9yIGVudHJ5IGluIGVudHJpZXM6CiAgICAgICAgZmllbGRzID0gZW50cnlbImZpZWxkcyJdCiAgICAgICAgbGV2ZWwgPSBmaWVsZHMuZ2V0KCLnva7kv6HluqYiLCAiIikKICAgICAgICBpZiAi6auYIiBpbiBsZXZlbDoKICAgICAgICAgICAgY29uZmlkZW5jZVsi6auYIl0gKz0gMQogICAgICAgIGVsaWYgIuS4rSIgaW4gbGV2ZWw6CiAgICAgICAgICAgIGNvbmZpZGVuY2VbIuS4rSJdICs9IDEKICAgICAgICBlbHNlOgogICAgICAgICAgICBjb25maWRlbmNlWyLkvY4v5pyq5qCHIl0gKz0gMQoKICAgICAgICBpZiBmaWVsZHMuZ2V0KCLkuI3noa7lrprpg6jliIYiLCAi5pegIikgbm90IGluICgi5pegIiwgIi0iKToKICAgICAgICAgICAgdW5jZXJ0YWluLmFwcGVuZCgoZW50cnlbImRhdGUiXSwgZW50cnlbInRpdGxlIl0sIGZpZWxkcy5nZXQoIuS4jeehruWumumDqOWIhiIsICIiKSkpCiAgICAgICAgY29ycmVjdGlvbiA9IGZpZWxkcy5nZXQoIueUqOaIt+i/vemXri/nuqDmraMiLCAi5pegIikKICAgICAgICBpZiBjb3JyZWN0aW9uIG5vdCBpbiAoIuaXoCIsICItIik6CiAgICAgICAgICAgIGNvcnJlY3Rpb25zLmFwcGVuZCgoZW50cnlbImRhdGUiXSwgZW50cnlbInRpdGxlIl0sIGNvcnJlY3Rpb24pKQoKICAgIHRvcGljcyA9IGNvdW50X3RvcGljcyhlbnRyaWVzKQogICAgdG9kYXkgPSBkYXRldGltZS5kYXRlLnRvZGF5KCkuaXNvZm9ybWF0KCkKICAgIGxpbmVzID0gWwogICAgICAgIGYiIyDlrabkuaDlvqrnjq/lpI3nm5ggLSB7dG9kYXl9IiwKICAgICAgICAiIiwKICAgICAgICAiIyMg5qaC5Ya1IiwKICAgICAgICAiIiwKICAgICAgICBmIi0g5YiG5p6Q6K6w5b2V5pWw77yae2xlbihlbnRyaWVzKX0iLAogICAgICAgIGYiLSDpq5jnva7kv6HvvJp7Y29uZmlkZW5jZS5nZXQoJ+mrmCcsIDApfSIsCiAgICAgICAgZiItIOS4ree9ruS/oe+8mntjb25maWRlbmNlLmdldCgn5LitJywgMCl9IiwKICAgICAgICBmIi0g5L2OL+acquagh++8mntjb25maWRlbmNlLmdldCgn5L2OL+acquaghycsIDApfSIsCiAgICAgICAgZiItIOacieS4jeehruWumuiusOW9le+8mntsZW4odW5jZXJ0YWluKX0iLAogICAgICAgIGYiLSDmnInnlKjmiLfov73pl64v57qg5q2j77yae2xlbihjb3JyZWN0aW9ucyl9IiwKICAgICAgICAiIiwKICAgICAgICAiIyMg6auY6aKR57y65Y+jL+W7uuiurumihuWfnyIsCiAgICAgICAgIiIsCiAgICAgICAgInwg6aKG5Z+fIHwg5Ye6546w5qyh5pWwIHwiLAogICAgICAgICJ8LS0tfC0tLXwiLAogICAgXQogICAgZm9yIHRvcGljLCBjb3VudCBpbiB0b3BpY3MubW9zdF9jb21tb24oKToKICAgICAgICBsaW5lcy5hcHBlbmQoZiJ8IHt0b3BpY30gfCB7Y291bnR9IHwiKQogICAgaWYgbm90IHRvcGljczoKICAgICAgICBsaW5lcy5hcHBlbmQoInwg5pqC5pegIHwgMCB8IikKCiAgICBsaW5lcyArPSBbIiIsICIjIyDlvoXov73ouKrmnaHnm64iLCAiIl0KICAgIGZvciBkYXRlLCB0aXRsZSwgZGV0YWlsIGluIHVuY2VydGFpbjoKICAgICAgICBsaW5lcy5hcHBlbmQoZiItIHtkYXRlfSB7dGl0bGV977yae2RldGFpbH0iKQogICAgbGluZXMgKz0gWyIiLCAiIyMg55So5oi36L+96ZeuL+e6oOatoyIsICIiXQogICAgZm9yIGRhdGUsIHRpdGxlLCBkZXRhaWwgaW4gY29ycmVjdGlvbnM6CiAgICAgICAgbGluZXMuYXBwZW5kKGYiLSB7ZGF0ZX0ge3RpdGxlfe+8mntkZXRhaWx9IikKCiAgICByZXBvcnQgPSAiXG4iLmpvaW4obGluZXMpICsgIlxuIgogICAgb3V0ID0gUGF0aChhcmdzLm91dCkKICAgIG91dC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgb3V0LndyaXRlX3RleHQocmVwb3J0LCBlbmNvZGluZz0idXRmLTgiKQogICAgcHJpbnQocmVwb3J0KQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+"""Review 学习记录/学习日志.md and produce a learning-cycle report."""
+
+import argparse
+import datetime
+import re
+from collections import Counter
+from pathlib import Path
+
+TOPIC_PATTERNS = {
+    "劳动法/职场权益": ["劳动法", "劳动争议", "竞业", "劳动合同", "N+3", "裁员", "工资", "社保", "劳动权益"],
+    "AI/技术治理": ["AI", "算法", "监管", "平台治理", "技术治理", "CFIUS"],
+    "实时数据/事实核验": ["实时", "数据", "核验", "预测", "统计", "概率"],
+    "法律/证据/程序": ["法律", "证据", "程序", "非法证据", "证明标准", "司法"],
+    "家庭照护/资源": ["照护", "家庭", "护工", "康复", "养老", "医疗", "健康"],
+    "心理/关系/陪伴": ["心理", "关系", "陪伴", "情绪", "亲密"],
+    "历史/档案/制度信息": ["历史", "档案", "史料", "制度", "明代", "失踪", "信息控制"],
+    "投资/金融/市场": ["投资", "金融", "市场", "股票", "财务", "现金流"],
+    "侦查/推理/技术证据": ["侦查", "推理", "数字取证", "物证", "法医", "证据链"],
+}
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--log", required=True)
+    parser.add_argument("--out", required=True)
+    return parser.parse_args()
+
+
+def parse_entries(text):
+    entries = []
+    current = None
+    for line in text.splitlines():
+        m = re.match(r"^## (\d{4}-\d{2}-\d{2}) 分析：(.+)$", line)
+        if m:
+            if current:
+                entries.append(current)
+            current = {"date": m.group(1), "title": m.group(2).strip(), "body": []}
+        elif current is not None:
+            current["body"].append(line)
+    if current:
+        entries.append(current)
+
+    for entry in entries:
+        fields = {}
+        for line in entry["body"]:
+            fm = re.match(r"^- (.+?)[:：](.*)$", line)
+            if fm:
+                fields[fm.group(1).strip()] = fm.group(2).strip()
+        entry["fields"] = fields
+    return entries
+
+
+def count_topics(entries):
+    counter = Counter()
+    for entry in entries:
+        fields = entry["fields"]
+        text = " ".join(
+            [
+                fields.get("不确定部分", ""),
+                fields.get("知识缺口", ""),
+                fields.get("建议补充", ""),
+            ]
+        )
+        for topic, keys in TOPIC_PATTERNS.items():
+            if any(key in text for key in keys):
+                counter[topic] += 1
+    return counter
+
+
+def main():
+    args = parse_args()
+    text = Path(args.log).read_text(encoding="utf-8", errors="ignore")
+    entries = parse_entries(text)
+    confidence = Counter()
+    uncertain = []
+    corrections = []
+
+    for entry in entries:
+        fields = entry["fields"]
+        level = fields.get("置信度", "")
+        if "高" in level:
+            confidence["高"] += 1
+        elif "中" in level:
+            confidence["中"] += 1
+        else:
+            confidence["低/未标"] += 1
+
+        if fields.get("不确定部分", "无") not in ("无", "-"):
+            uncertain.append((entry["date"], entry["title"], fields.get("不确定部分", "")))
+        correction = fields.get("用户追问/纠正", "无")
+        if correction not in ("无", "-"):
+            corrections.append((entry["date"], entry["title"], correction))
+
+    topics = count_topics(entries)
+    today = datetime.date.today().isoformat()
+    lines = [
+        f"# 学习循环复盘 - {today}",
+        "",
+        "## 概况",
+        "",
+        f"- 分析记录数：{len(entries)}",
+        f"- 高置信：{confidence.get('高', 0)}",
+        f"- 中置信：{confidence.get('中', 0)}",
+        f"- 低/未标：{confidence.get('低/未标', 0)}",
+        f"- 有不确定记录：{len(uncertain)}",
+        f"- 有用户追问/纠正：{len(corrections)}",
+        "",
+        "## 高频缺口/建议领域",
+        "",
+        "| 领域 | 出现次数 |",
+        "|---|---|",
+    ]
+    for topic, count in topics.most_common():
+        lines.append(f"| {topic} | {count} |")
+    if not topics:
+        lines.append("| 暂无 | 0 |")
+
+    lines += ["", "## 待追踪条目", ""]
+    for date, title, detail in uncertain:
+        lines.append(f"- {date} {title}：{detail}")
+    lines += ["", "## 用户追问/纠正", ""]
+    for date, title, detail in corrections:
+        lines.append(f"- {date} {title}：{detail}")
+
+    report = "\n".join(lines) + "\n"
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(report, encoding="utf-8")
+    print(report)
+
+
+if __name__ == "__main__":
+    main()

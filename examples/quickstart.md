@@ -1,1 +1,56 @@
-IyDlv6vpgJ/kuIrmiYsKCiMjIOekuuS+iyAx77ya5Y6G5Y+y5qCh5YeGCgoqKuaPkOmXrioq77ya5LiA5Liq57uE57uH5YaF6YOo5pS56Z2p6Zi75Yqb5b6I5aSn77yM6K+l5LiN6K+l56Gs5o6o77yfCgoqKuWPguiAg+i+k+WHuue7k+aehCoq77yaCjEuIOaJvuWHuuWOhuWPsuWQjOaehOahiOS+i+OAggoyLiDmr5TovoPlvZPliY3mnaHku7bkuI7ljoblj7LmnaHku7bnmoTlhbPplK7lt67lvILjgIIKMy4g5Yik5pat5b2T5YmN6Zi25q6144CB56qX5Y+j5pyf5ZKM6Zi75Yqb5p2l5rqQ44CCCjQuIOe7meWHuuato+WPjeS4pOWll+aWueahiOWSjOebuOWPjei+qeivgeinhuinkuOAggoKIyMg56S65L6LIDLvvJrmjqjmvJTlhrPnrZbml7bmnLoKCioq5o+Q6ZeuKirvvJrlpoLmnpzmiJHnjrDlnKjmjInov5nkuKrmlrnlkJHooYzliqjvvIzlj6/og73lj5HnlJ/ku4DkuYjvvJ/njrDlnKjmmK/mnIDkvbPml7bmnLrlkJfvvJ8KCioq5Y+C6ICD6L6T5Ye657uT5p6EKirvvJoKMS4g5YiX5Ye65YWz6ZSu5Y+Y6YeP5ZKM5Y+v5o6nL+W6lOWvueWPmOmHj+OAggoyLiDmjqjmvJQgMi0zIOadoei3r+W+hOWPiuinpuWPkeadoeS7tuOAggozLiDmr5TovoPigJznjrDlnKjooYzliqjigJ3kuI7igJzlho3nrYnkuIDnrYnigJ3nmoTku6Pku7fjgIIKNC4g5qCH5Ye656qX5Y+j5omT5byAL+WFs+mXreS/oeWPt+OAggo1LiDmoIflh7rov5jpnIDpqozor4HnmoTkv6Hmga/jgIIKCiMjIOekuuS+iyAz77ya5qih5Z2X5oyJ6ZyA5aKe5by6CgoqKuaPkOmXrioq77ya5biu5oiR55yL55yL6L+Z5Lu25LqL5bqU6K+l5oCO5LmI5aSE55CG44CCCgoqKum7mOiupOWkhOeQhioq77ya5oyJ5Y+46ams5YWJ57u85ZCI5oCd57u05YiG5p6Q77yM5LiN5by65Yi25bGV56S66K+G5Lq644CB6aOO5rC044CB5ZGo5piT5oiW5aWH6Zeo5qGG5p6244CCCioq55So5oi36KGl5YWF6KaB5rGC5ZCOKirvvJrmiY3lop7lvLrlr7nlupTmqKHlnZfovpPlh7rjgIIKCiMjIOekuuS+iyA077ya5YGl5bq35LiO6Lqr5L2TCgoqKuaPkOmXrioq77ya5Lit5Yy76K+055qE5pW05L2T6KeC5b+15ZKM5rK75pyq55eF77yM5oCO5LmI55So5Yiw5oiR55qE5YGl5bq3566h55CG6YeM77yfCgoqKuWPguiAg+i+k+WHuue7k+aehCoq77yaCjEuIOivtOaYjui/meaYr+S8oOe7n+WMu+Wtpuahhuaetu+8jOS4jeabv+S7o+eOsOS7o+S9k+ajgOWSjOiviuaWreOAggoyLiDmjInmlbTkvZPnirbmgIHjgIHlj5Hnl4XpmLbmrrXjgIHkvKDlj5jmlrnlkJHlkozlj6/pqozor4HmjIfmoIfnu4Tnu4fliIbmnpDjgIIKMy4g5piO56Gu5LiN57uZ5aSE5pa544CB5LiN5om/6K+655aX5pWI77yb5oCl6YeN55eH5ZKM54m55q6K5Lq6576k6LWw5LiT5Lia5Yy755aX44CCCgojIyDnpLrkvosgNe+8mue9kee7nOaOkumanAoKKirmj5Dpl64qKu+8mue9kemhteaJk+S4jeW8gO+8jOaAjuS5iOWIpOaWreaYryBETlPjgIHnvZHnu5zov5jmmK/mnI3liqHlmajnmoTpl67popjvvJ8KCioq5Y+C6ICD6L6T5Ye657uT5p6EKirvvJoKMS4g5YWI56Gu6K6kIFVSTOOAgUROUyDlkozmnKzmnLrnvZHnu5znirbmgIHjgIIKMi4g5oyJIFRDUOOAgei3r+eUseOAgU5BVOOAgemYsueBq+WimeOAgee8k+WtmOWSjOacjeWKoeerr+mhuuW6j+WIhuWxguaOkuafpeOAggozLiDorrDlvZXml7bpl7TjgIHlnLDlnYDjgIHnirbmgIHnoIHlkozmipPljIXor4Hmja7vvJvov57pgJrkuI3nrYnkuo7lronlhajjgIIKCiMjIOekuuS+iyA277ya5LqM5Y2B5Zub5Y+yCgoqKuaPkOmXrioq77ya5YiG5p6Q5LiA5Liq5Y+k5Luj5pyd5Luj55qE5YW06KGw77yM5bqU6K+l5oCO5LmI55So5LqM5Y2B5Zub5Y+y77yfCgoqKuWPguiAg+i+k+WHuue7k+aehCoq77yaCjEuIOWFiOWumuS9jeWvueW6lOato+WPsuWSjOaXtuS7o+OAggoyLiDmjInmnKznuqrnnIvlpKfkuovjgIHliJfkvKDnnIvkurrnianjgIHlv5fnnIvliLbluqbjgIHooajnnIvml7bpl7TjgIIKMy4g57uT5ZCI5puy56yU5q6L57y644CB5Y+y5paZ6ICD6L6o5ZKM5Lul5Y+y5Li66Ym077yM5byV55So5rOo5piO5Y+y5Lmm44CB5Y235qyh5ZKM54mI5pys44CCCg==
+# 快速上手
+
+## 示例 1：历史校准
+
+**提问**：一个组织内部改革阻力很大，该不该硬推？
+
+**参考输出结构**：
+1. 找出历史同构案例。
+2. 比较当前条件与历史条件的关键差异。
+3. 判断当前阶段、窗口期和阻力来源。
+4. 给出正反两套方案和相反辩证视角。
+
+## 示例 2：推演决策时机
+
+**提问**：如果我现在按这个方向行动，可能发生什么？现在是最佳时机吗？
+
+**参考输出结构**：
+1. 列出关键变量和可控/应对变量。
+2. 推演 2-3 条路径及触发条件。
+3. 比较“现在行动”与“再等一等”的代价。
+4. 标出窗口打开/关闭信号。
+5. 标出还需验证的信息。
+
+## 示例 3：模块按需增强
+
+**提问**：帮我看看这件事应该怎么处理。
+
+**默认处理**：按司马光综合思维分析，不强制展示识人、风水、周易或奇门框架。
+**用户补充要求后**：才增强对应模块输出。
+
+## 示例 4：健康与身体
+
+**提问**：中医说的整体观念和治未病，怎么用到我的健康管理里？
+
+**参考输出结构**：
+1. 说明这是传统医学框架，不替代现代体检和诊断。
+2. 按整体状态、发病阶段、传变方向和可验证指标组织分析。
+3. 明确不给处方、不承诺疗效；急重症和特殊人群走专业医疗。
+
+## 示例 5：网络排障
+
+**提问**：网页打不开，怎么判断是 DNS、网络还是服务器的问题？
+
+**参考输出结构**：
+1. 先确认 URL、DNS 和本机网络状态。
+2. 按 TCP、路由、NAT、防火墙、缓存和服务端顺序分层排查。
+3. 记录时间、地址、状态码和抓包证据；连通不等于安全。
+
+## 示例 6：二十四史
+
+**提问**：分析一个古代朝代的兴衰，应该怎么用二十四史？
+
+**参考输出结构**：
+1. 先定位对应正史和时代。
+2. 按本纪看大事、列传看人物、志看制度、表看时间。
+3. 结合曲笔残缺、史料考辨和以史为鉴，引用注明史书、卷次和版本。

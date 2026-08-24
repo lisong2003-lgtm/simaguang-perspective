@@ -1,1 +1,24 @@
-IyDlj7jpqazlhYnnu7zlkIjmgJ3nu7Qg55+l6K+G5omp5bGVCgojIyDkuKTlsYLpgInmi6kKCum7mOiupOi9u+mHj+WMheWPquWMheWQq++8mgoKLSDkuLsgYFNLSUxMLm1kYAotIGByZWZlcmVuY2VzL2AKLSBga25vd2xlZGdlL3N1bW1hcmllcy9g77yaMjE1IOacrOS5pueahOe0p+WHkeaRmOimgQotIGBzY3JpcHRzL2AKLSBgZXhhbXBsZXMvYAotIGB0ZXN0LXByb21wdHMuanNvbmAKCuWPr+mAieefpeivhuaJqeWxleWMhemineWkluWMheWQq++8mgoKLSBga25vd2xlZGdlL2Jvb2tzL2DvvJoyMTUg5Liq6YCQ5Lmm5oqA6IO95YyFCgojIyDkvb/nlKjmlrnlvI8KCi0g6buY6K6k5a6J6KOF77ya5L2/55So6L276YeP5YyF77yM5pel5bi46Zeu6aKY5oyJ5pGY6KaB5ZKMIHJlZmVyZW5jZXMg5Yik5pat44CCCi0g6ZyA6KaB5rex5bqm6IO95Yqb77ya5a6J6KOF55+l6K+G5omp5bGV5YyF77yM5oyJ57Si5byV6K+75Y+WIDEtMyDkuKrlrozmlbTmioDog73ljIXjgIIKLSDkuI3og73lhajph4/liqDovb0gYGtub3dsZWRnZS9ib29rcy9g77yM5ZCm5YiZIHRva2VuIOS8muWkp+W5heWinuWKoOOAggo=
+# 司马光综合思维 知识扩展
+
+## 两层选择
+
+默认轻量包只包含：
+
+- 主 `SKILL.md`
+- `references/`
+- `knowledge/summaries/`：215 本书的紧凑摘要
+- `scripts/`
+- `examples/`
+- `test-prompts.json`
+
+可选知识扩展包额外包含：
+
+- `knowledge/books/`：215 个逐书知识文件
+
+这些文件是知识数据，不是独立 Skill。完整安装后，WorkBuddy/Codex 的技能列表里仍只显示一个 `simaguang-perspective`。
+
+## 使用方式
+
+- 默认安装：使用轻量包，日常问题按摘要和 references 判断。
+- 需要深度能力：安装知识扩展包，按索引读取 1-3 个完整知识文件。
+- 不能全量加载 `knowledge/books/`，否则 token 会大幅增加。

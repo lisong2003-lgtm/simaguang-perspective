@@ -1,1 +1,140 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSdW4gbWVjaGFuaWNhbCBwcmUtZGVsaXZlcnkgY2hlY2tzIG9uIGEgaGlnaC1wcm9kdWN0aXZpdHkgb3V0cHV0IGZpbGUuIiIiCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IHJlCmltcG9ydCBzeXMKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgoKQ0hFQ0tTID0gewogICAgInBwdCI6IFsKICAgICAgICAoIuS7t+WAvOS4u+W8oCIsIHIi5Lu35YC8fOS4gOWPpeivnXznl5vngrkiKSwKICAgICAgICAoIuihjOWKqOWFpeWPoyIsIHIi5LiL5LiA5q2lfOihjOWKqHzogZTns7t86J6N6LWEfOWQiOS9nCIpLAogICAgICAgICgi5pWw5o2u5p2l5rqQIiwgciLmnaXmupB85pWw5o2ufOW+heaguOmqjCIpLAogICAgXSwKICAgICJwcm9qZWN0LXBsYW4iOiBbCiAgICAgICAgKCLlrprkvY3kuI7nm67moIciLCByIuWumuS9jXznm67moId85Lu35YC8IiksCiAgICAgICAgKCLkuLvlpIfot6/lvoQiLCByIuWkh+mAiXzot6/lvoR85pa55qGIIiksCiAgICAgICAgKCLpo47pmakiLCByIumjjumZqSIpLAogICAgICAgICgi5aSN5p+l5oyH5qCHIiwgciLlpI3mn6V85oyH5qCHfOWkseaViHzoioLngrkiKSwKICAgIF0sCiAgICAiYmlkIjogWwogICAgICAgICgi5ZON5bqU6K+E5YiGIiwgciLor4TliIZ85ZON5bqUfOimgeaxgnzmoIflh4YiKSwKICAgICAgICAoIui1hOi0qOWQiOinhCIsIHIi6LWE6LSofOWQiOinhHzor4HmmI5855uW56ugIiksCiAgICAgICAgKCLmlrnmoYgiLCByIuaWueahiHzlrp7mlr186K6h5YiSIiksCiAgICBdLAogICAgInRoZXNpcy1kZWZlbnNlIjogWwogICAgICAgICgi56CU56m26Zeu6aKYIiwgciLpl67poph856CU56m2fOebruaghyIpLAogICAgICAgICgi5pa55rOVIiwgciLmlrnms5V85pWw5o2ufOWIhuaekCIpLAogICAgICAgICgi5bGA6ZmQIiwgciLlsYDpmZB85LiN6LazfOS4i+S4gOatpSIpLAogICAgXSwKICAgICJkZWJhdGUiOiBbCiAgICAgICAgKCLnq4vlnLoiLCByIueri+Wcunzop4Lngrl85Li75bygIiksCiAgICAgICAgKCLliKTlh4YiLCByIuWIpOWHhnzlrprkuYl85qCH5YeGIiksCiAgICAgICAgKCLlj43mlrkiLCByIuWPjeaWuXzlj43lr7l86LSo55aRIiksCiAgICBdLAogICAgImJ1c2luZXNzLXBsYW4iOiBbCiAgICAgICAgKCLnl5vngrkiLCByIueXm+eCuXzpl67poph86ZyA5rGCIiksCiAgICAgICAgKCLmlrnmoYgiLCByIuaWueahiHzkuqflk4F85pyN5YqhIiksCiAgICAgICAgKCLllYbkuJrmqKHlvI8iLCByIuS7mOi0uXzmlLblhaV85qih5byPfOaIkOacrCIpLAogICAgICAgICgi6aOO6ZmpIiwgciLpo47pmal86YCA5Ye6fOWkseaViCIpLAogICAgXSwKICAgICJyZXBvcnQiOiBbCiAgICAgICAgKCLnu5PorroiLCByIue7k+iuunzlu7rorq4iKSwKICAgICAgICAoIuivgeaNriIsIHIi5L6d5o2ufOaVsOaNrnzmnaXmupB86K+B5o2uIiksCiAgICAgICAgKCLooYzliqgiLCByIuihjOWKqHzkuIvkuIDmraV86LSf6LSj5Lq6IiksCiAgICBdLAogICAgIm1lZXRpbmctbWludXRlcyI6IFsKICAgICAgICAoIuWGs+etliIsIHIi5Yaz562WfOe7k+iuunzorq7lrpoiKSwKICAgICAgICAoIuihjOWKqOmhuSIsIHIi6LSf6LSj5Lq6fOaXtumXtHzooYzliqh85a6M5oiQIiksCiAgICAgICAgKCLlvoXlrpoiLCByIuW+heihpeWFhXzlvoXlrpp85b6F56Gu6K6kIiksCiAgICBdLAogICAgInJpc2stcGxhbiI6IFsKICAgICAgICAoIumjjumZqea4heWNlSIsIHIi6aOO6ZmpIiksCiAgICAgICAgKCLop6blj5Hkv6Hlj7ciLCByIuS/oeWPt3zop6blj5F85p2h5Lu2IiksCiAgICAgICAgKCLotKPku7vkuroiLCByIui0n+i0o+S6unzotKPku7t86Lev5b6EfOmZjee6pyIpLAogICAgXSwKICAgICJub3ZlbCI6IFsKICAgICAgICAoIumrmOamguW/tSIsIHIi5qaC5b+1fOmrmOamguW/tXzkuJbnlYx85Li76aKYIiksCiAgICAgICAgKCLkurrniakiLCByIuS6uueJqXzop5LoibJ85qyy5pybfOaBkOaDpyIpLAogICAgICAgICgi5Yay56qBIiwgciLlhrLnqoF86Zi75YqbfOi9rOaKmCIpLAogICAgICAgICgi57uT5bGAIiwgciLnu5PlsYB857uI54K5fOaUtuadnyIpLAogICAgICAgICgi5YaZ5L2c5omL5rOVIiwgciLop4bop5J86IqC5aWPfOWvueeZvXzmr5Tllrt85oKs5b+1fOmSqeWtkCIpLAogICAgXSwKICAgICJzY3JlZW5wbGF5IjogWwogICAgICAgICgi5Zy65pmv5Lu75YqhIiwgciLlnLrmma985Lu75YqhfOebrueahCIpLAogICAgICAgICgi5Yqo5L2c6KeG6KeJIiwgciLliqjkvZx86KeG6KeJfOmVnOWktHzmma/liKt85YWJ57q/IiksCiAgICAgICAgKCLlr7nnmb0iLCByIuWvueeZvXzlj7Dor4185a+56K+dIiksCiAgICAgICAgKCLmgqzlv7UiLCByIuaCrOW/tXzpkqnlrZB85pyf5b6FIiksCiAgICBdLAogICAgImFpLXZpZGVvIjogWwogICAgICAgICgi5Li75L2TIiwgciLkuLvkvZN86KeS6ImyfOS6uueJqXzpgZPlhbciKSwKICAgICAgICAoIuWKqOS9nOaXtumXtOe6vyIsIHIi5Yqo5L2cfOenknzml7bpl7R86LW354K5fOe7iOeCuSIpLAogICAgICAgICgi6ZWc5aS0IiwgciLplZzlpLR85pmv5YirfOi/kOmVnHzmnLrkvY0iKSwKICAgICAgICAoIuWFiee6v+mjjuagvCIsIHIi5YWJ57q/fOmjjuagvHzoibLlval854Gv5YWJIiksCiAgICAgICAgKCLlo7Dpn7MiLCByIuWjsOmfs3zpn7PmlYh86Z+z5LmQfOmdmemfsyIpLAogICAgICAgICgi6ZmQ5Yi2IiwgciLkv53mjIF86ZmQ5Yi2fOS4jeWPmOmHj3zotJ/lkJEiKSwKICAgIF0sCiAgICAibm9uZmljdGlvbiI6IFsKICAgICAgICAoIuS6i+Wunui+ueeVjCIsIHIi5LqL5a6efOadpea6kHzkv6HmupB85b6F5qC46aqMIiksCiAgICAgICAgKCLph4forr/ntKDmnZAiLCByIumHh+iuv3zorr/osIh85byV6K+tfOe0oOadkCIpLAogICAgICAgICgi57yW6L6R5a6h56i/IiwgciLnvJbovpF85a6h56i/fOS/ruaUuXznu4jlrqEiKSwKICAgIF0sCn0KCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1maWxlIiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0ib3V0cHV0IGZpbGUgdG8gaW5zcGVjdCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLW91dHB1dC10eXBlIiwKICAgICAgICByZXF1aXJlZD1UcnVlLAogICAgICAgIGNob2ljZXM9c29ydGVkKENIRUNLUyksCiAgICAgICAgaGVscD0iZGVsaXZlcmFibGUgdHlwZSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsIGhlbHA9Im9wdGlvbmFsIG1hcmtkb3duIHJlcG9ydCBwYXRoIikKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCgogICAgcGF0aCA9IFBhdGgoYXJncy5maWxlKQogICAgaWYgbm90IHBhdGguZXhpc3RzKCk6CiAgICAgICAgcHJpbnQoZiJFUlJPUiBmaWxlIG5vdCBmb3VuZDoge3BhdGh9IikKICAgICAgICByZXR1cm4gMQoKICAgIHRleHQgPSBwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpCiAgICByb3dzID0gW10KICAgIGZvciBsYWJlbCwgcGF0dGVybnMgaW4gQ0hFQ0tTW2FyZ3Mub3V0cHV0X3R5cGVdOgogICAgICAgIGZvdW5kID0gYW55KHJlLnNlYXJjaChwYXR0ZXJuLCB0ZXh0KSBmb3IgcGF0dGVybiBpbiBwYXR0ZXJucykKICAgICAgICByb3dzLmFwcGVuZCgobGFiZWwsIGZvdW5kKSkKCiAgICBwYXNzZWQgPSBzdW0oMSBmb3IgXywgb2sgaW4gcm93cyBpZiBvaykKICAgIHRvdGFsID0gbGVuKHJvd3MpCiAgICBsaW5lcyA9IFsKICAgICAgICAiIyDpq5jnlJ/kuqflipvovpPlh7rmnLrmorDoh6rmo4AiLAogICAgICAgICIiLAogICAgICAgIGYiLSBmaWxlOiB7cGF0aH0iLAogICAgICAgIGYiLSBvdXRwdXRfdHlwZToge2FyZ3Mub3V0cHV0X3R5cGV9IiwKICAgICAgICBmIi0gcmVzdWx0OiB7cGFzc2VkfS97dG90YWx9IGNoZWNrcyBmb3VuZCIsCiAgICAgICAgIiIsCiAgICAgICAgInwg5qOA5p+l6aG5IHwg5piv5ZCm5ZG95LitIHwiLAogICAgICAgICJ8LS0tfC0tLXwiLAogICAgXQogICAgZm9yIGxhYmVsLCBvayBpbiByb3dzOgogICAgICAgIGxpbmVzLmFwcGVuZChmInwge2xhYmVsfSB8IHsnUEFTUycgaWYgb2sgZWxzZSAnTUlTU0lORyd9IHwiKQogICAgbGluZXMgKz0gWwogICAgICAgICIiLAogICAgICAgICLms6jvvJrov5nmmK/mnLrmorDlhbPplK7or43mo4Dmn6XvvIzkuI3og73mm7/ku6Pkurrlt6XmoLjpqozkuovlrp7jgIHkuJPkuJrovrnnlYzjgIHlubPlj7DlkIjop4TlkoznnJ/lrp7lj43ppojjgIIiLAogICAgICAgICIiLAogICAgXQogICAgcmVwb3J0ID0gIlxuIi5qb2luKGxpbmVzKQogICAgcHJpbnQocmVwb3J0KQogICAgaWYgYXJncy5vdXRwdXQ6CiAgICAgICAgb3V0ID0gUGF0aChhcmdzLm91dHB1dCkKICAgICAgICBvdXQucGFyZW50Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBvdXQud3JpdGVfdGV4dChyZXBvcnQsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgcHJpbnQoZiJvdXRwdXQ6IHtvdXR9IikKICAgIHJldHVybiAwCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHN5cy5leGl0KG1haW4oKSkK
+#!/usr/bin/env python3
+"""Run mechanical pre-delivery checks on a high-productivity output file."""
+
+import argparse
+import re
+import sys
+from pathlib import Path
+
+
+CHECKS = {
+    "ppt": [
+        ("价值主张", r"价值|一句话|痛点"),
+        ("行动入口", r"下一步|行动|联系|融资|合作"),
+        ("数据来源", r"来源|数据|待核验"),
+    ],
+    "project-plan": [
+        ("定位与目标", r"定位|目标|价值"),
+        ("主备路径", r"备选|路径|方案"),
+        ("风险", r"风险"),
+        ("复查指标", r"复查|指标|失效|节点"),
+    ],
+    "bid": [
+        ("响应评分", r"评分|响应|要求|标准"),
+        ("资质合规", r"资质|合规|证明|盖章"),
+        ("方案", r"方案|实施|计划"),
+    ],
+    "thesis-defense": [
+        ("研究问题", r"问题|研究|目标"),
+        ("方法", r"方法|数据|分析"),
+        ("局限", r"局限|不足|下一步"),
+    ],
+    "debate": [
+        ("立场", r"立场|观点|主张"),
+        ("判准", r"判准|定义|标准"),
+        ("反方", r"反方|反对|质疑"),
+    ],
+    "business-plan": [
+        ("痛点", r"痛点|问题|需求"),
+        ("方案", r"方案|产品|服务"),
+        ("商业模式", r"付费|收入|模式|成本"),
+        ("风险", r"风险|退出|失效"),
+    ],
+    "report": [
+        ("结论", r"结论|建议"),
+        ("证据", r"依据|数据|来源|证据"),
+        ("行动", r"行动|下一步|负责人"),
+    ],
+    "meeting-minutes": [
+        ("决策", r"决策|结论|议定"),
+        ("行动项", r"负责人|时间|行动|完成"),
+        ("待定", r"待补充|待定|待确认"),
+    ],
+    "risk-plan": [
+        ("风险清单", r"风险"),
+        ("触发信号", r"信号|触发|条件"),
+        ("责任人", r"负责人|责任|路径|降级"),
+    ],
+    "novel": [
+        ("高概念", r"概念|高概念|世界|主题"),
+        ("人物", r"人物|角色|欲望|恐惧"),
+        ("冲突", r"冲突|阻力|转折"),
+        ("结局", r"结局|终点|收束"),
+        ("写作手法", r"视角|节奏|对白|比喻|悬念|钩子"),
+    ],
+    "screenplay": [
+        ("场景任务", r"场景|任务|目的"),
+        ("动作视觉", r"动作|视觉|镜头|景别|光线"),
+        ("对白", r"对白|台词|对话"),
+        ("悬念", r"悬念|钩子|期待"),
+    ],
+    "ai-video": [
+        ("主体", r"主体|角色|人物|道具"),
+        ("动作时间线", r"动作|秒|时间|起点|终点"),
+        ("镜头", r"镜头|景别|运镜|机位"),
+        ("光线风格", r"光线|风格|色彩|灯光"),
+        ("声音", r"声音|音效|音乐|静音"),
+        ("限制", r"保持|限制|不变量|负向"),
+    ],
+    "nonfiction": [
+        ("事实边界", r"事实|来源|信源|待核验"),
+        ("采访素材", r"采访|访谈|引语|素材"),
+        ("编辑审稿", r"编辑|审稿|修改|终审"),
+    ],
+}
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--file", required=True, help="output file to inspect")
+    parser.add_argument(
+        "--output-type",
+        required=True,
+        choices=sorted(CHECKS),
+        help="deliverable type",
+    )
+    parser.add_argument("--output", help="optional markdown report path")
+    args = parser.parse_args()
+
+    path = Path(args.file)
+    if not path.exists():
+        print(f"ERROR file not found: {path}")
+        return 1
+
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    rows = []
+    for label, patterns in CHECKS[args.output_type]:
+        found = any(re.search(pattern, text) for pattern in patterns)
+        rows.append((label, found))
+
+    passed = sum(1 for _, ok in rows if ok)
+    total = len(rows)
+    lines = [
+        "# 高生产力输出机械自检",
+        "",
+        f"- file: {path}",
+        f"- output_type: {args.output_type}",
+        f"- result: {passed}/{total} checks found",
+        "",
+        "| 检查项 | 是否命中 |",
+        "|---|---|",
+    ]
+    for label, ok in rows:
+        lines.append(f"| {label} | {'PASS' if ok else 'MISSING'} |")
+    lines += [
+        "",
+        "注：这是机械关键词检查，不能替代人工核验事实、专业边界、平台合规和真实反馈。",
+        "",
+    ]
+    report = "\n".join(lines)
+    print(report)
+    if args.output:
+        out = Path(args.output)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(report, encoding="utf-8")
+        print(f"output: {out}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

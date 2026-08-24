@@ -1,1 +1,78 @@
-IyDlpJrlubPlj7Dlj5HluIPor7TmmI4KCuWFrOW8gOeJiOaMieS4pOenjeS6pOS7mOW9ouaAgeaJk+WMhe+8mgoKfCDlvaLmgIEgfCDljovnvKnljIUgfCDpgILnlKjlnLrmma8gfAp8LS0tfC0tLXwtLS18CnwgQ29kZXgg5o+S5Lu2IHwgYGRpc3Qvc2ltYWd1YW5nLXBlcnNwZWN0aXZlLTAuMy4wLWNvZGV4LXBsdWdpbi56aXBgIHwgQ29kZXgg5o+S5Lu255Sf5oCB44CB5pys5Zyw5o+S5Lu25a6J6KOFIHwKfCBDb2RleCDnn6Xor4bmianlsZUgfCBgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgta25vd2xlZGdlLnppcGAgfCDkuLogQ29kZXgg5o+S5Lu26KGl5YWF5a6M5pW06YCQ5Lmm5oqA6IO95YyFIHwKfCBDb2RleCDluILlnLrku5PlupMgfCBgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtbWFya2V0cGxhY2UuemlwYCB8IOS4iuS8oOWFrOW8gOS7k+W6k+OAgeaPkOS6pCBDb2RleCDmj5Lku7bluILlnLogfAp8IOmAmueUqCBTa2lsbCB8IGBkaXN0L3NpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMtMC4zLjAuemlwYCB8IE9wZW5BSSBTa2lsbHPjgIFDbGF1ZGUgU2tpbGxz44CB6YCa55SoIFNraWxsIOW5s+WPsCB8Cnwg55+l6K+G5omp5bGVIHwgYGRpc3Qvc2ltYWd1YW5nLXBlcnNwZWN0aXZlLXB1YmxpYy0wLjMuMC1rbm93bGVkZ2UuemlwYCB8IOmcgOimgeWujOaVtOmAkOS5puaKgOiDveWMheeahOa3seW6pueUqOaItyB8CgojIyBDb2RleCDmj5Lku7bljIUKCuaPkuS7tuWMheWGheW3suWMheWQq++8mgoKLSBgLmNvZGV4LXBsdWdpbi9wbHVnaW4uanNvbmDvvJpDb2RleCDmj5Lku7bmuIXljZUKLSBgc2tpbGxzL3NpbWFndWFuZy1wZXJzcGVjdGl2ZS9g77ya5Y+v6KKrIENvZGV4IOivhuWIq+eahCBTa2lsbCDnm67lvZUKLSBgUkVBRE1FLm1kYOOAgWBMSUNFTlNFYO+8muWuieijheivtOaYjuWSjOiuuOWPrwoK5pys5Zyw5rWL6K+V5pe277yM6Kej5Y6L5ZCO5bCGIGBza2lsbHMvc2ltYWd1YW5nLXBlcnNwZWN0aXZlYCDmlL7lhaUgYH4vLmNvZGV4L3NraWxscy9g77yM5oiW6YCa6L+H5bey6YWN572u55qE5pys5Zyw5o+S5Lu25biC5Zy65a6J6KOF44CCCgojIyDpgJrnlKggU2tpbGwg5YyFCgrpgJrnlKjljIXnm7TmjqXku6UgYHNpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMvYCDkvZzkuLogU2tpbGwg5qC555uu5b2V77yM5YyF5ZCr77yaCgotIGBTS0lMTC5tZGDvvJrkuLvmioDog73lhaXlj6MKLSBgcmVmZXJlbmNlcy9g77ya5Y2P6K6u44CB5pa55rOV572R57uc5ZKM57Si5byVCi0gYHNjcmlwdHMvYO+8muagoemqjOOAgeWkjeebmOOAgea6r+a6kOWSjOiSuOmmj+iEmuacrAotIGBleGFtcGxlcy9g77ya5b+r6YCf5LiK5omL56S65L6LCi0gYHRlc3QtcHJvbXB0cy5qc29uYO+8mjMwMyDmnaHmtYvor5UKLSBgUkVBRE1FLm1kYOOAgWBMSUNFTlNFYOOAgWBtYW5pZmVzdC5qc29uYAoK55uu5qCH5bmz5Y+w6Iul6KaB5rGCIFNLSUxMLm1kIOW4piBZQU1MIGZyb250bWF0dGVy77yM5pys5YyF5bey5ruh6Laz44CCCgojIyDlj5HluIPmtYHnqIsKCjEuIOaJk+WMheS4juagoemqjO+8mui/kOihjCBgc2NyaXB0cy9idWlsZF9yZWxlYXNlLnB5YO+8jOaguOWvuSBgZGlzdC9TSEEyNTZTVU1TLnR4dGDjgIIKMi4g5pys5Zyw5a6e5rWL77ya5YWI5ZyoIENvZGV444CBV29ya0J1ZGR5IOaIluebruagh+W5s+WPsOWvvOWFpe+8jOi3kea8lOekuiBQcm9tcHTvvIznoa7orqTog73mraPluLjosIPnlKjjgIIKMy4g5bmz5Y+w5o+Q5Lqk77ya5oyJ5bmz5Y+w6KaB5rGC5LiK5Lyg5a+55bqU5YyF77yM5aGr5YaZ566A5LuL44CB6ZqQ56eB5aOw5piO44CB6IO95Yqb6L6555WM44CB5rWL6K+V57uT5p6c5ZKMIFNIQTI1NuOAggo0LiDlrqHmoLjkuI7nu7TmiqTvvJrlrqHmoLjpgJrov4flkI7kv53nlZnniYjmnKzlj7fjgIFDSEFOR0VMT0cg5ZKM5pu05paw5YWl5Y+j77yb5q+P5qyh5YaF5a655Y+Y5pu06YeN5paw5omT5YyF5bm25pu05paw5qCh6aqM5YC844CCCgojIyDmj5DkuqTmnZDmlpkKCi0gYGRpc3Qvc2ltYWd1YW5nLXBlcnNwZWN0aXZlLXB1YmxpYy0wLjMuMC56aXBg77ya6YCa55SoIFNraWxsIOWMhQotIGBkaXN0L3NpbWFndWFuZy1wZXJzcGVjdGl2ZS1wdWJsaWMtMC4zLjAta25vd2xlZGdlLnppcGDvvJrlj6/pgInnn6Xor4bmianlsZXljIUKLSBgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtcGx1Z2luLnppcGDvvJpDb2RleCDmj5Lku7bljZXljIUKLSBgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtbWFya2V0cGxhY2UuemlwYO+8mkNvZGV4IOW4guWcuuS7k+W6k+WMhQotIGBkaXN0L1NIQTI1NlNVTVMudHh0YO+8muagoemqjOa4heWNlQotIGDku4vnu43kuI7mvJTnpLoubWRg77ya566A5LuL44CB5ryU56S6IFByb21wdCDlkozlsZXnpLrmlrnlvI8KLSBg5Y+R5biD5o+Q5Lqk5p2Q5paZLm1kYO+8muW5s+WPsOaPkOS6pOaWh+ahiOWSjOajgOafpea4heWNlQoKIyMg5Y+R5biD5YmN5qOA5p+lCgpgYGBiYXNoCnB5dGhvbjMgc2NyaXB0cy9idWlsZF9yZWxlYXNlLnB5CnB5dGhvbjMgc2NyaXB0cy9jaGVja19pbnRlZ3JhdGlvbi5weQpweXRob24zIHNjcmlwdHMvcnVuX3Rlc3RfcHJvbXB0cy5weSAtLXByb21wdHMgdGVzdC1wcm9tcHRzLmpzb24KYGBgCgrkuIrkvKDliLDlhazlvIDlubPlj7DpnIDopoHlr7nlupTlubPlj7DnmoTotKblj7fjgIHmuKDpgZPlkozlrqHmoLjmtYHnqIvvvJvmnKznm67lvZXlj6rotJ/otKPlj6/lpI3njrDmiZPljIXlkozmnKzlnLDpqozor4HjgIIKCuW4uOingemXrumimO+8mgoKLSDlubPlj7Dlronlhajmiavmj4/lj6/og73mi6bmiKrohJrmnKzvvJrlhYjmn6XnnIvmiavmj4/miqXlkYrvvIzlho3lhrPlrprmmK/lkKbosIPmlbTjgIIKLSDkuI3lkIzlubPlj7Dlr7kgU2tpbGwg55uu5b2V5L2N572u6KaB5rGC5LiN5ZCM77ya5Lul5a6Y5pa56K6+572u6aG15Li65YeG44CCCi0g5LiK5Lyg5ZCO6Iul5peg5rOV6Kem5Y+R77ya5YWI56Gu6K6k5piv5ZCm5paw5byA5a+56K+d77yM5bm256Gu6K6k5YyF5YaFIGBTS0lMTC5tZGAg6KKr5q2j56Gu5Yqg6L2944CCCgojIyDooaXlhYXmlofmoaMKCi0gW1dvcmtCdWRkeSDlronoo4Xor7TmmI5dKFdvcmtCdWRkeeWuieijhS5tZCkKLSBbQ29kZXgg5o+S5Lu25Y+R5biD6K+05piOXShDb2RleOaPkuS7tuWPkeW4gy5tZCkKLSBb57u85ZCIIFNraWxsIOW5s+WPsOWPkeW4g+ivtOaYjl0o57u85ZCIU2tpbGzlubPlj7Dlj5HluIMubWQpCi0gW+WPkeW4g+a1geeoi10o5Y+R5biD5rWB56iLLm1kKQotIFvlubPlj7Dlj5HluIPmraXpqqRdKOW5s+WPsOWPkeW4g+atpemqpC5tZCkKLSBb5Y+R5biD5qOA5p+l5riF5Y2VXSjlj5HluIPmo4Dmn6XmuIXljZUubWQpCi0gW+S7i+e7jeS4jua8lOekul0o5LuL57uN5LiO5ryU56S6Lm1kKQotIFvlj5HluIPmj5DkuqTmnZDmlpldKOWPkeW4g+aPkOS6pOadkOaWmS5tZCkK
+# 多平台发布说明
+
+公开版按两种交付形态打包：
+
+| 形态 | 压缩包 | 适用场景 |
+|---|---|---|
+| Codex 插件 | `dist/simaguang-perspective-0.3.1-codex-plugin.zip` | Codex 插件生态、本地插件安装 |
+| Codex 知识扩展 | `dist/simaguang-perspective-0.3.1-codex-knowledge.zip` | 为 Codex 插件补充完整逐书知识文件 |
+| Codex 市场仓库 | `dist/simaguang-perspective-0.3.1-codex-marketplace.zip` | 上传公开仓库、提交 Codex 插件市场 |
+| 通用 Skill | `dist/simaguang-perspective-public-0.3.1.zip` | OpenAI Skills、Claude Skills、通用 Skill 平台 |
+| 知识扩展 | `dist/simaguang-perspective-public-0.3.1-knowledge.zip` | 需要完整逐书知识文件的深度用户 |
+
+## Codex 插件包
+
+插件包内已包含：
+
+- `.codex-plugin/plugin.json`：Codex 插件清单
+- `skills/simaguang-perspective/`：可被 Codex 识别的 Skill 目录
+- `README.md`、`LICENSE`：安装说明和许可
+
+本地测试时，解压后将 `skills/simaguang-perspective` 放入 `~/.codex/skills/`，或通过已配置的本地插件市场安装。
+
+## 通用 Skill 包
+
+通用包直接以 `simaguang-perspective-public/` 作为 Skill 根目录，包含：
+
+- `SKILL.md`：主技能入口
+- `references/`：协议、方法网络和索引
+- `scripts/`：校验、复盘、溯源和蒸馏脚本
+- `examples/`：快速上手示例
+- `test-prompts.json`：303 条测试
+- `README.md`、`LICENSE`、`manifest.json`
+
+目标平台若要求 SKILL.md 带 YAML frontmatter，本包已满足。
+
+## 发布流程
+
+1. 打包与校验：运行 `scripts/build_release.py`，核对 `dist/SHA256SUMS.txt`。
+2. 本地实测：先在 Codex、WorkBuddy 或目标平台导入，跑演示 Prompt，确认能正常调用。
+3. 平台提交：按平台要求上传对应包，填写简介、隐私声明、能力边界、测试结果和 SHA256。
+4. 审核与维护：审核通过后保留版本号、CHANGELOG 和更新入口；每次内容变更重新打包并更新校验值。
+
+## 提交材料
+
+- `dist/simaguang-perspective-public-0.3.1.zip`：通用 Skill 包
+- `dist/simaguang-perspective-public-0.3.1-knowledge.zip`：可选知识扩展包
+- `dist/simaguang-perspective-0.3.1-codex-plugin.zip`：Codex 插件单包
+- `dist/simaguang-perspective-0.3.1-codex-marketplace.zip`：Codex 市场仓库包
+- `dist/SHA256SUMS.txt`：校验清单
+- `介绍与演示.md`：简介、演示 Prompt 和展示方式
+- `发布提交材料.md`：平台提交文案和检查清单
+
+## 发布前检查
+
+```bash
+python3 scripts/build_release.py
+python3 scripts/check_integration.py
+python3 scripts/run_test_prompts.py --prompts test-prompts.json
+```
+
+上传到公开平台需要对应平台的账号、渠道和审核流程；本目录只负责可复现打包和本地验证。
+
+常见问题：
+
+- 平台安全扫描可能拦截脚本：先查看扫描报告，再决定是否调整。
+- 不同平台对 Skill 目录位置要求不同：以官方设置页为准。
+- 上传后若无法触发：先确认是否新开对话，并确认包内 `SKILL.md` 被正确加载。
+
+## 补充文档
+
+- [WorkBuddy 安装说明](WorkBuddy安装.md)
+- [Codex 插件发布说明](Codex插件发布.md)
+- [综合 Skill 平台发布说明](综合Skill平台发布.md)
+- [发布流程](发布流程.md)
+- [平台发布步骤](平台发布步骤.md)
+- [发布检查清单](发布检查清单.md)
+- [介绍与演示](介绍与演示.md)
+- [发布提交材料](发布提交材料.md)

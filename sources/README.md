@@ -1,1 +1,9 @@
-IyDmnaXmupDor7TmmI4KCuacrOWFrOW8gOeJiOS4jemaj+WMheWPkeW4g+WOn+Wni+S5puexjeWOn+S5puaWh+acrO+8jOS5n+S4jeWPkeW4g+S7u+S9leWPl+eJiOadg+S/neaKpOeahOWFqOaWh+OAggoK5p2l5rqQ5pa55byP77yaCi0g5oqA6IO95YyF5Lit55qE5Yik5pat5bC644CB5Y2P6K6u5ZKM5qGI5L6L5Li65YWs5byA5pa55rOV6K6644CCCi0g6L276YeP5YyF5ZCrIDIxNSDmnaHkuabnsY3mkZjopoHvvIznn6Xor4bmianlsZXljIXlkKsgMjE1IOS4quiEseaVj+mAkOS5puaKgOiDveWMheOAggotIOW8leeUqOS5puexjeaXtuWPquaPkOS+m+S5puWQjeOAgeS9nOiAheOAgeeJiOacrOWSjOWFrOW8gOiOt+WPluaWueW8j+OAggotIOWmgumcgOWOn+aWh+aguOmqjO+8jOivt+iOt+WPluato+eJiOS5puexjeaIluS9v+eUqOW3suiOt+aOiOadg+eahOWFrOW8gOaWh+acrOOAggo=
+# 来源说明
+
+本公开版不随包发布原始书籍原书文本，也不发布任何受版权保护的全文。
+
+来源方式：
+- 技能包中的判断尺、协议和案例为公开方法论。
+- 轻量包含 215 条书籍摘要，知识扩展包含 215 个脱敏逐书技能包。
+- 引用书籍时只提供书名、作者、版本和公开获取方式。
+- 如需原文核验，请获取正版书籍或使用已获授权的公开文本。

@@ -1,1 +1,150 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJDaGVjayBjb3JlIGludGVncmF0aW9uIGZpbGVzLCBrbm93bGVkZ2UgcGFja2FnZXMsIHJvdXRpbmcgbGlua3MgYW5kIHByaXZhY3kuIiIiCgppbXBvcnQganNvbgppbXBvcnQgcmUKaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudHNbMV0KClJFUVVJUkVEID0gWwogICAgIlNLSUxMLm1kIiwKICAgICJ0ZXN0LXByb21wdHMuanNvbiIsCiAgICAibWFuaWZlc3QuanNvbiIsCiAgICAicmVmZXJlbmNlcy/mlrnms5XnvZHnu5wubWQiLAogICAgInJlZmVyZW5jZXMv5qC45b+D5qaC5b+157Si5byVLm1kIiwKICAgICJyZWZlcmVuY2VzL+aKgOiDveWQiOW5tue0ouW8lS5tZCIsCiAgICAicmVmZXJlbmNlcy/mioDog73ot6/nlLHntKLlvJUubWQiLAogICAgInJlZmVyZW5jZXMv5oqA6IO96Lev55Sx6YWN572uLm1kIiwKICAgICJyZWZlcmVuY2VzL+aKgOiDvei3r+eUseWPjemmiOaXpeW/ly5tZCIsCiAgICAicmVmZXJlbmNlcy/ntKDmnZDmnaXmupDntKLlvJUubWQiLAogICAgInJlZmVyZW5jZXMv5oqA6IO95byC5ZCM6KGoLm1kIiwKICAgICJyZWZlcmVuY2VzL+iwg+eUqOS8mOWMluWNj+iuri5tZCIsCiAgICAicmVmZXJlbmNlcy/nn6Xor4bokrjppo/ml6Xlv5cubWQiLAogICAgInJlZmVyZW5jZXMv6Ieq5oiR5a2m5Lmg5pel5b+XLm1kIiwKICAgICJyZWZlcmVuY2VzL+WtpuS5oOW+queOr+WNj+iuri5tZCIsCiAgICAicmVmZXJlbmNlcy/lr7nor53kuI7ouqvku73pgILphY3ljY/orq4ubWQiLAogICAgInJlZmVyZW5jZXMv5Y+Y5YyW5pe256m66LGh5pWw5qih5Z2X5Y2P6K6uLm1kIiwKICAgICJyZWZlcmVuY2VzL+aOqOa8lOWGs+etluaXtuacuuWNj+iuri5tZCIsCiAgICAicmVmZXJlbmNlcy/muq/mupDmoIfms6jljY/orq4ubWQiLAogICAgInJlZmVyZW5jZXMv6JK46aaP5pa55rOV6K665by65YyW5oqA6IO95YyFLm1kIiwKICAgICJyZWZlcmVuY2VzL+mrmOeUn+S6p+WKm+acjeWKoeWNj+iuri5tZCIsCiAgICAicmVmZXJlbmNlcy/pq5jnlJ/kuqflipvljY/kvZzliIblt6XljY/orq4ubWQiLAogICAgInJlZmVyZW5jZXMv6auY55Sf5Lqn5Yqb5Zy65pmv5qih5p2/Lm1kIiwKICAgICJyZWZlcmVuY2VzL+iDveWKm+i9rOW3peS9nOaIkOaenOa4heWNlS5tZCIsCiAgICAicmVmZXJlbmNlcy9BSeW9seinhuW3peWFt+S4juaPkOekuuivjeWNj+iuri5tZCIsCiAgICAicmVmZXJlbmNlcy/lsI/or7TliafmnKzono3lkIjliJvkvZzljY/orq4ubWQiLAogICAgInJlZmVyZW5jZXMv5LiT5Lia6L6555WM5LiO5aSN5qC45riF5Y2VLm1kIiwKICAgICJyZWZlcmVuY2VzL+S6i+WunuS4juaVsOaNruaguOmqjOWNj+iuri5tZCIsCiAgICAicmVmZXJlbmNlcy/pq5jnlJ/kuqflipvlj43ppojpl63njq/ljY/orq4ubWQiLAogICAgInJlZmVyZW5jZXMv6auY55Sf5Lqn5Yqb6L6T5Ye66Ieq5qOA5riF5Y2VLm1kIiwKICAgICJyZWZlcmVuY2VzL+ihjOS4muaooeadv+S4juivhOWuoeagh+WHhuW6ky5tZCIsCiAgICAic2NyaXB0cy9yZXZpZXdfbGVhcm5pbmdfbG9nLnB5IiwKICAgICJzY3JpcHRzL2J1aWxkX3RyYWNlYWJpbGl0eV9wYW5lbC5weSIsCiAgICAic2NyaXB0cy9nZW5lcmF0ZV93b3JrX3Byb2R1Y3QucHkiLAogICAgInNjcmlwdHMvY2hlY2tfZGlzdGlsbGF0aW9uX3F1YWxpdHkucHkiLAogICAgInNjcmlwdHMvcnVuX2hpZ2hfcHJvZHVjdGl2aXR5X2NoZWNrcy5weSIsCiAgICAic2NyaXB0cy9hcmNoaXZlX3dvcmtfcHJvZHVjdF9mZWVkYmFjay5weSIsCiAgICAic2NyaXB0cy9ydW5fcmVncmVzc2lvbl9ldmFscy5weSIsCiAgICAia25vd2xlZGdlL1JFQURNRS5tZCIsCl0KCkVYUEVDVEVEX1RFU1RfQ0FTRVMgPSAzMDMKRVhQRUNURURfQk9PS1MgPSAyMTUKRVhQRUNURURfU1VNTUFSSUVTID0gMjE1CgpQUklWQUNZX1BBVFRFUk5TID0gWwogICAgIi9Vc2VycyIgKyAiL2xpcyIsCiAgICAifi8iICsgIi5jb2RleCIsCiAgICAiY2MtIiArICJzd2l0Y2giLAogICAgIkNDICIgKyAiU3dpdGNoIiwKICAgICJUaWsiICsgIlRvayIsCiAgICAi5p6XIiArICLmt7EiLAogICAgIkVsIiArICJvbiIsCiAgICAiTXUiICsgInNrIiwKICAgICLpqawiICsgIuaWr+WFiyIsCiAgICAi5pegIiArICLloqjogIUiLAogICAgIuaIkCIgKyAi5Lq655So5ZOBIiwKICAgICLkuabnsY3okrgiICsgIummjy8iLAogICAgImlucCIgKyAidXQvIiwKICAgICLmuIUiICsgIueQhueJiCIsCl0KCgpkZWYgbWFpbigpIC0+IGludDoKICAgIG9rID0gVHJ1ZQogICAgZm9yIHJlbCBpbiBSRVFVSVJFRDoKICAgICAgICBwYXRoID0gUk9PVCAvIHJlbAogICAgICAgIGV4aXN0cyA9IHBhdGguZXhpc3RzKCkKICAgICAgICBvayA9IG9rIGFuZCBleGlzdHMKICAgICAgICBwcmludChmInsnT0snIGlmIGV4aXN0cyBlbHNlICdNSVNTSU5HJ30ge3JlbH0iKQoKICAgIHByb21wdHNfcGF0aCA9IFJPT1QgLyAidGVzdC1wcm9tcHRzLmpzb24iCiAgICBpZiBwcm9tcHRzX3BhdGguZXhpc3RzKCk6CiAgICAgICAgZGF0YSA9IGpzb24ubG9hZHMocHJvbXB0c19wYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgICAgICBjYXNlcyA9IGRhdGEuZ2V0KCJ0ZXN0X2Nhc2VzIiwgW10pCiAgICAgICAgcHJpbnQoZiJ0ZXN0X2Nhc2VzOiB7bGVuKGNhc2VzKX0gZXhwZWN0ZWQ6IHtFWFBFQ1RFRF9URVNUX0NBU0VTfSIpCiAgICAgICAgb2sgPSBvayBhbmQgbGVuKGNhc2VzKSA9PSBFWFBFQ1RFRF9URVNUX0NBU0VTCiAgICBlbHNlOgogICAgICAgIG9rID0gRmFsc2UKCiAgICBib29rcyA9IFJPT1QgLyAia25vd2xlZGdlIiAvICJib29rcyIKICAgIHN1bW1hcmllcyA9IFJPT1QgLyAia25vd2xlZGdlIiAvICJzdW1tYXJpZXMiCiAgICBib29rX2NvdW50ID0gbGVuKFtwIGZvciBwIGluIGJvb2tzLml0ZXJkaXIoKSBpZiBwLmlzX2RpcigpXSkgaWYgYm9va3MuZXhpc3RzKCkgZWxzZSAwCiAgICBzdW1tYXJ5X2NvdW50ID0gbGVuKFtwIGZvciBwIGluIHN1bW1hcmllcy5nbG9iKCIqLm1kIildKSBpZiBzdW1tYXJpZXMuZXhpc3RzKCkgZWxzZSAwCiAgICBwcmludChmImtub3dsZWRnZV9ib29rczoge2Jvb2tfY291bnR9IGV4cGVjdGVkOiB7RVhQRUNURURfQk9PS1N9IikKICAgIHByaW50KGYia25vd2xlZGdlX3N1bW1hcmllczoge3N1bW1hcnlfY291bnR9IGV4cGVjdGVkOiB7RVhQRUNURURfU1VNTUFSSUVTfSIpCiAgICBvayA9IG9rIGFuZCBib29rX2NvdW50ID09IEVYUEVDVEVEX0JPT0tTIGFuZCBzdW1tYXJ5X2NvdW50ID09IEVYUEVDVEVEX1NVTU1BUklFUwoKICAgIHJvdXRpbmdfcGF0aCA9IFJPT1QgLyAicmVmZXJlbmNlcyIgLyAi5oqA6IO96Lev55Sx57Si5byVLm1kIgogICAgaWYgcm91dGluZ19wYXRoLmV4aXN0cygpOgogICAgICAgIHJvdXRpbmdfdGV4dCA9IHJvdXRpbmdfcGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikKICAgICAgICBsaW5rcyA9IHsKICAgICAgICAgICAgbmFtZQogICAgICAgICAgICBmb3IgbmFtZSBpbiByZS5maW5kYWxsKAogICAgICAgICAgICAgICAgciJrbm93bGVkZ2UvYm9va3MvKFteL2Bcc10rKS9TS0lMTFwubWQiLCByb3V0aW5nX3RleHQKICAgICAgICAgICAgKQogICAgICAgICAgICBpZiBuYW1lICE9ICIqIgogICAgICAgIH0KICAgICAgICBtaXNzaW5nID0gWwogICAgICAgICAgICBuYW1lIGZvciBuYW1lIGluIHNvcnRlZChsaW5rcykgaWYgbm90IChib29rcyAvIG5hbWUgLyAiU0tJTEwubWQiKS5leGlzdHMoKQogICAgICAgIF0KICAgICAgICBwcmludChmInJvdXRpbmdfbGlua3M6IHtsZW4obGlua3MpfSBtaXNzaW5nX2xpbmtzOiB7bGVuKG1pc3NpbmcpfSIpCiAgICAgICAgZm9yIG5hbWUgaW4gbWlzc2luZ1s6MjBdOgogICAgICAgICAgICBwcmludChmIk1JU1NJTkdfUk9VVElOR19CT09LIHtuYW1lfSIpCiAgICAgICAgb2sgPSBvayBhbmQgbm90IG1pc3NpbmcKICAgIGVsc2U6CiAgICAgICAgb2sgPSBGYWxzZQoKICAgIHNjYW5fdGFyZ2V0cyA9IFsKICAgICAgICBST09UIC8gIlNLSUxMLm1kIiwKICAgICAgICBST09UIC8gInRlc3QtcHJvbXB0cy5qc29uIiwKICAgICAgICBST09UIC8gIm1hbmlmZXN0Lmpzb24iLAogICAgICAgICpzb3J0ZWQoKFJPT1QgLyAicmVmZXJlbmNlcyIpLmdsb2IoIioubWQiKSksCiAgICAgICAgKnNvcnRlZCgoUk9PVCAvICJzY3JpcHRzIikuZ2xvYigiKi5weSIpKSwKICAgICAgICAqc29ydGVkKChST09UIC8gImtub3dsZWRnZSIgLyAic3VtbWFyaWVzIikuZ2xvYigiKi5tZCIpKSwKICAgIF0KICAgIHByaXZhY3lfaGl0cyA9IFtdCiAgICBmb3IgcGF0aCBpbiBzY2FuX3RhcmdldHM6CiAgICAgICAgaWYgbm90IHBhdGguaXNfZmlsZSgpOgogICAgICAgICAgICBjb250aW51ZQogICAgICAgIHRleHQgPSBwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpCiAgICAgICAgZm9yIHBhdHRlcm4gaW4gUFJJVkFDWV9QQVRURVJOUzoKICAgICAgICAgICAgaWYgcGF0dGVybiBpbiB0ZXh0OgogICAgICAgICAgICAgICAgcHJpdmFjeV9oaXRzLmFwcGVuZCgoc3RyKHBhdGgucmVsYXRpdmVfdG8oUk9PVCkpLCBwYXR0ZXJuKSkKICAgIHByaW50KGYicHJpdmFjeV9oaXRzOiB7bGVuKHByaXZhY3lfaGl0cyl9IikKICAgIGZvciByZWwsIHBhdHRlcm4gaW4gc29ydGVkKHNldChwcml2YWN5X2hpdHMpKVs6MzBdOgogICAgICAgIHByaW50KGYiUFJJVkFDWV9ISVQge3JlbH06IHtwYXR0ZXJufSIpCiAgICBvayA9IG9rIGFuZCBub3QgcHJpdmFjeV9oaXRzCgogICAgcHJpbnQoIklOVEVHUkFUSU9OX09LIiBpZiBvayBlbHNlICJJTlRFR1JBVElPTl9JTkNPTVBMRVRFIikKICAgIHJldHVybiAwIGlmIG9rIGVsc2UgMQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python3
+"""Check core integration files, knowledge packages, routing links and privacy."""
+
+import json
+import re
+import sys
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+REQUIRED = [
+    "SKILL.md",
+    "test-prompts.json",
+    "manifest.json",
+    "references/方法网络.md",
+    "references/核心概念索引.md",
+    "references/技能合并索引.md",
+    "references/技能路由索引.md",
+    "references/技能路由配置.md",
+    "references/技能路由反馈日志.md",
+    "references/素材来源索引.md",
+    "references/技能异同表.md",
+    "references/调用优化协议.md",
+    "references/知识蒸馏日志.md",
+    "references/自我学习日志.md",
+    "references/学习循环协议.md",
+    "references/对话与身份适配协议.md",
+    "references/变化时空象数模块协议.md",
+    "references/推演决策时机协议.md",
+    "references/溯源标注协议.md",
+    "references/蒸馏方法论强化技能包.md",
+    "references/高生产力服务协议.md",
+    "references/高生产力协作分工协议.md",
+    "references/高生产力场景模板.md",
+    "references/能力转工作成果清单.md",
+    "references/AI影视工具与提示词协议.md",
+    "references/小说剧本融合创作协议.md",
+    "references/专业边界与复核清单.md",
+    "references/事实与数据核验协议.md",
+    "references/高生产力反馈闭环协议.md",
+    "references/高生产力输出自检清单.md",
+    "references/行业模板与评审标准库.md",
+    "scripts/review_learning_log.py",
+    "scripts/build_traceability_panel.py",
+    "scripts/generate_work_product.py",
+    "scripts/check_distillation_quality.py",
+    "scripts/run_high_productivity_checks.py",
+    "scripts/archive_work_product_feedback.py",
+    "scripts/run_regression_evals.py",
+    "knowledge/README.md",
+]
+
+EXPECTED_TEST_CASES = 303
+EXPECTED_BOOKS = 215
+EXPECTED_SUMMARIES = 215
+
+PRIVACY_PATTERNS = [
+    "/Users" + "/lis",
+    "~/" + ".codex",
+    "cc-" + "switch",
+    "CC " + "Switch",
+    "Tik" + "Tok",
+    "林" + "深",
+    "El" + "on",
+    "Mu" + "sk",
+    "马" + "斯克",
+    "无" + "墨者",
+    "成" + "人用品",
+    "书籍蒸" + "馏/",
+    "inp" + "ut/",
+    "清" + "理版",
+]
+
+
+def main() -> int:
+    ok = True
+    for rel in REQUIRED:
+        path = ROOT / rel
+        exists = path.exists()
+        ok = ok and exists
+        print(f"{'OK' if exists else 'MISSING'} {rel}")
+
+    prompts_path = ROOT / "test-prompts.json"
+    if prompts_path.exists():
+        data = json.loads(prompts_path.read_text(encoding="utf-8"))
+        cases = data.get("test_cases", [])
+        print(f"test_cases: {len(cases)} expected: {EXPECTED_TEST_CASES}")
+        ok = ok and len(cases) == EXPECTED_TEST_CASES
+    else:
+        ok = False
+
+    books = ROOT / "knowledge" / "books"
+    summaries = ROOT / "knowledge" / "summaries"
+    book_count = len([p for p in books.glob("*.md")]) if books.exists() else 0
+    summary_count = len([p for p in summaries.glob("*.md")]) if summaries.exists() else 0
+    print(f"knowledge_books: {book_count} expected: {EXPECTED_BOOKS}")
+    print(f"knowledge_summaries: {summary_count} expected: {EXPECTED_SUMMARIES}")
+    ok = ok and book_count == EXPECTED_BOOKS and summary_count == EXPECTED_SUMMARIES
+    nested_skill_files = list(books.rglob("SKILL.md")) if books.exists() else []
+    print(f"nested_skill_files: {len(nested_skill_files)} expected: 0")
+    ok = ok and not nested_skill_files
+
+    routing_path = ROOT / "references" / "技能路由索引.md"
+    if routing_path.exists():
+        routing_text = routing_path.read_text(encoding="utf-8")
+        links = {
+            name
+            for name in re.findall(
+                r"knowledge/books/([^/`\s]+)\.md", routing_text
+            )
+            if name != "*"
+        }
+        missing = [
+            name for name in sorted(links) if not (books / f"{name}.md").exists()
+        ]
+        print(f"routing_links: {len(links)} missing_links: {len(missing)}")
+        for name in missing[:20]:
+            print(f"MISSING_ROUTING_BOOK {name}")
+        ok = ok and not missing
+    else:
+        ok = False
+
+    scan_targets = [
+        ROOT / "SKILL.md",
+        ROOT / "test-prompts.json",
+        ROOT / "manifest.json",
+        *sorted((ROOT / "references").glob("*.md")),
+        *sorted((ROOT / "scripts").glob("*.py")),
+        *sorted((ROOT / "knowledge" / "summaries").glob("*.md")),
+    ]
+    privacy_hits = []
+    for path in scan_targets:
+        if not path.is_file():
+            continue
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        for pattern in PRIVACY_PATTERNS:
+            if pattern in text:
+                privacy_hits.append((str(path.relative_to(ROOT)), pattern))
+    print(f"privacy_hits: {len(privacy_hits)}")
+    for rel, pattern in sorted(set(privacy_hits))[:30]:
+        print(f"PRIVACY_HIT {rel}: {pattern}")
+    ok = ok and not privacy_hits
+
+    print("INTEGRATION_OK" if ok else "INTEGRATION_INCOMPLETE")
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

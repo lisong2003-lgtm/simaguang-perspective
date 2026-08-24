@@ -1,1 +1,26 @@
-IyBLS+S4iemDqOabsiDmkZjopoEKCiMjIOWumuS9jQoK44CKS0vkuInpg6jmm7LjgIvmioDog73ljIXvvIgxMiDkuKrvvIkKCiMjIOaguOW/g+e7k+aehAoKLSAxLiDliIbluIPlvI/mjqfliLYKLSAyLiDmtoznjrDkuI7oh6rnu4Tnu4cKLSAzLiDlhbHlkIzov5vljJYKLSA0LiDmlL7miYvkuI7mjqfliLbmgpborroKLSA1LiDmioDmnK/kvZMKLSA2LiDmioDmnK/ov5vljJYKLSA3LiDpnIDmsYLkuI7pgInmi6kKLSA4LiDkurrmnLrlhbHnlJ8KLSA5LiDljYHkuozkuKrlv4XnhLYKLSAxMC4g6LaL5Yq/5LiN5Y+v6YCGCi0gMTEuIOWinumHj+S4jua2jOeOsAotIDEyLiDkuLvliqjmi6XmirHlv4XnhLYKCiMjIOS9v+eUqOaWueW8jwoKLSDlrozmlbTmioDog73ljIXvvJpga25vd2xlZGdlL2Jvb2tzL0tL5LiJ6YOo5puyL1NLSUxMLm1kYAotIOaMiemcgOivu+WPlu+8jOS4jeW4uOmpu+S4iuS4i+aWh+OAggotIOm7mOiupOWPquWKoOi9veaRmOimge+8jOa3seW6puWIhuaekOaXtuWGjeivu+WujOaVtOWMheOAggo=
+# KK三部曲 摘要
+
+## 定位
+
+《KK三部曲》技能包（12 个）
+
+## 核心结构
+
+- 1. 分布式控制
+- 2. 涌现与自组织
+- 3. 共同进化
+- 4. 放手与控制悖论
+- 5. 技术体
+- 6. 技术进化
+- 7. 需求与选择
+- 8. 人机共生
+- 9. 十二个必然
+- 10. 趋势不可逆
+- 11. 增量与涌现
+- 12. 主动拥抱必然
+
+## 使用方式
+
+- 完整技能包：`knowledge/books/KK三部曲.md`
+- 按需读取，不常驻上下文。
+- 默认只加载摘要，深度分析时再读完整包。

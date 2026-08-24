@@ -1,1 +1,56 @@
-IyBDb2RleCDmj5Lku7bluILlnLrlj5HluIPor7TmmI4KCiMjIOaPkOS6pOWMhQoKQ29kZXgg5biC5Zy65bu66K6u5L2/55So77yaCgotIGBkaXN0L3NpbWFndWFuZy1wZXJzcGVjdGl2ZS0wLjMuMC1jb2RleC1tYXJrZXRwbGFjZS56aXBgCgrov5nkuKrljovnvKnljIXljIXlkKvvvJoKCmBgYHRleHQKc2ltYWd1YW5nLXBlcnNwZWN0aXZlLW1hcmtldHBsYWNlLwrilJzilIDilIAgbWFya2V0cGxhY2UuanNvbgrilJTilIDilIAgcGx1Z2lucy8KICAgIOKUlOKUgOKUgCBzaW1hZ3VhbmctcGVyc3BlY3RpdmUvCiAgICAgICAg4pSc4pSA4pSAIC5jb2RleC1wbHVnaW4vcGx1Z2luLmpzb24KICAgICAgICDilJzilIDilIAgUkVBRE1FLm1kCiAgICAgICAg4pSc4pSA4pSAIExJQ0VOU0UKICAgICAgICDilJTilIDilIAgc2tpbGxzLwogICAgICAgICAgICDilJTilIDilIAgc2ltYWd1YW5nLXBlcnNwZWN0aXZlLwpgYGAKCiMjIOacrOWcsOa1i+ivlQoKMS4g6Kej5Y6LIGBzaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtbWFya2V0cGxhY2UuemlwYOOAggoyLiDmiormlbTkuKogYHNpbWFndWFuZy1wZXJzcGVjdGl2ZS1tYXJrZXRwbGFjZWAg55uu5b2V5pS+5Yiw5pys5Zyw5o+S5Lu25biC5Zy655uu5b2V44CCCjMuIOWcqCBDb2RleCDkuK3mt7vliqDor6XmnKzlnLDluILlnLrjgIIKNC4g5paw5byA5a+56K+d5ZCO6L6T5YWl77yaCgpgYGB0ZXh0CueUqOWPuOmprOWFiee7vOWQiOaAnee7tOW4ruaIkeWIhuaekOS4gOS4qui3qOmDqOmXqOmhueebruivpeS4jeivpee7p+e7reOAggpgYGAKCiMjIOWuieijheefpeivhuaJqeWxlQoK6buY6K6kIENvZGV4IOaPkuS7tuaYr+i9u+mHj+eJiO+8jOWPquWMheWQq+aRmOimgeWxguOAgumcgOimgeWujOaVtOmAkOS5puaKgOiDveWMheaXtu+8jOWuieijhe+8mgoKYGBgdGV4dApkaXN0L3NpbWFndWFuZy1wZXJzcGVjdGl2ZS0wLjMuMC1jb2RleC1rbm93bGVkZ2UuemlwCmBgYAoK6Kej5Y6L5ZCO77yM5bCGIGBzaW1hZ3VhbmctcGVyc3BlY3RpdmUvc2tpbGxzL3NpbWFndWFuZy1wZXJzcGVjdGl2ZS9rbm93bGVkZ2UvYCDlkIjlubbliLDlt7Llronoo4Xmj5Lku7blr7nlupTnm67lvZXjgIIKCiMjIOWFrOW8gOaPkOS6pAoKMS4g5bCGIGBzaW1hZ3VhbmctcGVyc3BlY3RpdmUtbWFya2V0cGxhY2VgIOS4iuS8oOWIsOS4gOS4quWFrOW8gOS7k+W6k+OAggoyLiDnoa7orqQgYG1hcmtldHBsYWNlLmpzb25gIOS4reeahOaPkuS7tui3r+W+hOS7jeS4uiBgLi9wbHVnaW5zL3NpbWFndWFuZy1wZXJzcGVjdGl2ZWDjgIIKMy4g5oyJIENvZGV4IOaPkuS7tuW4guWcuuimgeaxguaPkOS6pOS7k+W6k+WcsOWdgOWSjOWPkeW4g+ivtOaYjuOAggo0LiDnrYnlvoXlubPlj7DlrqHmoLjjgIIKCiMjIOaPkOS6pOadkOaWmQoKLSBgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtcGx1Z2luLnppcGDvvJrmj5Lku7bljZXljIUKLSBgZGlzdC9zaW1hZ3VhbmctcGVyc3BlY3RpdmUtMC4zLjAtY29kZXgtbWFya2V0cGxhY2UuemlwYO+8muW4guWcuuS7k+W6k+WMhQotIGBkaXN0L1NIQTI1NlNVTVMudHh0YO+8muagoemqjOWAvAotIFvlj5HluIPmj5DkuqTmnZDmlpldKOWPkeW4g+aPkOS6pOadkOaWmS5tZCnvvJrnroDku4vjgIHpmpDnp4Hlo7DmmI7lkozog73lipvovrnnlYwK
+# Codex 插件市场发布说明
+
+## 提交包
+
+Codex 市场建议使用：
+
+- `dist/simaguang-perspective-0.3.1-codex-marketplace.zip`
+
+这个压缩包包含：
+
+```text
+simaguang-perspective-marketplace/
+├── marketplace.json
+└── plugins/
+    └── simaguang-perspective/
+        ├── .codex-plugin/plugin.json
+        ├── README.md
+        ├── LICENSE
+        └── skills/
+            └── simaguang-perspective/
+```
+
+## 本地测试
+
+1. 解压 `simaguang-perspective-0.3.1-codex-marketplace.zip`。
+2. 把整个 `simaguang-perspective-marketplace` 目录放到本地插件市场目录。
+3. 在 Codex 中添加该本地市场。
+4. 新开对话后输入：
+
+```text
+用司马光综合思维帮我分析一个跨部门项目该不该继续。
+```
+
+## 安装知识扩展
+
+默认 Codex 插件是轻量版，只包含摘要层。需要完整逐书知识文件时，安装：
+
+```text
+dist/simaguang-perspective-0.3.1-codex-knowledge.zip
+```
+
+解压后，将 `simaguang-perspective/skills/simaguang-perspective/knowledge/` 合并到已安装插件对应目录。
+
+## 公开提交
+
+1. 将 `simaguang-perspective-marketplace` 上传到一个公开仓库。
+2. 确认 `marketplace.json` 中的插件路径仍为 `./plugins/simaguang-perspective`。
+3. 按 Codex 插件市场要求提交仓库地址和发布说明。
+4. 等待平台审核。
+
+## 提交材料
+
+- `dist/simaguang-perspective-0.3.1-codex-plugin.zip`：插件单包
+- `dist/simaguang-perspective-0.3.1-codex-marketplace.zip`：市场仓库包
+- `dist/SHA256SUMS.txt`：校验值
+- [发布提交材料](发布提交材料.md)：简介、隐私声明和能力边界

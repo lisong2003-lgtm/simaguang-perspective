@@ -1,1 +1,29 @@
-IyBBSUdD5o+Q56S66K+N576O5a2m5a6a5LmJIOaRmOimgQoKIyMg5a6a5L2NCgrjgIpBSUdD5o+Q56S66K+N576O5a2m5a6a5LmJ44CL5oqA6IO95YyF77yIMTQg5Liq77yJCgojIyDmoLjlv4Pnu5PmnoQKCi0gMS4g576O5a2m5a6a5LmJ5LyY5YWI5LqO5bel5YW3Ci0gMi4g576O5a2m5a6a5LmJ5LiJ6KaB57SgCi0gMy4g5YWJ6KaB57Sg57O757ufCi0gNC4g5p2Q6LSo6KaB57Sg57O757ufCi0gNS4g6Im65pyv5rWB5rS+6ZSa5a6aCi0gNi4g5o+S55S76aOO5qC85bqTCi0gNy4g5ri45oiP6aOO5qC85LiO5rCb5Zu0Ci0gOC4g5Lq654mp5b2i6LGh5LiO5a6h576O5YiG57G7Ci0gOS4g5rWB6KGM6LaL5Yq/5YiG57G7Ci0gMTAuIOaPkOekuuivjee7k+aehOWMlgotIDExLiDmnYPph43kuI7lt6Xlhbflj4LmlbAKLSAxMi4g5pWI5p6c6aqM6K+B5LiO6L+t5LujCi0gMTMuIOW6lOeUqOWcuuaZr+WumuWQkQotIDE0LiDovrnnlYzkuI7lkIjop4QKLSDovrnnlYwKCiMjIOS9v+eUqOaWueW8jwoKLSDlrozmlbTmioDog73ljIXvvJpga25vd2xlZGdlL2Jvb2tzL0FJR0Pmj5DnpLror43nvo7lrablrprkuYkvU0tJTEwubWRgCi0g5oyJ6ZyA6K+75Y+W77yM5LiN5bi46am75LiK5LiL5paH44CCCi0g6buY6K6k5Y+q5Yqg6L295pGY6KaB77yM5rex5bqm5YiG5p6Q5pe25YaN6K+75a6M5pW05YyF44CCCg==
+# AIGC提示词美学定义 摘要
+
+## 定位
+
+《AIGC提示词美学定义》技能包（14 个）
+
+## 核心结构
+
+- 1. 美学定义优先于工具
+- 2. 美学定义三要素
+- 3. 光要素系统
+- 4. 材质要素系统
+- 5. 艺术流派锚定
+- 6. 插画风格库
+- 7. 游戏风格与氛围
+- 8. 人物形象与审美分类
+- 9. 流行趋势分类
+- 10. 提示词结构化
+- 11. 权重与工具参数
+- 12. 效果验证与迭代
+- 13. 应用场景定向
+- 14. 边界与合规
+- 边界
+
+## 使用方式
+
+- 完整技能包：`knowledge/books/AIGC提示词美学定义.md`
+- 按需读取，不常驻上下文。
+- 默认只加载摘要，深度分析时再读完整包。

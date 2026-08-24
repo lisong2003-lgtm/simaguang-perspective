@@ -1,1 +1,129 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJCdWlsZCBhIGNsaWNrYWJsZSB0cmFjZWFiaWxpdHkgZGlhbG9nIEhUTUwgZm9yIGFuIGFuYWx5c2lzLiIiIgoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBodG1sCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKCmRlZiBwYXJzZV9hcmdzKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsIHJlcXVpcmVkPVRydWUpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXRpdGxlIiwgZGVmYXVsdD0i5Y+v5p+l5oqA6IO95Y6f5paHIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tc291cmNlcyIsIGRlZmF1bHQ9IltdIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tc291cmNlcy1maWxlIikKICAgIHJldHVybiBwYXJzZXIucGFyc2VfYXJncygpCgoKZGVmIHJlbmRlcihzb3VyY2VzLCB0aXRsZSk6CiAgICByb3dzID0gW10KICAgIGZvciBpdGVtIGluIHNvdXJjZXM6CiAgICAgICAgYm9vayA9IGh0bWwuZXNjYXBlKHN0cihpdGVtLmdldCgiYm9vayIsICLmnKrlkb3lkI3kuabnsY0iKSkpCiAgICAgICAgc2tpbGwgPSBodG1sLmVzY2FwZShzdHIoaXRlbS5nZXQoInNraWxsIiwgIiIpKSkKICAgICAgICBzb3VyY2UgPSBodG1sLmVzY2FwZShzdHIoaXRlbS5nZXQoInNvdXJjZSIsICIiKSkpCiAgICAgICAgbm90ZSA9IGh0bWwuZXNjYXBlKHN0cihpdGVtLmdldCgibm90ZSIsICIiKSkpCiAgICAgICAgbGluZXMgPSBbZiI8bGk+PHN0cm9uZz57Ym9va308L3N0cm9uZz4iXQogICAgICAgIGlmIHNraWxsOgogICAgICAgICAgICBsaW5lcy5hcHBlbmQoZic8cD7mioDog73vvJo8YSBocmVmPSJ7c2tpbGx9IiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+e3NraWxsfTwvYT48L3A+JykKICAgICAgICBpZiBzb3VyY2U6CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmJzxwPuWOn+aWh++8mjxhIGhyZWY9Intzb3VyY2V9IiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciI+e3NvdXJjZX08L2E+PC9wPicpCiAgICAgICAgaWYgbm90ZToKICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiPHAgY2xhc3M9XCJub3RlXCI+e25vdGV9PC9wPiIpCiAgICAgICAgbGluZXMuYXBwZW5kKCI8L2xpPiIpCiAgICAgICAgcm93cy5hcHBlbmQoIiIuam9pbihsaW5lcykpCgogICAgaWYgcm93czoKICAgICAgICBsaXN0X2h0bWwgPSAiPHVsPiIgKyAiIi5qb2luKHJvd3MpICsgIjwvdWw+IgogICAgZWxzZToKICAgICAgICBsaXN0X2h0bWwgPSAiPHA+5pys5qyh5pyq5L2/55So5Lmm57GN5oqA6IO977yM5pyq5o+Q5L6b5Y6f5paH6ZO+6Lev44CCPC9wPiIKCiAgICByZXR1cm4gZiIiIjwhZG9jdHlwZSBodG1sPgo8aHRtbCBsYW5nPSJ6aCI+CjxoZWFkPgogIDxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEiPgogIDx0aXRsZT57aHRtbC5lc2NhcGUodGl0bGUpfTwvdGl0bGU+CiAgPHN0eWxlPgogICAgYm9keSB7ewogICAgICBtYXJnaW46IDA7CiAgICAgIG1pbi1oZWlnaHQ6IDEwMHZoOwogICAgICBkaXNwbGF5OiBncmlkOwogICAgICBwbGFjZS1pdGVtczogY2VudGVyOwogICAgICBiYWNrZ3JvdW5kOiAjZjVmNmY4OwogICAgICBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAiUGluZ0ZhbmcgU0MiLCAiTWljcm9zb2Z0IFlhSGVpIiwgc2Fucy1zZXJpZjsKICAgIH19CiAgICBidXR0b24udHJpZ2dlciB7ewogICAgICBwYWRkaW5nOiAxMnB4IDIycHg7CiAgICAgIGJvcmRlcjogMDsKICAgICAgYm9yZGVyLXJhZGl1czogOHB4OwogICAgICBiYWNrZ3JvdW5kOiAjMmY0ZjZmOwogICAgICBjb2xvcjogI2ZmZjsKICAgICAgZm9udC1zaXplOiAxNnB4OwogICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICB9fQogICAgYnV0dG9uLnRyaWdnZXI6aG92ZXIge3sgYmFja2dyb3VuZDogIzFmM2U1YzsgfX0KICAgIGRpYWxvZyB7ewogICAgICBib3JkZXI6IDA7CiAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICAgIHBhZGRpbmc6IDA7CiAgICAgIHdpZHRoOiBtaW4oNzYwcHgsIDkydncpOwogICAgICBtYXgtaGVpZ2h0OiA4MnZoOwogICAgICBib3gtc2hhZG93OiAwIDE2cHggNTBweCByZ2JhKDAsMCwwLC4yNSk7CiAgICB9fQogICAgZGlhbG9nOjpiYWNrZHJvcCB7eyBiYWNrZ3JvdW5kOiByZ2JhKDE1LDIzLDMyLC40NSk7IH19CiAgICAucGFuZWwge3sgcGFkZGluZzogMjJweCAyNnB4OyBvdmVyZmxvdzogYXV0bzsgfX0KICAgIGgxIHt7IGZvbnQtc2l6ZTogMjBweDsgbWFyZ2luOiAwIDAgMTRweDsgfX0KICAgIHVsIHt7IGxpc3Qtc3R5bGU6IG5vbmU7IHBhZGRpbmc6IDA7IG1hcmdpbjogMCAwIDE4cHg7IH19CiAgICBsaSB7eyBib3JkZXItdG9wOiAxcHggc29saWQgI2U0ZTdlYjsgcGFkZGluZzogMTRweCAwOyB9fQogICAgbGk6Zmlyc3QtY2hpbGQge3sgYm9yZGVyLXRvcDogMDsgfX0KICAgIGEge3sgY29sb3I6ICMxZjZmZWI7IHdvcmQtYnJlYWs6IGJyZWFrLWFsbDsgfX0KICAgIC5ub3RlIHt7IGNvbG9yOiAjNmI3MjgwOyBmb250LXNpemU6IDEzcHg7IH19CiAgICAuY2xvc2Uge3sKICAgICAgcGFkZGluZzogOHB4IDE4cHg7CiAgICAgIGJvcmRlcjogMDsKICAgICAgYm9yZGVyLXJhZGl1czogOHB4OwogICAgICBiYWNrZ3JvdW5kOiAjZWVmMWY0OwogICAgICBjb2xvcjogIzFmMjkzNzsKICAgICAgY3Vyc29yOiBwb2ludGVyOwogICAgfX0KICA8L3N0eWxlPgo8L2hlYWQ+Cjxib2R5PgogIDxidXR0b24gY2xhc3M9InRyaWdnZXIiIGlkPSJvcGVuIj7mn6XnnIvlj6/mn6XmioDog73ljp/mloc8L2J1dHRvbj4KICA8ZGlhbG9nIGlkPSJkaWFsb2ciPgogICAgPGRpdiBjbGFzcz0icGFuZWwiPgogICAgICA8aDE+e2h0bWwuZXNjYXBlKHRpdGxlKX08L2gxPgogICAgICB7bGlzdF9odG1sfQogICAgICA8YnV0dG9uIGNsYXNzPSJjbG9zZSIgaWQ9ImNsb3NlIj7lhbPpl608L2J1dHRvbj4KICAgIDwvZGl2PgogIDwvZGlhbG9nPgogIDxzY3JpcHQ+CiAgICBjb25zdCBvcGVuQnRuID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm9wZW4iKTsKICAgIGNvbnN0IGNsb3NlQnRuID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImNsb3NlIik7CiAgICBjb25zdCBkaWFsb2cgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiZGlhbG9nIik7CiAgICBvcGVuQnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKCkgPT4gZGlhbG9nLnNob3dNb2RhbCgpKTsKICAgIGNsb3NlQnRuLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKCkgPT4gZGlhbG9nLmNsb3NlKCkpOwogICAgZGlhbG9nLmFkZEV2ZW50TGlzdGVuZXIoImNsaWNrIiwgKGV2ZW50KSA9PiB7ewogICAgICBpZiAoZXZlbnQudGFyZ2V0ID09PSBkaWFsb2cpIGRpYWxvZy5jbG9zZSgpOwogICAgfX0pOwogIDwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4KIiIiCgoKZGVmIG1haW4oKToKICAgIGFyZ3MgPSBwYXJzZV9hcmdzKCkKICAgIGlmIGFyZ3Muc291cmNlc19maWxlOgogICAgICAgIHNvdXJjZXMgPSBqc29uLmxvYWRzKFBhdGgoYXJncy5zb3VyY2VzX2ZpbGUpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGVsc2U6CiAgICAgICAgc291cmNlcyA9IGpzb24ubG9hZHMoYXJncy5zb3VyY2VzKQogICAgb3V0ID0gUGF0aChhcmdzLm91dHB1dCkKICAgIG91dC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgb3V0LndyaXRlX3RleHQocmVuZGVyKHNvdXJjZXMsIGFyZ3MudGl0bGUpLCBlbmNvZGluZz0idXRmLTgiKQogICAgcHJpbnQoIm91dHB1dCIsIG91dCkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""Build a clickable traceability dialog HTML for an analysis."""
+
+import argparse
+import html
+import json
+from pathlib import Path
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", required=True)
+    parser.add_argument("--title", default="可查技能原文")
+    parser.add_argument("--sources", default="[]")
+    parser.add_argument("--sources-file")
+    return parser.parse_args()
+
+
+def render(sources, title):
+    rows = []
+    for item in sources:
+        book = html.escape(str(item.get("book", "未命名书籍")))
+        skill = html.escape(str(item.get("skill", "")))
+        source = html.escape(str(item.get("source", "")))
+        note = html.escape(str(item.get("note", "")))
+        lines = [f"<li><strong>{book}</strong>"]
+        if skill:
+            lines.append(f'<p>技能：<a href="{skill}" target="_blank" rel="noopener">{skill}</a></p>')
+        if source:
+            lines.append(f'<p>原文：<a href="{source}" target="_blank" rel="noopener">{source}</a></p>')
+        if note:
+            lines.append(f"<p class=\"note\">{note}</p>")
+        lines.append("</li>")
+        rows.append("".join(lines))
+
+    if rows:
+        list_html = "<ul>" + "".join(rows) + "</ul>"
+    else:
+        list_html = "<p>本次未使用书籍技能，未提供原文链路。</p>"
+
+    return f"""<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(title)}</title>
+  <style>
+    body {{
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f5f6f8;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+    }}
+    button.trigger {{
+      padding: 12px 22px;
+      border: 0;
+      border-radius: 8px;
+      background: #2f4f6f;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }}
+    button.trigger:hover {{ background: #1f3e5c; }}
+    dialog {{
+      border: 0;
+      border-radius: 10px;
+      padding: 0;
+      width: min(760px, 92vw);
+      max-height: 82vh;
+      box-shadow: 0 16px 50px rgba(0,0,0,.25);
+    }}
+    dialog::backdrop {{ background: rgba(15,23,32,.45); }}
+    .panel {{ padding: 22px 26px; overflow: auto; }}
+    h1 {{ font-size: 20px; margin: 0 0 14px; }}
+    ul {{ list-style: none; padding: 0; margin: 0 0 18px; }}
+    li {{ border-top: 1px solid #e4e7eb; padding: 14px 0; }}
+    li:first-child {{ border-top: 0; }}
+    a {{ color: #1f6feb; word-break: break-all; }}
+    .note {{ color: #6b7280; font-size: 13px; }}
+    .close {{
+      padding: 8px 18px;
+      border: 0;
+      border-radius: 8px;
+      background: #eef1f4;
+      color: #1f2937;
+      cursor: pointer;
+    }}
+  </style>
+</head>
+<body>
+  <button class="trigger" id="open">查看可查技能原文</button>
+  <dialog id="dialog">
+    <div class="panel">
+      <h1>{html.escape(title)}</h1>
+      {list_html}
+      <button class="close" id="close">关闭</button>
+    </div>
+  </dialog>
+  <script>
+    const openBtn = document.getElementById("open");
+    const closeBtn = document.getElementById("close");
+    const dialog = document.getElementById("dialog");
+    openBtn.addEventListener("click", () => dialog.showModal());
+    closeBtn.addEventListener("click", () => dialog.close());
+    dialog.addEventListener("click", (event) => {{
+      if (event.target === dialog) dialog.close();
+    }});
+  </script>
+</body>
+</html>
+"""
+
+
+def main():
+    args = parse_args()
+    if args.sources_file:
+        sources = json.loads(Path(args.sources_file).read_text(encoding="utf-8"))
+    else:
+        sources = json.loads(args.sources)
+    out = Path(args.output)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(render(sources, args.title), encoding="utf-8")
+    print("output", out)
+
+
+if __name__ == "__main__":
+    main()

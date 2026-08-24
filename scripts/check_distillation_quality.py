@@ -1,1 +1,55 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJDaGVjayBkaXN0aWxsZWQgc2tpbGwgcGFja3MgYWdhaW5zdCB0aGUgZGlzdGlsbGF0aW9uIG1ldGhvZG9sb2d5IGNoZWNrbGlzdC4iIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgcmUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgoKZGVmIG1haW4oKToKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKCkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tc3RyaWN0IiwgYWN0aW9uPSJzdG9yZV90cnVlIiwgaGVscD0iZmFpbCBvbiBzdHJ1Y3R1cmFsIGlzc3VlcyIpCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKICAgIHJvb3QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQogICAgc291cmNlX2RpciA9IHJvb3QgLyAi6L+Q6KGM55uu5b2VIiAvICJzb3VyY2VzIiBpZiAocm9vdCAvICLov5DooYznm67lvZUiIC8gInNvdXJjZXMiKS5leGlzdHMoKSBlbHNlIHJvb3QgLyAic291cmNlcyIKICAgIGZpbGVzID0gc29ydGVkKHNvdXJjZV9kaXIucmdsb2IoIlNLSUxMLm1kIikgaWYgc291cmNlX2Rpci5leGlzdHMoKSBlbHNlIFtdKQogICAgaXNzdWVzID0gW10KICAgIGNvdW50cyA9IHt9CiAgICBtaXNzaW5nX2JvdW5kYXJ5ID0gW10KICAgIGEyX2ZpbGVzID0gW10KICAgIG92ZXJfbGltaXQgPSBbXQoKICAgIGZvciBwYXRoIGluIGZpbGVzOgogICAgICAgIHRleHQgPSBwYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiLCBlcnJvcnM9Imlnbm9yZSIpCiAgICAgICAgaGVhZHMgPSByZS5maW5kYWxsKHIiXiMjXHMrWzAtOeS4gOS6jOS4ieWbm+S6lOWFreS4g+WFq+S5neWNgV0rW1wu44CBXSIsIHRleHQsIHJlLk0pCiAgICAgICAgY291bnRzW2xlbihoZWFkcyldID0gY291bnRzLmdldChsZW4oaGVhZHMpLCAwKSArIDEKICAgICAgICBpZiAiQTLvvJoiIGluIHRleHQgb3IgIkEyOiIgaW4gdGV4dDoKICAgICAgICAgICAgYTJfZmlsZXMuYXBwZW5kKHN0cihwYXRoKSkKICAgICAgICBpZiBub3QgcmUuc2VhcmNoKHIiXiMjXHMq6L6555WMIiwgdGV4dCwgcmUuTSk6CiAgICAgICAgICAgIG1pc3NpbmdfYm91bmRhcnkuYXBwZW5kKHN0cihwYXRoKSkKICAgICAgICBibG9ja3MgPSByZS5zcGxpdChyIl4jI1xzKyg/OlswLTnkuIDkuozkuInlm5vkupTlha3kuIPlhavkuZ3ljYFdKylbXC7jgIFdIiwgdGV4dCwgZmxhZ3M9cmUuTSlbMTpdCiAgICAgICAgZm9yIGksIGJsb2NrIGluIGVudW1lcmF0ZShibG9ja3MsIDEpOgogICAgICAgICAgICBmb3Iga2V5IGluICgiUiIsICJJIiwgIkExIiwgIkUiLCAiQiIpOgogICAgICAgICAgICAgICAgaWYgbm90IHJlLnNlYXJjaChyZiJcbi0ge2tleX1bOu+8ml0iLCBibG9jayk6CiAgICAgICAgICAgICAgICAgICAgaXNzdWVzLmFwcGVuZChmIntwYXRofTogc2NhbGUge2l9IG1pc3Npbmcge2tleX0iKQogICAgICAgIGlmIGxlbihoZWFkcykgPiAxNDoKICAgICAgICAgICAgb3Zlcl9saW1pdC5hcHBlbmQoZiJ7cGF0aH06IHtsZW4oaGVhZHMpfSBzY2FsZXMsIG92ZXIgZGVmYXVsdCAxNCIpCgogICAgcHJpbnQoZiJza2lsbCBmaWxlczoge2xlbihmaWxlcyl9IikKICAgIHByaW50KGYic2NhbGUgZGlzdHJpYnV0aW9uOiB7ZGljdChzb3J0ZWQoY291bnRzLml0ZW1zKCkpKX0iKQogICAgcHJpbnQoZiJtaXNzaW5nIGdsb2JhbCBib3VuZGFyeSBzZWN0aW9uOiB7bGVuKG1pc3NpbmdfYm91bmRhcnkpfSIpCiAgICBwcmludChmInNraWxscyB1c2luZyBsZWdhY3kgQTIgZmllbGQ6IHtsZW4oYTJfZmlsZXMpfSIpCiAgICBwcmludChmInN0cnVjdHVyYWwgaXNzdWVzOiB7bGVuKGlzc3Vlcyl9IikKICAgIHByaW50KGYib3ZlciBkZWZhdWx0IDE0IHNjYWxlcyAoa2VwdCwgbm90IHJldHJvYWN0aXZlbHkgZWRpdGVkKToge2xlbihvdmVyX2xpbWl0KX0iKQogICAgZm9yIGxpbmUgaW4gaXNzdWVzWzo1MF06CiAgICAgICAgcHJpbnQobGluZSkKICAgIGZvciBsaW5lIGluIG92ZXJfbGltaXQ6CiAgICAgICAgcHJpbnQobGluZSkKCiAgICBpZiBhcmdzLnN0cmljdCBhbmQgKGlzc3VlcyBvciBvdmVyX2xpbWl0KToKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KDEpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""Check distilled skill packs against the distillation methodology checklist."""
+
+import argparse
+import re
+from pathlib import Path
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--strict", action="store_true", help="fail on structural issues")
+    args = parser.parse_args()
+
+    root = Path(__file__).resolve().parents[1]
+    source_dir = root / "运行目录" / "sources" if (root / "运行目录" / "sources").exists() else root / "sources"
+    files = sorted(source_dir.rglob("SKILL.md") if source_dir.exists() else [])
+    issues = []
+    counts = {}
+    missing_boundary = []
+    a2_files = []
+    over_limit = []
+
+    for path in files:
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        heads = re.findall(r"^##\s+[0-9一二三四五六七八九十]+[\.、]", text, re.M)
+        counts[len(heads)] = counts.get(len(heads), 0) + 1
+        if "A2：" in text or "A2:" in text:
+            a2_files.append(str(path))
+        if not re.search(r"^##\s*边界", text, re.M):
+            missing_boundary.append(str(path))
+        blocks = re.split(r"^##\s+(?:[0-9一二三四五六七八九十]+)[\.、]", text, flags=re.M)[1:]
+        for i, block in enumerate(blocks, 1):
+            for key in ("R", "I", "A1", "E", "B"):
+                if not re.search(rf"\n- {key}[:：]", block):
+                    issues.append(f"{path}: scale {i} missing {key}")
+        if len(heads) > 14:
+            over_limit.append(f"{path}: {len(heads)} scales, over default 14")
+
+    print(f"skill files: {len(files)}")
+    print(f"scale distribution: {dict(sorted(counts.items()))}")
+    print(f"missing global boundary section: {len(missing_boundary)}")
+    print(f"skills using legacy A2 field: {len(a2_files)}")
+    print(f"structural issues: {len(issues)}")
+    print(f"over default 14 scales (kept, not retroactively edited): {len(over_limit)}")
+    for line in issues[:50]:
+        print(line)
+    for line in over_limit:
+        print(line)
+
+    if args.strict and (issues or over_limit):
+        raise SystemExit(1)
+
+
+if __name__ == "__main__":
+    main()

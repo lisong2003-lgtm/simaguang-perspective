@@ -1,1 +1,6 @@
-LkRTX1N0b3JlCl9fcHljYWNoZV9fLwoqLnB5YwpkaXN0Lwrov4Hnp7vlj5HluINza2lsbOiBiuWkqeiusOW9lS5tZArlj5HluIPliY3mo4Dmn6XmiqXlkYoubWQK
+.DS_Store
+__pycache__/
+*.pyc
+dist/
+迁移发布skill聊天记录.md
+发布前检查报告.md

@@ -1,1 +1,70 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJCdWlsZCB0aGUgb3B0aW9uYWwga25vd2xlZGdlIGV4dGVuc2lvbiBwYWNrYWdlIHdpdGggZnVsbCBib29rIHNraWxsIHBhY2tzLiIiIgoKaW1wb3J0IGhhc2hsaWIKaW1wb3J0IHppcGZpbGUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gemlwZmlsZSBpbXBvcnQgWmlwSW5mbwoKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50c1sxXQpESVNUID0gUk9PVCAvICJkaXN0IgpWRVJTSU9OID0gIjAuMy4wIgpSRUxFQVNFX0RBVEUgPSAoMjAyNiwgOCwgMjAsIDAsIDAsIDApCgoKZGVmIG1ha2VfemlwKHNvdXJjZV9kaXI6IFBhdGgsIG91dHB1dF9wYXRoOiBQYXRoKSAtPiBOb25lOgogICAgb3V0cHV0X3BhdGgucGFyZW50Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKG91dHB1dF9wYXRoLCAidyIsIGNvbXByZXNzaW9uPXppcGZpbGUuWklQX0RFRkxBVEVEKSBhcyBhcmNoaXZlOgogICAgICAgIGZvciBwYXRoIGluIHNvcnRlZChzb3VyY2VfZGlyLnJnbG9iKCIqIikpOgogICAgICAgICAgICBpZiBwYXRoLmlzX2ZpbGUoKSBhbmQgcGF0aC5uYW1lICE9ICIuRFNfU3RvcmUiOgogICAgICAgICAgICAgICAgcmVsID0gcGF0aC5yZWxhdGl2ZV90byhzb3VyY2VfZGlyKQogICAgICAgICAgICAgICAgaW5mbyA9IFppcEluZm8oZiJ7c291cmNlX2Rpci5uYW1lfS97cmVsfSIsIGRhdGVfdGltZT1SRUxFQVNFX0RBVEUpCiAgICAgICAgICAgICAgICBpbmZvLmNvbXByZXNzX3R5cGUgPSB6aXBmaWxlLlpJUF9ERUZMQVRFRAogICAgICAgICAgICAgICAgaW5mby5leHRlcm5hbF9hdHRyID0gKHBhdGguc3RhdCgpLnN0X21vZGUgJiAweEZGRkYpIDw8IDE2CiAgICAgICAgICAgICAgICB3aXRoIHBhdGgub3BlbigicmIiKSBhcyBoYW5kbGU6CiAgICAgICAgICAgICAgICAgICAgYXJjaGl2ZS53cml0ZXN0cihpbmZvLCBoYW5kbGUucmVhZCgpKQoKCmRlZiBtYWtlX2NvZGV4X2tub3dsZWRnZV96aXAoc291cmNlX2RpcjogUGF0aCwgb3V0cHV0X3BhdGg6IFBhdGgpIC0+IE5vbmU6CiAgICBvdXRwdXRfcGF0aC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgcHJlZml4ID0gUGF0aCgic2ltYWd1YW5nLXBlcnNwZWN0aXZlL3NraWxscy9zaW1hZ3VhbmctcGVyc3BlY3RpdmUiKQogICAgd2l0aCB6aXBmaWxlLlppcEZpbGUob3V0cHV0X3BhdGgsICJ3IiwgY29tcHJlc3Npb249emlwZmlsZS5aSVBfREVGTEFURUQpIGFzIGFyY2hpdmU6CiAgICAgICAgZm9yIHBhdGggaW4gc29ydGVkKHNvdXJjZV9kaXIucmdsb2IoIioiKSk6CiAgICAgICAgICAgIGlmIHBhdGguaXNfZmlsZSgpIGFuZCBwYXRoLm5hbWUgIT0gIi5EU19TdG9yZSI6CiAgICAgICAgICAgICAgICByZWwgPSBwcmVmaXggLyAia25vd2xlZGdlIiAvIHBhdGgucmVsYXRpdmVfdG8oc291cmNlX2RpcikKICAgICAgICAgICAgICAgIGluZm8gPSBaaXBJbmZvKHN0cihyZWwpLCBkYXRlX3RpbWU9UkVMRUFTRV9EQVRFKQogICAgICAgICAgICAgICAgaW5mby5jb21wcmVzc190eXBlID0gemlwZmlsZS5aSVBfREVGTEFURUQKICAgICAgICAgICAgICAgIGluZm8uZXh0ZXJuYWxfYXR0ciA9IChwYXRoLnN0YXQoKS5zdF9tb2RlICYgMHhGRkZGKSA8PCAxNgogICAgICAgICAgICAgICAgd2l0aCBwYXRoLm9wZW4oInJiIikgYXMgaGFuZGxlOgogICAgICAgICAgICAgICAgICAgIGFyY2hpdmUud3JpdGVzdHIoaW5mbywgaGFuZGxlLnJlYWQoKSkKCgpkZWYgc2hhMjU2KHBhdGg6IFBhdGgpIC0+IHN0cjoKICAgIGRpZ2VzdCA9IGhhc2hsaWIuc2hhMjU2KCkKICAgIHdpdGggcGF0aC5vcGVuKCJyYiIpIGFzIGhhbmRsZToKICAgICAgICBmb3IgY2h1bmsgaW4gaXRlcihsYW1iZGE6IGhhbmRsZS5yZWFkKDEwMjQgKiAxMDI0KSwgYiIiKToKICAgICAgICAgICAgZGlnZXN0LnVwZGF0ZShjaHVuaykKICAgIHJldHVybiBkaWdlc3QuaGV4ZGlnZXN0KCkKCgpkZWYgbWFpbigpIC0+IGludDoKICAgIGtub3dsZWRnZSA9IFJPT1QgLyAia25vd2xlZGdlIgogICAgaWYgbm90IGtub3dsZWRnZS5leGlzdHMoKToKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KCJrbm93bGVkZ2UgZGlyZWN0b3J5IG5vdCBmb3VuZCIpCiAgICBvdXRwdXQgPSBESVNUIC8gZiJzaW1hZ3VhbmctcGVyc3BlY3RpdmUtcHVibGljLXtWRVJTSU9OfS1rbm93bGVkZ2UuemlwIgogICAgbWFrZV96aXAoa25vd2xlZGdlLCBvdXRwdXQpCiAgICBjb2RleF9vdXRwdXQgPSBESVNUIC8gZiJzaW1hZ3VhbmctcGVyc3BlY3RpdmUte1ZFUlNJT059LWNvZGV4LWtub3dsZWRnZS56aXAiCiAgICBtYWtlX2NvZGV4X2tub3dsZWRnZV96aXAoa25vd2xlZGdlLCBjb2RleF9vdXRwdXQpCiAgICBmb3IgcGF0aCBpbiAob3V0cHV0LCBjb2RleF9vdXRwdXQpOgogICAgICAgIHByaW50KGYie3BhdGgubmFtZX06IHtwYXRoLnN0YXQoKS5zdF9zaXplfSBieXRlcywgc2hhMjU2IHtzaGEyNTYocGF0aCl9IikKICAgIGNoZWNrc3VtcyA9IFtdCiAgICBmb3IgcGF0aCBpbiBzb3J0ZWQoRElTVC5nbG9iKCIqLnppcCIpKToKICAgICAgICBjaGVja3N1bSA9IHNoYTI1NihwYXRoKQogICAgICAgIGNoZWNrc3Vtcy5hcHBlbmQoZiJ7Y2hlY2tzdW19ICB7cGF0aC5uYW1lfSIpCiAgICAoRElTVCAvICJTSEEyNTZTVU1TLnR4dCIpLndyaXRlX3RleHQoIlxuIi5qb2luKGNoZWNrc3VtcykgKyAiXG4iLCBlbmNvZGluZz0idXRmLTgiKQogICAgcmV0dXJuIDAKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgU3lzdGVtRXhpdChtYWluKCkpCg==
+#!/usr/bin/env python3
+"""Build the optional knowledge extension package with full book skill packs."""
+
+import hashlib
+import zipfile
+from pathlib import Path
+from zipfile import ZipInfo
+
+
+ROOT = Path(__file__).resolve().parents[1]
+DIST = ROOT / "dist"
+VERSION = "0.3.1"
+RELEASE_DATE = (2026, 8, 24, 0, 0, 0)
+
+
+def make_zip(source_dir: Path, output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(output_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for path in sorted(source_dir.rglob("*")):
+            if path.is_file() and path.name != ".DS_Store":
+                rel = path.relative_to(source_dir)
+                info = ZipInfo(f"{source_dir.name}/{rel}", date_time=RELEASE_DATE)
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = (path.stat().st_mode & 0xFFFF) << 16
+                with path.open("rb") as handle:
+                    archive.writestr(info, handle.read())
+
+
+def make_codex_knowledge_zip(source_dir: Path, output_path: Path) -> None:
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    prefix = Path("simaguang-perspective/skills/simaguang-perspective")
+    with zipfile.ZipFile(output_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        for path in sorted(source_dir.rglob("*")):
+            if path.is_file() and path.name != ".DS_Store":
+                rel = prefix / "knowledge" / path.relative_to(source_dir)
+                info = ZipInfo(str(rel), date_time=RELEASE_DATE)
+                info.compress_type = zipfile.ZIP_DEFLATED
+                info.external_attr = (path.stat().st_mode & 0xFFFF) << 16
+                with path.open("rb") as handle:
+                    archive.writestr(info, handle.read())
+
+
+def sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
+def main() -> int:
+    knowledge = ROOT / "knowledge"
+    if not knowledge.exists():
+        raise SystemExit("knowledge directory not found")
+    output = DIST / f"simaguang-perspective-public-{VERSION}-knowledge.zip"
+    make_zip(knowledge, output)
+    codex_output = DIST / f"simaguang-perspective-{VERSION}-codex-knowledge.zip"
+    make_codex_knowledge_zip(knowledge, codex_output)
+    for path in (output, codex_output):
+        print(f"{path.name}: {path.stat().st_size} bytes, sha256 {sha256(path)}")
+    checksums = []
+    for path in sorted(DIST.glob("*.zip")):
+        checksum = sha256(path)
+        checksums.append(f"{checksum}  {path.name}")
+    (DIST / "SHA256SUMS.txt").write_text("\n".join(checksums) + "\n", encoding="utf-8")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

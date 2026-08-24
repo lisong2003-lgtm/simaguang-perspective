@@ -1,1 +1,29 @@
-IyDnp5Lmh4JBSeaPkOmXriDmkZjopoEKCiMjIOWumuS9jQoK44CK56eS5oeCQUnmj5Dpl67jgIvmioDog73ljIXvvIgxNCDkuKrvvIkKCiMjIOaguOW/g+e7k+aehAoKLSAxLiDmj5Dpl67otKjph4/lhrPlrprlm57nrZTotKjph48KLSAyLiDmjIfku6TlvI/mj5Dpl64KLSAzLiDop5LoibLmia7mvJTlvI/mj5Dpl64KLSA0LiDlhbPplK7or43mj5Dpl64KLSA1LiDnpLrkvovlvI/mj5Dpl64KLSA2LiDlvJXlr7zkuI7lj5HmlaPlvI/mj5Dpl64KLSA3LiDoi4/moLzmi4nlupXlvI/mj5Dpl64KLSA4LiDpl67nrZTlvI/kuI7mkZjopoHlvI/mj5Dpl64KLSA5LiDlr7nor53lvI/kuI7mg4Xnu6rliIbmnpDmj5Dpl64KLSAxMC4g5L+h5oGv5LiA6Ie05oCn5LiO57qm5p2f5o+Q6ZeuCi0gMTEuIOS/oeaBr+aVtOWQiOS4juW9kue6s+aPkOmXrgotIDEyLiDlpJrpobnpgInmi6nkuI7lr7nnq4vmj5Dpl64KLSAxMy4g5b6q546v44CB6L+t5Luj5LiO6L+b6Zi25byP5o+Q6ZeuCi0gMTQuIOWkjeWQiOWei+aPkOmXrgotIOi+ueeVjAoKIyMg5L2/55So5pa55byPCgotIOWujOaVtOaKgOiDveWMhe+8mmBrbm93bGVkZ2UvYm9va3Mv56eS5oeCQUnmj5Dpl64vU0tJTEwubWRgCi0g5oyJ6ZyA6K+75Y+W77yM5LiN5bi46am75LiK5LiL5paH44CCCi0g6buY6K6k5Y+q5Yqg6L295pGY6KaB77yM5rex5bqm5YiG5p6Q5pe25YaN6K+75a6M5pW05YyF44CCCg==
+# 秒懂AI提问 摘要
+
+## 定位
+
+《秒懂AI提问》技能包（14 个）
+
+## 核心结构
+
+- 1. 提问质量决定回答质量
+- 2. 指令式提问
+- 3. 角色扮演式提问
+- 4. 关键词提问
+- 5. 示例式提问
+- 6. 引导与发散式提问
+- 7. 苏格拉底式提问
+- 8. 问答式与摘要式提问
+- 9. 对话式与情绪分析提问
+- 10. 信息一致性与约束提问
+- 11. 信息整合与归纳提问
+- 12. 多项选择与对立提问
+- 13. 循环、迭代与进阶式提问
+- 14. 复合型提问
+- 边界
+
+## 使用方式
+
+- 完整技能包：`knowledge/books/秒懂AI提问.md`
+- 按需读取，不常驻上下文。
+- 默认只加载摘要，深度分析时再读完整包。

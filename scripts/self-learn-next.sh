@@ -1,1 +1,31 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIHNlbGYtbGVhcm4tbmV4dC5zaCAtIFByaW50IHRoZSBuZXh0IHVubGVhcm5lZCBldmVudCBmcm9tIHRoZSBoaXN0b3JpY2FsIGV2ZW50IGJhbmsuCgpzZXQgLXUKUk9PVD0iJChjZCAiJChkaXJuYW1lICIke0JBU0hfU09VUkNFWzBdfSIpLy4uIiAmJiBwd2QpIgoKcHl0aG9uMyAtICIkUk9PVC9yZWZlcmVuY2VzL+WOhuWPsuS6i+S7tuW6ky5tZCIgIiRST09UL3JlZmVyZW5jZXMv6Ieq5oiR5a2m5Lmg5pel5b+XLm1kIiA8PCdQWScKaW1wb3J0IHN5cwoKZGVmIHRhYmxlX3Jvd3MocGF0aCk6CiAgICByb3dzID0gW10KICAgIGZvciBsaW5lIGluIG9wZW4ocGF0aCwgZW5jb2Rpbmc9InV0Zi04Iik6CiAgICAgICAgbGluZSA9IGxpbmUuc3RyaXAoKQogICAgICAgIGlmIG5vdCBsaW5lLnN0YXJ0c3dpdGgoInwiKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBjb2xzID0gW2Muc3RyaXAoKSBmb3IgYyBpbiBsaW5lLnN0cmlwKCJ8Iikuc3BsaXQoInwiKV0KICAgICAgICBpZiBjb2xzIGFuZCBjb2xzWzBdIGluICgi5LqL5Lu2IiwgIuW6j+WPtyIsICItLS0iKToKICAgICAgICAgICAgY29udGludWUKICAgICAgICBpZiBsZW4oY29scykgPj0gNDoKICAgICAgICAgICAgcm93cy5hcHBlbmQoY29scykKICAgIHJldHVybiByb3dzCgpldmVudHMgPSBbcm93WzBdIGZvciByb3cgaW4gdGFibGVfcm93cyhzeXMuYXJndlsxXSldCmxlYXJuZWQgPSBbcm93WzFdIGZvciByb3cgaW4gdGFibGVfcm93cyhzeXMuYXJndlsyXSkgaWYgcm93WzFdIG5vdCBpbiAoIi0iLCAiIildCm5leHRfZXZlbnRzID0gW2UgZm9yIGUgaW4gZXZlbnRzIGlmIGUgbm90IGluIGxlYXJuZWRdCgppZiBuZXh0X2V2ZW50czoKICAgIHByaW50KG5leHRfZXZlbnRzWzBdKQplbHNlOgogICAgcHJpbnQoIkFMTF9MRUFSTkVEIikKUFkK
+#!/usr/bin/env bash
+# self-learn-next.sh - Print the next unlearned event from the historical event bank.
+
+set -u
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+python3 - "$ROOT/references/历史事件库.md" "$ROOT/references/自我学习日志.md" <<'PY'
+import sys
+
+def table_rows(path):
+    rows = []
+    for line in open(path, encoding="utf-8"):
+        line = line.strip()
+        if not line.startswith("|"):
+            continue
+        cols = [c.strip() for c in line.strip("|").split("|")]
+        if cols and cols[0] in ("事件", "序号", "---"):
+            continue
+        if len(cols) >= 4:
+            rows.append(cols)
+    return rows
+
+events = [row[0] for row in table_rows(sys.argv[1])]
+learned = [row[1] for row in table_rows(sys.argv[2]) if row[1] not in ("-", "")]
+next_events = [e for e in events if e not in learned]
+
+if next_events:
+    print(next_events[0])
+else:
+    print("ALL_LEARNED")
+PY

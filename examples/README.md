@@ -1,1 +1,9 @@
-IyDpq5jnlJ/kuqflipvnpLrkvosKCi0gYOmrmOeUn+S6p+WKm+ekuuS+iy3pobnnm67nrZbliJLkuaYubWRg77ya6aG555uu562W5YiS5Lmm57uT5p6E5ryU56S644CCCi0gYOmrmOeUn+S6p+WKm+ekuuS+iy3kuqflk4HmlrnmoYjkuIDpobXnurgubWRg77ya5Lqn5ZOB5pa55qGI5LiO5b+r6YCf5ZC45byV5rOo5oSP5Yqb5ryU56S644CCCi0gYOmrmOeUn+S6p+WKm+ekuuS+iy3lsI/or7TkuI7liafmnKzliJvkvZwubWRg77ya5bCP6K+05o+Q57qy44CB5q2j5paH5byA5aS05ZKM5Ymn5pys5Zy65pmv5ryU56S644CCCgrov5nkupvmlofku7bmmK/mvJTnpLrnqL/vvIzmlbDmja7lnYfkuLrlgYforr7vvJvlrp7pmYXkvb/nlKjpnIDmjInnlKjmiLfnnJ/lrp7kuJrliqHmm7/mjaLjgIIKCumrmOmikeWcuuaZr+aooeadv+ingSBgcmVmZXJlbmNlcy/pq5jnlJ/kuqflipvlnLrmma/mqKHmnb8ubWRg77yM5YyF5ZCr5Lqn5ZOB6Lev5ryU6buE6YeRMTLpobXjgIHmi5vmoIflupTmoIfjgIHorrrmlofnrZTovqnjgIHovqnor43lkozllYbkuJrorqHliJLkuabjgIIK
+# 高生产力示例
+
+- `高生产力示例-项目策划书.md`：项目策划书结构演示。
+- `高生产力示例-产品方案一页纸.md`：产品方案与快速吸引注意力演示。
+- `高生产力示例-小说与剧本创作.md`：小说提纲、正文开头和剧本场景演示。
+
+这些文件是演示稿，数据均为假设；实际使用需按用户真实业务替换。
+
+高频场景模板见 `references/高生产力场景模板.md`，包含产品路演黄金12页、招标应标、论文答辩、辩词和商业计划书。

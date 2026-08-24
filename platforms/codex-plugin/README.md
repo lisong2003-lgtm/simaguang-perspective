@@ -1,1 +1,16 @@
-IyDlj7jpqazlhYnnu7zlkIjmgJ3nu7QgQ29kZXgg5o+S5Lu2CgrlsIbmnKznm67lvZXkvZzkuLogQ29kZXgg5o+S5Lu25a6J6KOF5ZCO77yMYHNraWxscy9zaW1hZ3VhbmctcGVyc3BlY3RpdmUvYCDkvJrooqvor4bliKvkuLogU2tpbGzjgIIKCuW/q+mAn+S9v+eUqO+8mgoKYGBgdGV4dArnlKjlj7jpqazlhYnnu7zlkIjmgJ3nu7TluK7miJHliIbmnpDkuIDkuKrot6jpg6jpl6jpobnnm67or6XkuI3or6Xnu6fnu63jgIIKYGBgCgrog73lipvovrnnlYzvvJoKCi0g5LiN5p6E5oiQ5rOV5b6L44CB5Yy755aX44CB5oqV6LWE44CB5Y+45rOV5oSP6KeB44CCCi0g5piT5a2m44CB6aOO5rC044CB5aWH6Zeo5Y+q5L2c5paH5YyW5ZCv5Y+R44CCCi0g5LiN6ZqP5YyF5Y+R5biD5Y6f5aeL5Lmm57GN5paH5pys44CCCi0g5LiN5Y+R5biD56eB5Lq65qGI5L6L5ZKM5pys5Zyw6Lev5b6E44CCCg==
+# 司马光综合思维 Codex 插件
+
+将本目录作为 Codex 插件安装后，`skills/simaguang-perspective/` 会被识别为 Skill。
+
+快速使用：
+
+```text
+用司马光综合思维帮我分析一个跨部门项目该不该继续。
+```
+
+能力边界：
+
+- 不构成法律、医疗、投资、司法意见。
+- 易学、风水、奇门只作文化启发。
+- 不随包发布原始书籍文本。
+- 不发布私人案例和本地路径。

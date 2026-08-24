@@ -1,1 +1,42 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJBcHBlbmQgYSByZWFsLXdvcmsgZmVlZGJhY2sgZW50cnkgdG8gdGhlIGhpZ2gtcHJvZHVjdGl2aXR5IGZlZWRiYWNrIGFyY2hpdmUuIiIiCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IHN5cwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKREVGQVVMVF9BUkNISVZFID0gUGF0aCgi6L+Q6KGM55uu5b2VL+WtpuS5oOiusOW9lS/pq5jnlJ/kuqflipvnnJ/lrp7lj43ppojlvZLmoaMubWQiKQoKCmRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXR5cGUiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJvdXRwdXQgdHlwZSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXRpdGxlIiwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0ic2hvcnQgZmVlZGJhY2sgdGl0bGUiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1zb3VyY2UiLCBkZWZhdWx0PSLnlKjmiLciLCBoZWxwPSJmZWVkYmFjayBzb3VyY2UiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1jYXRlZ29yeSIsIGRlZmF1bHQ9IuWFtuS7liIsIGhlbHA9ImZlZWRiYWNrIGNhdGVnb3J5IikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tZmVlZGJhY2siLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJyYXcgZmVlZGJhY2sgdGV4dCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWFyY2hpdmUiLCBkZWZhdWx0PXN0cihERUZBVUxUX0FSQ0hJVkUpKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBhcmNoaXZlID0gUGF0aChhcmdzLmFyY2hpdmUpCiAgICBhcmNoaXZlLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICBleGlzdGluZyA9IGFyY2hpdmUucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpIGlmIGFyY2hpdmUuZXhpc3RzKCkgZWxzZSAiIgogICAgZW50cnkgPSAoCiAgICAgICAgZiJcbiMjIHtkYXRlLnRvZGF5KCkuaXNvZm9ybWF0KCl9IHthcmdzLnR5cGV977yae2FyZ3MudGl0bGV9XG4iCiAgICAgICAgZiItIOi+k+WHuuexu+Wei++8mnthcmdzLnR5cGV9XG4iCiAgICAgICAgZiItIOWPjemmiOadpea6kO+8mnthcmdzLnNvdXJjZX1cbiIKICAgICAgICBmIi0g5Y+N6aaI5YiG57G777yae2FyZ3MuY2F0ZWdvcnl9XG4iCiAgICAgICAgZiItIOWOn+Wni+WPjemmiO+8mnthcmdzLmZlZWRiYWNrfVxuIgogICAgICAgIGYiLSDmoLnlm6DliKTmlq3vvJrlvoXlvZLlm6BcbiIKICAgICAgICBmIi0g5L+u5pS55Yqo5L2c77ya5b6F5aSE55CGXG4iCiAgICAgICAgZiItIOabtOaWsOmhue+8muW+heehruiupFxuIgogICAgICAgIGYiLSDlvoXpqozor4HvvJrlvoXnoa7orqRcbiIKICAgICkKICAgIGFyY2hpdmUud3JpdGVfdGV4dChleGlzdGluZy5yc3RyaXAoKSArICJcbiIgKyBlbnRyeSwgZW5jb2Rpbmc9InV0Zi04IikKICAgIHByaW50KGYiYXBwZW5kZWQ6IHthcmNoaXZlfSIpCiAgICByZXR1cm4gMAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBzeXMuZXhpdChtYWluKCkpCg==
+#!/usr/bin/env python3
+"""Append a real-work feedback entry to the high-productivity feedback archive."""
+
+import argparse
+import sys
+from datetime import date
+from pathlib import Path
+
+DEFAULT_ARCHIVE = Path("运行目录/学习记录/高生产力真实反馈归档.md")
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--type", required=True, help="output type")
+    parser.add_argument("--title", required=True, help="short feedback title")
+    parser.add_argument("--source", default="用户", help="feedback source")
+    parser.add_argument("--category", default="其他", help="feedback category")
+    parser.add_argument("--feedback", required=True, help="raw feedback text")
+    parser.add_argument("--archive", default=str(DEFAULT_ARCHIVE))
+    args = parser.parse_args()
+
+    archive = Path(args.archive)
+    archive.parent.mkdir(parents=True, exist_ok=True)
+    existing = archive.read_text(encoding="utf-8") if archive.exists() else ""
+    entry = (
+        f"\n## {date.today().isoformat()} {args.type}：{args.title}\n"
+        f"- 输出类型：{args.type}\n"
+        f"- 反馈来源：{args.source}\n"
+        f"- 反馈分类：{args.category}\n"
+        f"- 原始反馈：{args.feedback}\n"
+        f"- 根因判断：待归因\n"
+        f"- 修改动作：待处理\n"
+        f"- 更新项：待确认\n"
+        f"- 待验证：待确认\n"
+    )
+    archive.write_text(existing.rstrip() + "\n" + entry, encoding="utf-8")
+    print(f"appended: {archive}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

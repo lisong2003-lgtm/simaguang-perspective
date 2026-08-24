@@ -1,1 +1,29 @@
-IyDlhrPog5xC56uvIOaRmOimgQoKIyMg5a6a5L2NCgrjgIrlhrPog5xC56uv44CL5oqA6IO95YyF77yIMTQg5Liq77yJCgojIyDmoLjlv4Pnu5PmnoQKCi0gMS4gQuerr+S6p+WTgeWumuS5iQotIDIuIELnq6/kuI5D56uv5beu5byCCi0gMy4gQuerr+S6p+WTgee7j+eQhuiDveWKmwotIDQuIELnq6/kuqflk4Hlu7rorr7mtYHnqIsKLSA1LiDkuJrliqHosIPnoJQKLSA2LiDmlbTkvZPmlrnmoYjorr7orqEKLSA3LiDnu4boioLmlrnmoYjorr7orqEKLSA4LiDmioDmnK/mlrnmoYjluLjor4YKLSA5LiDpobnnm67nrqHnkIbkuI7lrp7mlr0KLSAxMC4gQuerr+i/kOiQpeeuoeeQhgotIDExLiDov63ku6PkvJjljJbkuI7pnIDmsYLnrqHnkIYKLSAxMi4g5pWw5o2u5YiG5p6QCi0gMTMuIOS8geS4mue6p+W6lOeUqOaetuaehAotIDE0LiDmnrbmnoTmvJTov5vkuI7kuJrliqHlj5HlsZUKLSDovrnnlYwKCiMjIOS9v+eUqOaWueW8jwoKLSDlrozmlbTmioDog73ljIXvvJpga25vd2xlZGdlL2Jvb2tzL+WGs+iDnELnq68vU0tJTEwubWRgCi0g5oyJ6ZyA6K+75Y+W77yM5LiN5bi46am75LiK5LiL5paH44CCCi0g6buY6K6k5Y+q5Yqg6L295pGY6KaB77yM5rex5bqm5YiG5p6Q5pe25YaN6K+75a6M5pW05YyF44CCCg==
+# 决胜B端 摘要
+
+## 定位
+
+《决胜B端》技能包（14 个）
+
+## 核心结构
+
+- 1. B端产品定义
+- 2. B端与C端差异
+- 3. B端产品经理能力
+- 4. B端产品建设流程
+- 5. 业务调研
+- 6. 整体方案设计
+- 7. 细节方案设计
+- 8. 技术方案常识
+- 9. 项目管理与实施
+- 10. B端运营管理
+- 11. 迭代优化与需求管理
+- 12. 数据分析
+- 13. 企业级应用架构
+- 14. 架构演进与业务发展
+- 边界
+
+## 使用方式
+
+- 完整技能包：`knowledge/books/决胜B端.md`
+- 按需读取，不常驻上下文。
+- 默认只加载摘要，深度分析时再读完整包。

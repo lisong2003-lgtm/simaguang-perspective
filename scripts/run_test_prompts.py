@@ -1,1 +1,46 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJWYWxpZGF0ZSB0ZXN0LXByb21wdHMuanNvbiBhbmQgcHJpbnQgYSBjYXBhYmlsaXR5IGNvdmVyYWdlIHN1bW1hcnkuIiIiCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgQ291bnRlcgpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1wcm9tcHRzIiwgcmVxdWlyZWQ9VHJ1ZSkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tb3V0cHV0IiwgcmVxdWlyZWQ9RmFsc2UpCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKICAgIGRhdGEgPSBqc29uLmxvYWRzKFBhdGgoYXJncy5wcm9tcHRzKS5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICBjYXNlcyA9IGRhdGEuZ2V0KCJ0ZXN0X2Nhc2VzIiwgW10pCiAgICB0eXBlcyA9IENvdW50ZXIoY2FzZS5nZXQoInR5cGUiLCAidW5rbm93biIpIGZvciBjYXNlIGluIGNhc2VzKQogICAgbm90ZXMgPSBDb3VudGVyKGNhc2UuZ2V0KCJub3RlcyIsICJ1bmtub3duIikgZm9yIGNhc2UgaW4gY2FzZXMpCgogICAgbGluZXMgPSBbCiAgICAgICAgIiMg6IO95Yqb6KaG55uW55+p6Zi177yIMjAyNi0wOC0xMu+8iSIsCiAgICAgICAgIiIsCiAgICAgICAgZiItIHRlc3RfY2FzZXM6IHtsZW4oY2FzZXMpfSIsCiAgICAgICAgIiIsCiAgICAgICAgIiMjIOexu+Wei+WIhuW4gyIsCiAgICAgICAgIiIsCiAgICAgICAgInwg57G75Z6LIHwg5pWw6YePIHwiLAogICAgICAgICJ8LS0tfC0tLXwiLAogICAgXQogICAgZm9yIGtleSwgY291bnQgaW4gc29ydGVkKHR5cGVzLml0ZW1zKCkpOgogICAgICAgIGxpbmVzLmFwcGVuZChmInwge2tleX0gfCB7Y291bnR9IHwiKQoKICAgIGxpbmVzICs9IFsiIiwgIiMjIOinpuWPkemihuWfn+WIhuW4gyIsICIiLCAifCDpoobln58gfCDmlbDph48gfCIsICJ8LS0tfC0tLXwiXQogICAgZm9yIGtleSwgY291bnQgaW4gc29ydGVkKG5vdGVzLml0ZW1zKCksIGtleT1sYW1iZGEgeDogLXhbMV0pOgogICAgICAgIGxpbmVzLmFwcGVuZChmInwge2tleX0gfCB7Y291bnR9IHwiKQoKICAgIHJlcG9ydCA9ICJcbiIuam9pbihsaW5lcykgKyAiXG4iCiAgICBwcmludChyZXBvcnQpCiAgICBpZiBhcmdzLm91dHB1dDoKICAgICAgICBQYXRoKGFyZ3Mub3V0cHV0KS53cml0ZV90ZXh0KHJlcG9ydCwgZW5jb2Rpbmc9InV0Zi04IikKICAgICAgICBwcmludChmIm91dHB1dDoge2FyZ3Mub3V0cHV0fSIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""Validate test-prompts.json and print a capability coverage summary."""
+
+import argparse
+import json
+from collections import Counter
+from pathlib import Path
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prompts", required=True)
+    parser.add_argument("--output", required=False)
+    args = parser.parse_args()
+
+    data = json.loads(Path(args.prompts).read_text(encoding="utf-8"))
+    cases = data.get("test_cases", [])
+    types = Counter(case.get("type", "unknown") for case in cases)
+    notes = Counter(case.get("notes", "unknown") for case in cases)
+
+    lines = [
+        "# 能力覆盖矩阵（2026-08-12）",
+        "",
+        f"- test_cases: {len(cases)}",
+        "",
+        "## 类型分布",
+        "",
+        "| 类型 | 数量 |",
+        "|---|---|",
+    ]
+    for key, count in sorted(types.items()):
+        lines.append(f"| {key} | {count} |")
+
+    lines += ["", "## 触发领域分布", "", "| 领域 | 数量 |", "|---|---|"]
+    for key, count in sorted(notes.items(), key=lambda x: -x[1]):
+        lines.append(f"| {key} | {count} |")
+
+    report = "\n".join(lines) + "\n"
+    print(report)
+    if args.output:
+        Path(args.output).write_text(report, encoding="utf-8")
+        print(f"output: {args.output}")
+
+
+if __name__ == "__main__":
+    main()

@@ -3,7 +3,7 @@
 一个以《资治通鉴》式历史校准为基础，融合现代系统思维、心理、法律、投资、侦查、易学、奇门和推演决策时机的综合决策技能。
 
 GitHub：[lisong2003-lgtm/simaguang-perspective](https://github.com/lisong2003-lgtm/simaguang-perspective)
-Release：[v0.3.0](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.0)
+Release：[v0.3.1](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.1)
 
 ## 产品说明
 
@@ -28,7 +28,7 @@ Release：[v0.3.0](https://github.com/lisong2003-lgtm/simaguang-perspective/rele
 - AIGC 美学、镜头语法、电影构图、剪辑语法
 
 已并入新增技能：中医入门、深度工作、网络是怎样连接的、战争艺术史、刻板印象、二十四史。
-本轮公开版同步补齐 215 个逐书技能包，覆盖非虚构写作、写作工艺、影视摄影、AIGC 提示词、战争论、东周列国志等最新并入内容。
+本轮公开版同步补齐 215 个逐书知识文件，覆盖非虚构写作、写作工艺、影视摄影、AIGC 提示词、战争论、东周列国志等最新并入内容。
 
 ## 安装
 
@@ -47,11 +47,11 @@ Release：[v0.3.0](https://github.com/lisong2003-lgtm/simaguang-perspective/rele
 
 ## 多平台发布包
 
-- Codex 插件：`dist/simaguang-perspective-0.3.0-codex-plugin.zip`
-- Codex 知识扩展：`dist/simaguang-perspective-0.3.0-codex-knowledge.zip`
-- Codex 市场仓库：`dist/simaguang-perspective-0.3.0-codex-marketplace.zip`
-- 通用 Skill：`dist/simaguang-perspective-public-0.3.0.zip`
-- 知识扩展包：`dist/simaguang-perspective-public-0.3.0-knowledge.zip`
+- Codex 插件：`dist/simaguang-perspective-0.3.1-codex-plugin.zip`
+- Codex 知识扩展：`dist/simaguang-perspective-0.3.1-codex-knowledge.zip`
+- Codex 市场仓库：`dist/simaguang-perspective-0.3.1-codex-marketplace.zip`
+- 通用 Skill：`dist/simaguang-perspective-public-0.3.1.zip`
+- 知识扩展包：`dist/simaguang-perspective-public-0.3.1-knowledge.zip`
 - 平台说明：[platforms/README.md](platforms/README.md)
 - WorkBuddy 安装：[platforms/WorkBuddy安装.md](platforms/WorkBuddy安装.md)
 - Codex 插件发布：[platforms/Codex插件发布.md](platforms/Codex插件发布.md)
@@ -72,8 +72,8 @@ python3 scripts/build_knowledge_extension.py
 
 ## 用户选择
 
-- 轻量包：主 SKILL + references + 215 本书摘要，token 更省。
-- 知识扩展包：额外包含 215 个逐书技能包，深度能力更强，按需读取。
+- 轻量包：主 SKILL + references + 215 条书籍摘要，token 更省。
+- 知识扩展包：额外包含 215 个逐书知识文件，深度能力更强，按需读取。
 
 ## 快速开始
 

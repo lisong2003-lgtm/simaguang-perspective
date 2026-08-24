@@ -1,1 +1,29 @@
-IyBBSeefreWJp+WtpuS5oOaJi+WGjCDmkZjopoEKCiMjIOWumuS9jQoK44CKQUnnn63liaflrabkuaDmiYvlhozjgIvmioDog73ljIXvvIgxNCDkuKrvvIkKCiMjIOaguOW/g+e7k+aehAoKLSAxLiBBSSDnn63liafmmK/ns7vnu5/lt6XnqIsKLSAyLiDkurrmnLrljY/lkIwKLSAzLiDpgInpopjnrZbliJIKLSA0LiDliafmnKznlJ/miJAKLSA1LiDnn63liafoioLlpY8KLSA2LiDop5LoibLkuIDoh7TmgKcKLSA3LiDmlbDlrZfotYTkuqflupMKLSA4LiDliIbplZzorr7orqEKLSA5LiDmj5DnpLror43lt6XnqIsKLSAxMC4g6ZWc5aS06L+e6LSvCi0gMTEuIOWKqOS9nOS4juecn+WunuaEnwotIDEyLiDlo7Dpn7PkuI7liarovpEKLSAxMy4g5bmz5Y+w5ZCI6KeECi0gMTQuIOaVsOaNruWPjemmiOi/reS7owotIOi+ueeVjAoKIyMg5L2/55So5pa55byPCgotIOWujOaVtOaKgOiDveWMhe+8mmBrbm93bGVkZ2UvYm9va3MvQUnnn63liaflrabkuaDmiYvlhowvU0tJTEwubWRgCi0g5oyJ6ZyA6K+75Y+W77yM5LiN5bi46am75LiK5LiL5paH44CCCi0g6buY6K6k5Y+q5Yqg6L295pGY6KaB77yM5rex5bqm5YiG5p6Q5pe25YaN6K+75a6M5pW05YyF44CCCg==
+# AI短剧学习手册 摘要
+
+## 定位
+
+《AI短剧学习手册》技能包（14 个）
+
+## 核心结构
+
+- 1. AI 短剧是系统工程
+- 2. 人机协同
+- 3. 选题策划
+- 4. 剧本生成
+- 5. 短剧节奏
+- 6. 角色一致性
+- 7. 数字资产库
+- 8. 分镜设计
+- 9. 提示词工程
+- 10. 镜头连贯
+- 11. 动作与真实感
+- 12. 声音与剪辑
+- 13. 平台合规
+- 14. 数据反馈迭代
+- 边界
+
+## 使用方式
+
+- 完整技能包：`knowledge/books/AI短剧学习手册.md`
+- 按需读取，不常驻上下文。
+- 默认只加载摘要，深度分析时再读完整包。

@@ -1,1 +1,46 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJHZW5lcmF0ZSBhIHJlZ3Jlc3Npb24tZXZhbHVhdGlvbiB0cmFja2luZyBmaWxlIGZyb20gdGVzdC1wcm9tcHRzLmpzb24uIiIiCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGRhdGV0aW1lCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKCmRlZiBwYXJzZV9hcmdzKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXByb21wdHMiLCByZXF1aXJlZD1UcnVlKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1vdXQiLCByZXF1aXJlZD1UcnVlKQogICAgcmV0dXJuIHBhcnNlci5wYXJzZV9hcmdzKCkKCgpkZWYgbWFpbigpOgogICAgYXJncyA9IHBhcnNlX2FyZ3MoKQogICAgZGF0YSA9IGpzb24ubG9hZHMoUGF0aChhcmdzLnByb21wdHMpLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGNhc2VzID0gZGF0YS5nZXQoInRlc3RfY2FzZXMiLCBbXSkKICAgIHRvZGF5ID0gZGF0ZXRpbWUuZGF0ZS50b2RheSgpLmlzb2Zvcm1hdCgpCiAgICBsaW5lcyA9IFsKICAgICAgICBmIiMg5Zue5b2S5rWL6K+V6K6w5b2VIC0ge3RvZGF5fSIsCiAgICAgICAgIiIsCiAgICAgICAgIuacrOaWh+S7tueUqOS6juiusOW9leWQjOS4gOaJuSB0ZXN0LXByb21wdHMg55qE55yf5a6e5omn6KGM57uT5p6c44CC5q+P5qyh5qih5Z6L44CB5Y2P6K6u5oiW5oqA6IO95YyF5Y+Y5YyW5ZCO77yM6YeN5paw6LeR5LiA6YGN5bm25aGr5YaZ54q25oCB44CCIiwKICAgICAgICAiIiwKICAgICAgICAifCBJRCB8IOexu+WeiyB8IOeKtuaAgSB8IOaPkOekuuivjeaRmOimgSB8IOacn+acm+ihjOS4uuaRmOimgSB8IOWunumZhee7k+aenC/lpIfms6ggfCIsCiAgICAgICAgInwtLS18LS0tfC0tLXwtLS18LS0tfC0tLXwiLAogICAgXQogICAgZm9yIGNhc2UgaW4gY2FzZXM6CiAgICAgICAgcGlkID0gY2FzZS5nZXQoImlkIiwgIiIpCiAgICAgICAgY3R5cGUgPSBjYXNlLmdldCgidHlwZSIsICIiKQogICAgICAgIHByb21wdCA9IGNhc2UuZ2V0KCJwcm9tcHQiLCAiIikucmVwbGFjZSgifCIsICIvIilbOjYwXQogICAgICAgIGV4cGVjdGVkID0gY2FzZS5nZXQoImV4cGVjdGVkX2JlaGF2aW9yIiwgIiIpLnJlcGxhY2UoInwiLCAiLyIpWzo2MF0KICAgICAgICBsaW5lcy5hcHBlbmQoZiJ8IHtwaWR9IHwge2N0eXBlfSB8IOW+hea1iyB8IHtwcm9tcHR9IHwge2V4cGVjdGVkfSB8IHwiKQogICAgbGluZXMuYXBwZW5kKCIiKQogICAgdGV4dCA9ICJcbiIuam9pbihsaW5lcykKICAgIG91dCA9IFBhdGgoYXJncy5vdXQpCiAgICBvdXQucGFyZW50Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIG91dC53cml0ZV90ZXh0KHRleHQsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICBwcmludCgiT1VUUFVUIiwgb3V0KQogICAgcHJpbnQoIkNBU0VTIiwgbGVuKGNhc2VzKSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""Generate a regression-evaluation tracking file from test-prompts.json."""
+
+import argparse
+import datetime
+import json
+from pathlib import Path
+
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prompts", required=True)
+    parser.add_argument("--out", required=True)
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
+    data = json.loads(Path(args.prompts).read_text(encoding="utf-8"))
+    cases = data.get("test_cases", [])
+    today = datetime.date.today().isoformat()
+    lines = [
+        f"# 回归测试记录 - {today}",
+        "",
+        "本文件用于记录同一批 test-prompts 的真实执行结果。每次模型、协议或技能包变化后，重新跑一遍并填写状态。",
+        "",
+        "| ID | 类型 | 状态 | 提示词摘要 | 期望行为摘要 | 实际结果/备注 |",
+        "|---|---|---|---|---|---|",
+    ]
+    for case in cases:
+        pid = case.get("id", "")
+        ctype = case.get("type", "")
+        prompt = case.get("prompt", "").replace("|", "/")[:60]
+        expected = case.get("expected_behavior", "").replace("|", "/")[:60]
+        lines.append(f"| {pid} | {ctype} | 待测 | {prompt} | {expected} | |")
+    lines.append("")
+    text = "\n".join(lines)
+    out = Path(args.out)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(text, encoding="utf-8")
+    print("OUTPUT", out)
+    print("CASES", len(cases))
+
+
+if __name__ == "__main__":
+    main()
