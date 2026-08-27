@@ -6,6 +6,7 @@ import datetime
 import re
 from collections import Counter
 from pathlib import Path
+from path_util import as_native_path
 
 TOPIC_PATTERNS = {
     "劳动法/职场权益": ["劳动法", "劳动争议", "竞业", "劳动合同", "N+3", "裁员", "工资", "社保", "劳动权益"],
@@ -70,7 +71,7 @@ def count_topics(entries):
 
 def main():
     args = parse_args()
-    text = Path(args.log).read_text(encoding="utf-8", errors="ignore")
+    text = Path(as_native_path(args.log)).read_text(encoding="utf-8", errors="ignore")
     entries = parse_entries(text)
     confidence = Counter()
     uncertain = []
@@ -124,7 +125,7 @@ def main():
         lines.append(f"- {date} {title}：{detail}")
 
     report = "\n".join(lines) + "\n"
-    out = Path(args.out)
+    out = Path(as_native_path(args.out))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(report, encoding="utf-8")
     print(report)

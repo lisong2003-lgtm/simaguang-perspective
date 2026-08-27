@@ -5,6 +5,7 @@ import argparse
 import html
 import json
 from pathlib import Path
+from path_util import as_native_path
 
 
 def parse_args():
@@ -116,10 +117,10 @@ def render(sources, title):
 def main():
     args = parse_args()
     if args.sources_file:
-        sources = json.loads(Path(args.sources_file).read_text(encoding="utf-8"))
+        sources = json.loads(Path(as_native_path(args.sources_file)).read_text(encoding="utf-8"))
     else:
         sources = json.loads(args.sources)
-    out = Path(args.output)
+    out = Path(as_native_path(args.output))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(render(sources, args.title), encoding="utf-8")
     print("output", out)

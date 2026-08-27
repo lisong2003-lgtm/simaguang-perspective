@@ -3,7 +3,7 @@
 一个以《资治通鉴》式历史校准为基础，融合现代系统思维、心理、法律、投资、侦查、易学、奇门和推演决策时机的综合决策技能。
 
 GitHub：[lisong2003-lgtm/simaguang-perspective](https://github.com/lisong2003-lgtm/simaguang-perspective)
-Release：[v0.3.1](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.1)
+Release：[v0.3.7](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.7)
 
 ## 产品说明
 
@@ -47,11 +47,12 @@ Release：[v0.3.1](https://github.com/lisong2003-lgtm/simaguang-perspective/rele
 
 ## 多平台发布包
 
-- Codex 插件：`dist/simaguang-perspective-0.3.1-codex-plugin.zip`
-- Codex 知识扩展：`dist/simaguang-perspective-0.3.1-codex-knowledge.zip`
-- Codex 市场仓库：`dist/simaguang-perspective-0.3.1-codex-marketplace.zip`
-- 通用 Skill：`dist/simaguang-perspective-public-0.3.1.zip`
-- 知识扩展包：`dist/simaguang-perspective-public-0.3.1-knowledge.zip`
+- Codex 插件：`dist/simaguang-perspective-0.3.7-codex-plugin.zip`
+- Codex 知识扩展：`dist/simaguang-perspective-0.3.7-codex-knowledge.zip`
+- Codex 市场仓库：`dist/simaguang-perspective-0.3.7-codex-marketplace.zip`
+- 通用 Skill：`dist/simaguang-perspective-public-0.3.7-light.zip`
+- 完整知识版：`dist/simaguang-perspective-public-0.3.7-full.zip`
+- 知识扩展包：`dist/simaguang-perspective-public-0.3.7-knowledge.zip`
 - 平台说明：[platforms/README.md](platforms/README.md)
 - WorkBuddy 安装：[platforms/WorkBuddy安装.md](platforms/WorkBuddy安装.md)
 - Codex 插件发布：[platforms/Codex插件发布.md](platforms/Codex插件发布.md)
@@ -86,13 +87,20 @@ python3 scripts/build_knowledge_extension.py
 - 旧版结构：`knowledge/books/<书>/SKILL.md`
 - 新版结构：`knowledge/books/<书>.md`
 
-如果旧版已经在 WorkBuddy 中出现多个技能，请删除旧版安装和残留技能，再安装 `v0.3.1`。
+如果旧版已经在 WorkBuddy 中出现多个技能，请删除旧版安装和残留技能，再安装 `v0.3.7`。
 
 ### SkillHub 版本会有这个问题吗？
 
 SkillHub 当前提供的是轻量版，不包含 `knowledge/books/`，因此不会出现多个技能。
 
-如果需要在 SkillHub 版中使用完整知识库，请从 GitHub Release 下载 `simaguang-perspective-public-0.3.1-knowledge.zip`，并按安装说明合并 `knowledge/books/`。
+如果需要在 SkillHub 版中使用完整知识库，请从 GitHub Release 下载 `simaguang-perspective-public-0.3.7-knowledge.zip`，并按安装说明合并 `knowledge/books/`。
+
+## 0.3.7 更新
+
+- 主 `SKILL.md` 精简为可执行入口，长内容统一放入 `references/`，降低每次加载的 Token 消耗。
+- 修复 Windows 和 Git Bash 下脚本路径不识别的问题，统一通过 `scripts/path_util.py` 转换 `/c/...` 与 `/tmp/...`。
+- 修复完整版在 WorkBuddy 中显示多个技能的问题，`knowledge/books/` 保持扁平知识文件结构。
+- SkillHub 版本使用精简介绍和轻量包，避免审核敏感内容，不包含逐书知识文件。
 
 ## 快速开始
 

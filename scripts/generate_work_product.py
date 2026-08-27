@@ -3,6 +3,7 @@
 
 import argparse
 from pathlib import Path
+from path_util import as_native_path
 
 
 TEMPLATES = {
@@ -800,7 +801,7 @@ def main():
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    out = Path(args.output)
+    out = Path(as_native_path(args.output))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(TEMPLATES[args.type], encoding="utf-8")
     print("output", out)

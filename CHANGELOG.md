@@ -1,5 +1,14 @@
 # 变更记录
 
+## 0.3.7-public（2026-08-27）
+
+- 主 `SKILL.md` 精简为可执行入口，长内容统一放入 `references/`，降低每次加载的 Token 消耗。
+- 所有脚本统一接入 `scripts/path_util.py`，修复 Windows 和 Git Bash 下 `/c/...`、`/tmp/...` 路径不识别的问题。
+- 更新集成校验，支持轻量包和完整包分别验证。
+- 修复完整版在 WorkBuddy 中显示多个技能的问题，`knowledge/books/` 保持扁平知识文件结构。
+- SkillHub 版本使用精简介绍和轻量包，避免审核敏感内容，不包含逐书知识文件。
+- 更新 README、产品说明、平台发布文档和发布包版本号。
+
 ## 0.3.1-public（2026-08-24）
 
 - 修复 WorkBuddy 完整版显示多个技能的问题：`knowledge/books/<书>/SKILL.md` 改为扁平知识文件 `knowledge/books/<书>.md`。

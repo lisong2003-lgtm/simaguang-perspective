@@ -5,6 +5,7 @@ import argparse
 import re
 import sys
 from pathlib import Path
+from path_util import as_native_path
 
 
 def parse_args():
@@ -20,7 +21,7 @@ def parse_args():
 
 def iter_panels(paths):
     for raw in paths:
-        path = Path(raw)
+        path = Path(as_native_path(raw))
         if path.is_dir():
             yield from sorted(path.glob("*.html"))
         elif path.is_file():

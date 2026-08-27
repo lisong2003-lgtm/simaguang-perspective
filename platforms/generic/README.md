@@ -66,6 +66,6 @@ python3 scripts/run_test_prompts.py --prompts test-prompts.json
 
 默认轻量包包含 `knowledge/summaries/`。需要完整逐书知识文件时，安装：
 
-- `dist/simaguang-perspective-public-0.3.1-knowledge.zip`
+- `dist/simaguang-perspective-public-0.3.7-knowledge.zip`
 
 安装后按 `knowledge/summaries/<书>.md` 先读摘要，需要深度分析时再读 `knowledge/books/<书>.md`。

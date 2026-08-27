@@ -4,7 +4,7 @@
 
 Codex 市场建议使用：
 
-- `dist/simaguang-perspective-0.3.1-codex-marketplace.zip`
+- `dist/simaguang-perspective-0.3.7-codex-marketplace.zip`
 
 这个压缩包包含：
 
@@ -22,7 +22,7 @@ simaguang-perspective-marketplace/
 
 ## 本地测试
 
-1. 解压 `simaguang-perspective-0.3.1-codex-marketplace.zip`。
+1. 解压 `simaguang-perspective-0.3.7-codex-marketplace.zip`。
 2. 把整个 `simaguang-perspective-marketplace` 目录放到本地插件市场目录。
 3. 在 Codex 中添加该本地市场。
 4. 新开对话后输入：
@@ -36,7 +36,7 @@ simaguang-perspective-marketplace/
 默认 Codex 插件是轻量版，只包含摘要层。需要完整逐书知识文件时，安装：
 
 ```text
-dist/simaguang-perspective-0.3.1-codex-knowledge.zip
+dist/simaguang-perspective-0.3.7-codex-knowledge.zip
 ```
 
 解压后，将 `simaguang-perspective/skills/simaguang-perspective/knowledge/` 合并到已安装插件对应目录。
@@ -50,7 +50,7 @@ dist/simaguang-perspective-0.3.1-codex-knowledge.zip
 
 ## 提交材料
 
-- `dist/simaguang-perspective-0.3.1-codex-plugin.zip`：插件单包
-- `dist/simaguang-perspective-0.3.1-codex-marketplace.zip`：市场仓库包
+- `dist/simaguang-perspective-0.3.7-codex-plugin.zip`：插件单包
+- `dist/simaguang-perspective-0.3.7-codex-marketplace.zip`：市场仓库包
 - `dist/SHA256SUMS.txt`：校验值
 - [发布提交材料](发布提交材料.md)：简介、隐私声明和能力边界

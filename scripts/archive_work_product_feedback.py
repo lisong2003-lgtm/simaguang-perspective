@@ -5,6 +5,7 @@ import argparse
 import sys
 from datetime import date
 from pathlib import Path
+from path_util import as_native_path
 
 DEFAULT_ARCHIVE = Path("运行目录/学习记录/高生产力真实反馈归档.md")
 
@@ -19,7 +20,7 @@ def main():
     parser.add_argument("--archive", default=str(DEFAULT_ARCHIVE))
     args = parser.parse_args()
 
-    archive = Path(args.archive)
+    archive = Path(as_native_path(args.archive))
     archive.parent.mkdir(parents=True, exist_ok=True)
     existing = archive.read_text(encoding="utf-8") if archive.exists() else ""
     entry = (

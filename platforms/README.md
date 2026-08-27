@@ -4,11 +4,11 @@
 
 | 形态 | 压缩包 | 适用场景 |
 |---|---|---|
-| Codex 插件 | `dist/simaguang-perspective-0.3.1-codex-plugin.zip` | Codex 插件生态、本地插件安装 |
-| Codex 知识扩展 | `dist/simaguang-perspective-0.3.1-codex-knowledge.zip` | 为 Codex 插件补充完整逐书知识文件 |
-| Codex 市场仓库 | `dist/simaguang-perspective-0.3.1-codex-marketplace.zip` | 上传公开仓库、提交 Codex 插件市场 |
-| 通用 Skill | `dist/simaguang-perspective-public-0.3.1.zip` | OpenAI Skills、Claude Skills、通用 Skill 平台 |
-| 知识扩展 | `dist/simaguang-perspective-public-0.3.1-knowledge.zip` | 需要完整逐书知识文件的深度用户 |
+| Codex 插件 | `dist/simaguang-perspective-0.3.7-codex-plugin.zip` | Codex 插件生态、本地插件安装 |
+| Codex 知识扩展 | `dist/simaguang-perspective-0.3.7-codex-knowledge.zip` | 为 Codex 插件补充完整逐书知识文件 |
+| Codex 市场仓库 | `dist/simaguang-perspective-0.3.7-codex-marketplace.zip` | 上传公开仓库、提交 Codex 插件市场 |
+| 通用 Skill | `dist/simaguang-perspective-public-0.3.7.zip` | OpenAI Skills、Claude Skills、通用 Skill 平台 |
+| 知识扩展 | `dist/simaguang-perspective-public-0.3.7-knowledge.zip` | 需要完整逐书知识文件的深度用户 |
 
 ## Codex 插件包
 
@@ -42,10 +42,10 @@
 
 ## 提交材料
 
-- `dist/simaguang-perspective-public-0.3.1.zip`：通用 Skill 包
-- `dist/simaguang-perspective-public-0.3.1-knowledge.zip`：可选知识扩展包
-- `dist/simaguang-perspective-0.3.1-codex-plugin.zip`：Codex 插件单包
-- `dist/simaguang-perspective-0.3.1-codex-marketplace.zip`：Codex 市场仓库包
+- `dist/simaguang-perspective-public-0.3.7.zip`：通用 Skill 包
+- `dist/simaguang-perspective-public-0.3.7-knowledge.zip`：可选知识扩展包
+- `dist/simaguang-perspective-0.3.7-codex-plugin.zip`：Codex 插件单包
+- `dist/simaguang-perspective-0.3.7-codex-marketplace.zip`：Codex 市场仓库包
 - `dist/SHA256SUMS.txt`：校验清单
 - `介绍与演示.md`：简介、演示 Prompt 和展示方式
 - `发布提交材料.md`：平台提交文案和检查清单

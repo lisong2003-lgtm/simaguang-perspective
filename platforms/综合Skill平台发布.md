@@ -4,7 +4,7 @@
 
 综合 Skill 平台使用通用包：
 
-- `dist/simaguang-perspective-public-0.3.1.zip`
+- `dist/simaguang-perspective-public-0.3.7.zip`
 
 包内是标准 Agent Skills 目录：
 
@@ -24,7 +24,7 @@ simaguang-perspective-public/
 ## 提交流程
 
 1. 进入目标平台的 Skill 市场或导入入口。
-2. 选择 `simaguang-perspective-public-0.3.1.zip`。
+2. 选择 `simaguang-perspective-public-0.3.7.zip`。
 3. 填写平台要求的名称、简介、分类、作者、隐私和免责声明。
 4. 附上测试结果和 `SHA256`。
 5. 提交后等待平台审核。
@@ -37,6 +37,6 @@ simaguang-perspective-public/
 
 ## 提交材料
 
-- `dist/simaguang-perspective-public-0.3.1.zip`
+- `dist/simaguang-perspective-public-0.3.7.zip`
 - `dist/SHA256SUMS.txt`
 - [发布提交材料](发布提交材料.md)

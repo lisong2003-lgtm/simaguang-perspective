@@ -6,6 +6,7 @@ import os
 import re
 import zipfile
 from pathlib import Path
+from path_util import as_native_path
 
 PDFTOTEXT = os.environ.get("PDFTOTEXT", "pdftotext")
 
@@ -62,7 +63,7 @@ def main():
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    path = Path(args.input)
+    path = Path(as_native_path(args.input))
     suffix = path.suffix.lower()
     if suffix == ".txt" or suffix == ".md":
         text = extract_txt(path)
@@ -81,7 +82,7 @@ def main():
         return
 
     clean = re.sub(r"\n{3,}", "\n\n", text).strip()
-    out = Path(args.output)
+    out = Path(as_native_path(args.output))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(clean, encoding="utf-8")
     print("clean chars", len(clean))

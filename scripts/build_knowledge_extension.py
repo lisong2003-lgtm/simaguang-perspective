@@ -9,8 +9,8 @@ from zipfile import ZipInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
-VERSION = "0.3.6"
-RELEASE_DATE = (2026, 8, 24, 0, 0, 0)
+VERSION = "0.3.7"
+RELEASE_DATE = (2026, 8, 27, 0, 0, 0)
 
 
 def make_zip(source_dir: Path, output_path: Path) -> None:

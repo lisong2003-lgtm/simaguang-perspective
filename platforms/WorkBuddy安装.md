@@ -4,16 +4,16 @@
 
 分享给其他用户时，使用下面的链接：
 
-- 轻量包：[simaguang-perspective-public-0.3.1.zip](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/download/v0.3.1/simaguang-perspective-public-0.3.1.zip)
-- 知识扩展包：[simaguang-perspective-public-0.3.1-knowledge.zip](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/download/v0.3.1/simaguang-perspective-public-0.3.1-knowledge.zip)
+- 轻量包：[simaguang-perspective-public-0.3.7.zip](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/download/v0.3.7/simaguang-perspective-public-0.3.7.zip)
+- 知识扩展包：[simaguang-perspective-public-0.3.7-knowledge.zip](https://github.com/lisong2003-lgtm/simaguang-perspective/releases/download/v0.3.7/simaguang-perspective-public-0.3.7-knowledge.zip)
 
-GitHub 发布页：https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.1
+GitHub 发布页：https://github.com/lisong2003-lgtm/simaguang-perspective/releases/tag/v0.3.7
 
 ## 使用哪个包
 
 安装 WorkBuddy 时使用通用 Skill 包：
 
-- `dist/simaguang-perspective-public-0.3.1.zip`
+- `dist/simaguang-perspective-public-0.3.7.zip`
 
 不要使用 Codex 插件包，因为插件包内含 `.codex-plugin/plugin.json`，不是 WorkBuddy 需要的直接 Skill 结构。
 
@@ -24,12 +24,12 @@ GitHub 发布页：https://github.com/lisong2003-lgtm/simaguang-perspective/rele
 1. 打开 WorkBuddy。
 2. 进入设置或技能管理页。
 3. 点击“Import Skill”或“导入技能”。
-4. 选择 `simaguang-perspective-public-0.3.1.zip`。
+4. 选择 `simaguang-perspective-public-0.3.7.zip`。
 5. 导入后重启或新开对话。
 
 ### 方法二：复制到技能目录
 
-1. 解压 `simaguang-perspective-public-0.3.1.zip`。
+1. 解压 `simaguang-perspective-public-0.3.7.zip`。
 2. 把 `simaguang-perspective-public` 文件夹放入：
    - 项目级：`.codebuddy/skills/`
    - 用户级：`~/.workbuddy/skills/`（按 WorkBuddy 版本确认）
