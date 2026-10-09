@@ -6,10 +6,8 @@
 
 - 主 `SKILL.md`
 - `references/`
-- `knowledge/summaries/`：215 本书的紧凑摘要
 - `scripts/`
 - `examples/`
-- `test-prompts.json`
 
 可选知识扩展包额外包含：
 
@@ -19,6 +17,6 @@
 
 ## 使用方式
 
-- 默认安装：使用轻量包，日常问题按摘要和 references 判断。
+- SkillHub 审核合规版不包含书籍摘要；完整摘要和逐书知识文件见 GitHub Release。
 - 需要深度能力：安装知识扩展包，按索引读取 1-3 个完整知识文件。
 - 不能全量加载 `knowledge/books/`，否则 token 会大幅增加。

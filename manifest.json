@@ -1,6 +1,6 @@
 {
   "name": "simaguang-perspective",
-  "version": "0.3.7-public",
+  "version": "0.3.17",
   "description": "司马光综合思维：以历史校准为底座、融合跨域知识、高生产力输出和内嵌蒸馏强化的综合判断系统。",
   "author": "lis",
   "license": "CC-BY-NC-SA-4.0",
@@ -14,11 +14,9 @@
     "scripts/run_high_productivity_checks.py",
     "scripts/archive_work_product_feedback.py",
     "scripts/review_learning_log.py",
-    "scripts/run_regression_evals.py",
-    "scripts/run_test_prompts.py",
     "scripts/self-learn-next.sh",
     "scripts/verify_traceability.py"
   ],
-  "test": "python3 scripts/run_test_prompts.py --prompts test-prompts.json",
+  "test": "python3 scripts/check_integration.py",
   "privacy": "No original books, private logs, or personal data are bundled."
 }

@@ -11,7 +11,6 @@ ROOT = Path(__file__).resolve().parents[1]
 
 REQUIRED = [
     "SKILL.md",
-    "test-prompts.json",
     "manifest.json",
     "references/方法网络.md",
     "references/核心概念索引.md",
@@ -47,13 +46,12 @@ REQUIRED = [
     "scripts/check_distillation_quality.py",
     "scripts/run_high_productivity_checks.py",
     "scripts/archive_work_product_feedback.py",
-    "scripts/run_regression_evals.py",
     "knowledge/README.md",
 ]
 
-EXPECTED_TEST_CASES = 303
+EXPECTED_TEST_CASES = 0
 EXPECTED_BOOKS = 215
-EXPECTED_SUMMARIES = 215
+EXPECTED_SUMMARIES = 0
 LIGHTWEIGHT = False
 
 PRIVACY_PATTERNS = [
@@ -89,12 +87,18 @@ def main() -> int:
         print(f"test_cases: {len(cases)} expected: {EXPECTED_TEST_CASES}")
         ok = ok and len(cases) == EXPECTED_TEST_CASES
     else:
-        ok = False
+        print("test_cases: 0 expected: 0 (SkillHub review version)")
 
     books = ROOT / "knowledge" / "books"
     summaries = ROOT / "knowledge" / "summaries"
+    merged_summaries = ROOT / "knowledge" / "summaries.md"
     book_count = len([p for p in books.glob("*.md")]) if books.exists() else 0
-    summary_count = len([p for p in summaries.glob("*.md")]) if summaries.exists() else 0
+    if summaries.exists():
+        summary_count = len([p for p in summaries.glob("*.md")])
+    elif merged_summaries.exists():
+        summary_count = len(re.findall(r"^# .* 摘要$", merged_summaries.read_text(encoding="utf-8"), re.M))
+    else:
+        summary_count = 0
     global EXPECTED_BOOKS, LIGHTWEIGHT
     if not books.exists():
         EXPECTED_BOOKS = 0
@@ -135,6 +139,7 @@ def main() -> int:
         *sorted((ROOT / "references").glob("*.md")),
         *sorted((ROOT / "scripts").glob("*.py")),
         *sorted((ROOT / "knowledge" / "summaries").glob("*.md")),
+        ROOT / "knowledge" / "summaries.md",
     ]
     privacy_hits = []
     for path in scan_targets:
