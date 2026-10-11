@@ -1,5 +1,8 @@
 # 司马光综合思维（公开版）
 
+> 📦 **SkillHub 安装**：`skillhub install simaguang-perspective`　|　仓库：[lisong2003-lgtm/simaguang-perspective](https://github.com/lisong2003-lgtm/simaguang-perspective)
+
+
 一个以《资治通鉴》式历史校准为基础的综合判断系统，融合现代系统思维、心理、法律、投资、侦查、易学、奇门、推演决策时机和自学习闭环。
 
 ## 特点
