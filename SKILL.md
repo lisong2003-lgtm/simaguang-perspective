@@ -1,7 +1,7 @@
 ---
 name: simaguang-perspective
 slug: simaguang-perspective
-version: 0.3.17
+version: 0.4.3
 author: lis
 displayName: 司马光综合思维
 license: CC-BY-NC-SA-4.0
@@ -236,7 +236,7 @@ tags: [governance, people, decision, history, strategy, psychology, systems, law
 | 六类能力增强 | 实时核验/现代制度/地缘/传播/危机/执行 | `references/六类能力增强协议.md` |
 | 七项执行方案 | 量化推演/制度追踪/执行追踪/跨文化 | `references/七项能力增强执行方案.md` |
 | 融汇贯通 | 新能力进入四层+网络+路由+输出 | `references/融汇贯通协议.md` |
-| 以史为鉴 | 国家/公司/家庭/个人跨尺度分析 | `references/以史为鉴综合应用协议.md` |
+| 跨尺度对照 | 公司/家庭/个人跨尺度同构分析 | `references/决策故事案例.md` |
 | 主动学习补给 | 发现短板后生成补给单 | `references/主动学习补给协议.md` |
 | 蒸馏能力 | 内置蒸馏，≤14判断尺，不依赖外部skill | `references/蒸馏能力协议.md` |
 | 蒸馏方法论强化 | 已并入阅读法/学习法类书籍 | `references/蒸馏方法论强化技能包.md` |
@@ -252,10 +252,19 @@ tags: [governance, people, decision, history, strategy, psychology, systems, law
 | AI影视工具 | 影视提示词与工具 | `references/AI影视工具与提示词协议.md` |
 | 危机转介 | 本地资源核验 | `references/危机转介清单.md` |
 | 实时数据 | 数据接入与核验 | `references/实时数据协议.md` |
-| 公共政策追踪 | 政策变化登记 | `references/公共政策追踪协议.md` |
+| 事件素材索引 | 实时与历史报道素材登记、证据等级 | `references/实时与历史报道素材索引.md` |
+| 报道案例库 | 报道式决策案例：情境+约束+复盘 | `references/报道式决策案例库.md` |
+| 跨源核验 | URL去重、立场标签、交叉验证、敏感落盘 | `references/跨源交叉核验协议.md` |
+| 变化追踪 | 长期变化登记 | `references/现代制度追踪协议.md` |
 | 量化推演 | 保守/基准/乐观三档 | `references/量化推演与执行追踪协议.md` |
 
 ---
+
+## 事件分析素材入口
+
+- 事件/报道类问题先读 `references/实时与历史报道素材索引.md` 查公开素材，再按 `references/报道式决策案例库.md` 找同构案例。
+- 跨来源引用前执行 `references/跨源交叉核验协议.md`：URL 去重、立场标签、双源交叉、敏感落盘检查。
+- 素材未核验到 A 级时，输出只写「该来源称……」，并保留待验证项，不把背景线索当事实。
 
 ## 我的判断尺
 
