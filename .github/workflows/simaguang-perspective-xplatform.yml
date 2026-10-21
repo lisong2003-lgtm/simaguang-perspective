@@ -25,6 +25,7 @@ jobs:
       PYTHONIOENCODING: utf-8
       PYTHONUTF8: "1"
     steps:
+      - uses: actions/checkout@v4
       - name: 内容型脚本入口冒烟
         run: |
           python scripts/review_learning_log.py --help
