@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
 """Generate Markdown work-product skeletons for high-productivity mode."""
 
+
+try:
+    import os as _boot_os, sys as _boot_sys
+    _boot_sys.path.insert(0, _boot_os.path.dirname(_boot_os.path.abspath(__file__)))
+    import pyboot as _boot_pyboot
+    _boot_pyboot.ensure_utf8_io()
+except Exception:
+    pass
+
 import argparse
+import sys
 from pathlib import Path
-from path_util import as_native_path
+
+import i18n
 
 
 TEMPLATES = {
@@ -796,15 +807,24 @@ TEMPLATES = {
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--type", required=True, choices=sorted(TEMPLATES))
-    parser.add_argument("--output", required=True)
-    args = parser.parse_args()
+    raw = sys.argv[1:]
+    lang = i18n.argv_lang(raw)
+    desc = ("Generate Markdown work-product skeletons for high-productivity mode."
+            if lang == "en"
+            else "生成 Markdown 工作成果骨架（高效产出模式）。")
+    parser = argparse.ArgumentParser(description=desc)
+    i18n.add_lang_arg(parser, default=lang)
+    parser.add_argument("--type", required=True, choices=sorted(TEMPLATES),
+                        help="template key" if lang == "en" else "模板键")
+    parser.add_argument("--output", required=True,
+                        help="output markdown path" if lang == "en" else "输出 Markdown 路径")
+    args = parser.parse_args(raw)
 
-    out = Path(as_native_path(args.output))
+    out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(TEMPLATES[args.type], encoding="utf-8")
-    print("output", out)
+    body = TEMPLATES[args.type]
+    out.write_text(body, encoding="utf-8")
+    print(i18n.T(lang, "written") + ": " + str(out))
 
 
 if __name__ == "__main__":

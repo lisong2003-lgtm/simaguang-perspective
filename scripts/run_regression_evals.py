@@ -5,7 +5,6 @@ import argparse
 import datetime
 import json
 from pathlib import Path
-from path_util import as_native_path
 
 
 def parse_args():
@@ -17,7 +16,7 @@ def parse_args():
 
 def main():
     args = parse_args()
-    data = json.loads(Path(as_native_path(args.prompts)).read_text(encoding="utf-8"))
+    data = json.loads(Path(args.prompts).read_text(encoding="utf-8"))
     cases = data.get("test_cases", [])
     today = datetime.date.today().isoformat()
     lines = [
@@ -36,7 +35,7 @@ def main():
         lines.append(f"| {pid} | {ctype} | 待测 | {prompt} | {expected} | |")
     lines.append("")
     text = "\n".join(lines)
-    out = Path(as_native_path(args.out))
+    out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")
     print("OUTPUT", out)

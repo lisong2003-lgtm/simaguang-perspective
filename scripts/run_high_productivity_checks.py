@@ -5,7 +5,6 @@ import argparse
 import re
 import sys
 from pathlib import Path
-from path_util import as_native_path
 
 
 CHECKS = {
@@ -97,7 +96,7 @@ def main():
     parser.add_argument("--output", help="optional markdown report path")
     args = parser.parse_args()
 
-    path = Path(as_native_path(args.file))
+    path = Path(args.file)
     if not path.exists():
         print(f"ERROR file not found: {path}")
         return 1
@@ -130,7 +129,7 @@ def main():
     report = "\n".join(lines)
     print(report)
     if args.output:
-        out = Path(as_native_path(args.output))
+        out = Path(args.output)
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(report, encoding="utf-8")
         print(f"output: {out}")

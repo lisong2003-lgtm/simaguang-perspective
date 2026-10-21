@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
 """Extract readable text from common input formats for distillation."""
 
+
+try:
+    import os as _boot_os, sys as _boot_sys
+    _boot_sys.path.insert(0, _boot_os.path.dirname(_boot_os.path.abspath(__file__)))
+    import pyboot as _boot_pyboot
+    _boot_pyboot.ensure_utf8_io()
+except Exception:
+    pass
+
 import argparse
-import os
 import re
 import zipfile
 from pathlib import Path
-from path_util import as_native_path
 
-PDFTOTEXT = os.environ.get("PDFTOTEXT", "pdftotext")
+PDFTOTEXT = "/Users/lis/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftotext"
 
 
 def extract_txt(path):
@@ -63,7 +70,7 @@ def main():
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
 
-    path = Path(as_native_path(args.input))
+    path = Path(args.input)
     suffix = path.suffix.lower()
     if suffix == ".txt" or suffix == ".md":
         text = extract_txt(path)
@@ -82,7 +89,7 @@ def main():
         return
 
     clean = re.sub(r"\n{3,}", "\n\n", text).strip()
-    out = Path(as_native_path(args.output))
+    out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(clean, encoding="utf-8")
     print("clean chars", len(clean))

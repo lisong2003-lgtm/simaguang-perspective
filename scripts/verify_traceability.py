@@ -2,10 +2,10 @@
 """Verify traceability HTML panels contain only existing local source paths."""
 
 import argparse
+import html
 import re
 import sys
 from pathlib import Path
-from path_util import as_native_path
 
 
 def parse_args():
@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument(
         "--panels",
         nargs="*",
-        default=["运行目录/output/可查技能原文"],
+        default=["学习记录/可查技能原文"],
         help="HTML panel file(s) or a directory containing HTML panels.",
     )
     return parser.parse_args()
@@ -21,7 +21,7 @@ def parse_args():
 
 def iter_panels(paths):
     for raw in paths:
-        path = Path(as_native_path(raw))
+        path = Path(raw)
         if path.is_dir():
             yield from sorted(path.glob("*.html"))
         elif path.is_file():

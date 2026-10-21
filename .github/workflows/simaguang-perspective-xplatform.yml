@@ -1,0 +1,40 @@
+name: simaguang-perspective cross-platform CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  cross-platform:
+    name: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    env:
+      PYTHONIOENCODING: utf-8
+      PYTHONUTF8: "1"
+    steps:
+      - name: 内容型脚本入口冒烟
+        run: |
+          python scripts/review_learning_log.py --help
+          python scripts/prepare_input.py --help
+          python scripts/generate_work_product.py --help
+          python scripts/check_distillation_quality.py --help
+
+      - name: Windows 中文 JSON 输出验证
+        if: runner.os == 'Windows'
+        shell: bash
+        run: python scripts/smoke_utf8_json.py
+      - name: i18n 英文 smoke（--lang en JSON 可读）
+        run: python scripts/smoke_utf8_json.py --lang en

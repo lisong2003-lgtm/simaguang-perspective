@@ -5,7 +5,6 @@ import argparse
 import json
 from collections import Counter
 from pathlib import Path
-from path_util import as_native_path
 
 
 def main():
@@ -14,7 +13,7 @@ def main():
     parser.add_argument("--output", required=False)
     args = parser.parse_args()
 
-    data = json.loads(Path(as_native_path(args.prompts)).read_text(encoding="utf-8"))
+    data = json.loads(Path(args.prompts).read_text(encoding="utf-8"))
     cases = data.get("test_cases", [])
     types = Counter(case.get("type", "unknown") for case in cases)
     notes = Counter(case.get("notes", "unknown") for case in cases)
@@ -39,7 +38,7 @@ def main():
     report = "\n".join(lines) + "\n"
     print(report)
     if args.output:
-        Path(as_native_path(args.output)).write_text(report, encoding="utf-8")
+        Path(args.output).write_text(report, encoding="utf-8")
         print(f"output: {args.output}")
 
 

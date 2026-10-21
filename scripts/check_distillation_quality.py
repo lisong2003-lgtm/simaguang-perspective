@@ -1,6 +1,15 @@
 #!/usr/bin/env python3
 """Check distilled skill packs against the distillation methodology checklist."""
 
+
+try:
+    import os as _boot_os, sys as _boot_sys
+    _boot_sys.path.insert(0, _boot_os.path.dirname(_boot_os.path.abspath(__file__)))
+    import pyboot as _boot_pyboot
+    _boot_pyboot.ensure_utf8_io()
+except Exception:
+    pass
+
 import argparse
 import re
 from pathlib import Path
@@ -11,9 +20,8 @@ def main():
     parser.add_argument("--strict", action="store_true", help="fail on structural issues")
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[1]
-    source_dir = root / "运行目录" / "sources" if (root / "运行目录" / "sources").exists() else root / "sources"
-    files = sorted(source_dir.rglob("SKILL.md") if source_dir.exists() else [])
+    root = Path(__file__).resolve().parents[3]
+    files = sorted((root / "书籍蒸馏").rglob("SKILL.md"))
     issues = []
     counts = {}
     missing_boundary = []
