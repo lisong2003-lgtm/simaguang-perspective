@@ -2,9 +2,11 @@
 """Generate a routing index from existing clusters and skill packages."""
 
 import re
+import sys
 from difflib import SequenceMatcher
 from pathlib import Path
 
+import project_paths
 from audit_skill_index import (
     DISTILL,
     INDEX,
@@ -150,7 +152,18 @@ def cluster_meta(cluster):
     return meta
 
 
+def package_protocols() -> list[str]:
+    """包内 references/*.md —— 不依赖外部项目就能用的协议清单。"""
+    refs = ROOT / "references"
+    return sorted(p.stem for p in refs.glob("*.md") if p.is_file())
+
+
 def main():
+    if PROJECT == ROOT:
+        # 没解析到外部项目根：索引/技能包都不存在，不能凭空生成。
+        print(project_paths.project_dir_help(), file=sys.stderr)
+        print("已跳过路由索引重建；包内 SKILL.md 与 references/ 不受影响。", file=sys.stderr)
+        return 2
     clusters = extract_clusters(INDEX.read_text(encoding="utf-8"))
     packs = list_skill_packs(DISTILL)
     for candidate in sorted(DISTILL.rglob("*")):
@@ -188,6 +201,20 @@ def main():
         "",
         "> 本文件由 `scripts/build_skill_index.py` 自动生成，不手工编辑。",
         "> 源数据：`references/技能合并索引.md`、`references/技能路由配置.md`；技能包：`书籍蒸馏/*/skills/*/SKILL.md`；原书：各项目 `input/`。",
+        "",
+        "## 先说清楚：这是本地扩展索引，技能包独立可用",
+        "",
+        "下面 28 个簇指向的 `书籍蒸馏/.../skills/.../SKILL.md` 是**作者本地项目里的蒸馏产物**，",
+        "不随技能包发布。缺它们时本技能照样能用——判断尺、协议、模板、脚本全在包内 `references/`：",
+        "",
+        f"包内协议 {len(package_protocols())} 份：" + "、".join(f"`{name}`" for name in package_protocols()),
+        "",
+        "用法差别只有一条：",
+        "",
+        "- 有外部项目（设置了 `SIMAGUANG_PROJECT_DIR`）：按簇路由到具体书籍技能包，能引用原书出处。",
+        "- 没有外部项目：按 `SKILL.md` 的「协议索引」直接加载包内协议，出处标注写「未接入书籍技能包」。",
+        "",
+        "本文件是给「有项目的人」看的加速索引，不是技能包的依赖清单。",
         "",
         "## 统计",
         "",

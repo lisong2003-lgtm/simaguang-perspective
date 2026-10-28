@@ -2,19 +2,15 @@
 """Extract unresolved user corrections from learning log as routing feedback candidates."""
 
 import datetime
+import sys
 from pathlib import Path
 
+import project_paths
 from review_learning_log import parse_entries, parse_feedback
 
 ROOT = Path(__file__).resolve().parents[1]
-PROJECT = (
-    ROOT.parents[1]
-    if (ROOT.parents[1] / "书籍蒸馏").exists()
-    else Path.home() / "Documents/Codex/2026-07-30/new-chat/资治通鉴蒸馏"
-)
-LOG = PROJECT / "学习记录" / "学习日志.md"
+PROJECT = project_paths.find_project_dir()
 FEEDBACK = ROOT / "references" / "技能路由反馈日志.md"
-OUT = PROJECT / "学习记录" / "技能路由反馈候选-2026-08-20.md"
 
 PROCESS_MARKERS = [
     "无额外指令",
@@ -34,7 +30,15 @@ PROCESS_MARKERS = [
 
 
 def main():
-    entries = parse_entries(LOG.read_text(encoding="utf-8", errors="ignore"))
+    if PROJECT is None:
+        print(project_paths.project_dir_help(), file=sys.stderr)
+        print("反馈候选来自外部项目学习日志，未解析到项目根时无法提取。", file=sys.stderr)
+        return 2
+    log = PROJECT / "学习记录" / "学习日志.md"
+    if not log.is_file():
+        print(f"学习日志不存在：{log}", file=sys.stderr)
+        return 2
+    entries = parse_entries(log.read_text(encoding="utf-8", errors="ignore"))
     feedback_text = (
         FEEDBACK.read_text(encoding="utf-8", errors="ignore")
         if FEEDBACK.exists()
@@ -68,10 +72,13 @@ def main():
         lines.append(f"- 用户追问/纠正：{correction}")
         lines.append("")
 
-    OUT.write_text("\n".join(lines), encoding="utf-8")
+    out = PROJECT / "学习记录" / f"技能路由反馈候选-{today}.md"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text("\n".join(lines), encoding="utf-8")
     print(f"candidates={len(candidates)} process_skipped={process_skipped}")
-    print(f"report={OUT}")
+    print(f"report={out}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

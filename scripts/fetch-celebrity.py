@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Fetch the next public-figure image from Wikimedia Commons via image proxy.
 
-Outputs ~/.codex/simaguang-celebrity/current.json so the Simaguang analysis
-automation can use one deterministic image per run.
+Outputs `<state>/current.json` so the Simaguang analysis automation can use one
+deterministic image per run. State dir = `$SIMAGUANG_STATE_DIR` or
+`~/.cache/simaguang-celebrity/`（可丢弃缓存，不属于技能包，也不写入任何 Agent 全局配置目录）.
+Images go through images.weserv.nl so no direct Commons hotlink is made.
 """
 
 import json
@@ -16,7 +18,12 @@ from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
 POOL = SKILL_DIR / "references" / "名人分析库.json"
-STATE_DIR = Path.home() / ".codex" / "simaguang-celebrity"
+_STATE_ROOT = (
+    Path(os.environ["SIMAGUANG_STATE_DIR"]).expanduser()
+    if os.environ.get("SIMAGUANG_STATE_DIR")
+    else Path(os.environ.get("XDG_CACHE_HOME") or (Path.home() / ".cache"))
+)
+STATE_DIR = _STATE_ROOT / "simaguang-celebrity"
 STATE = STATE_DIR / "state.json"
 CURRENT = STATE_DIR / "current.json"
 

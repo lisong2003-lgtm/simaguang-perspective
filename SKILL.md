@@ -1,5 +1,7 @@
 ---
 name: simaguang-perspective
+slug: simaguang-perspective
+displayName: "司马光综合思维"
 description: >
   用司马光的认知方式思考问题。不是模仿语气，是植入他的认知上下文——
   他的信念从哪来、他在哪些具体场景下做了什么决策、他承认自己错在哪。
@@ -11,7 +13,7 @@ description: >
 source_book: 《资治通鉴》及已蒸馏书籍清单，详见 references/素材来源索引.md。
 tags: [governance, people, decision, history, strategy, psychology, systems, law, investment, investigation, yijing, productivity, film]
 related_skills: [ds-vision-skill, skill-architect]
-version: 0.4.5
+version: 0.4.7
 platforms: [macos, windows, linux]
 i18n:
   en: README.en.md
@@ -162,7 +164,7 @@ locales: [zh-CN, en-US]
 
 ## 灵活调用协议
 
-- 路由入口：先查 `references/技能路由索引.md` 按问题匹配能力簇，再打开对应技能包。
+- 路由入口：先查 `references/技能路由索引.md` 按问题匹配能力簇，再打开对应技能包；没有外部项目（`书籍蒸馏/`）时跳过技能包，直接按下方「协议索引」加载包内协议。
 - 预置表只是基线：方法网络和三方会诊是默认工具，不是机械模板；先判断问题卡在哪个环节再选簇。
 - 动态增减：简单问题 1-2 簇，复杂问题 3-5 簇；每增加一个簇必须带来新的独立视角，否则合并。
 - 完整规则见 `references/调用优化协议.md`；跨书异同见 `references/技能异同表.md`。
@@ -283,7 +285,7 @@ locales: [zh-CN, en-US]
 
 ## 名人图片分析通道
 
-- 使用 `scripts/fetch-celebrity.py` 从 Wikimedia Commons 获取名人公开图片。
+- 使用 `scripts/fetch-celebrity.py` 从 Wikimedia Commons 获取名人公开图片；图片经 `images.weserv.nl` 代理取（不直连原站），缓存落在 `~/.cache/simaguang-celebrity/`，可随时删、重跑即重建。
 - 图片先用 ds-vision-skill 转成文本证据，再按 `references/名人分析协议.md` 输出分析卡。
 - 新规则先到 `references/进化判断尺.md` 查重，再决定是否进化。分析日志见 `references/名人分析日志.md`。
 
@@ -301,9 +303,9 @@ locales: [zh-CN, en-US]
 
 ## 自我学习闭环
 
-- 每次分析后内部记录置信度、知识缺口、用户纠正到 `学习记录/学习日志.md`。
-- "复盘学习日志"时运行 `scripts/review_learning_log.py`；历史事件自学运行 `scripts/self-learn-next.sh`。
-- 进化记录（三家分晋→索取边界尺、TikTok×林深案例碰撞、每周热点复盘）见 `references/进化判断尺.md` 和 `学习记录/` 目录。
+- 默认（包内独立运行）：每次分析后把置信度、知识缺口、用户纠正写进当前对话，或用户指定的单个文件；复盘用 `scripts/review_learning_log.py`。
+- 配了外部项目（`SIMAGUANG_PROJECT_DIR`）时，才写 `学习记录/学习日志.md`、跑 `scripts/self-learn-next.sh`，细节见 `references/optional-本地扩展.md`。
+- 进化记录（三家分晋→索取边界尺、TikTok×林深案例碰撞、每周热点复盘）见 `references/进化判断尺.md`。
 
 ---
 

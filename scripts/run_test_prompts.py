@@ -2,6 +2,7 @@
 """Validate test-prompts.json and print a capability coverage summary."""
 
 import argparse
+import datetime
 import json
 from collections import Counter
 from pathlib import Path
@@ -19,7 +20,7 @@ def main():
     notes = Counter(case.get("notes", "unknown") for case in cases)
 
     lines = [
-        "# 能力覆盖矩阵（2026-08-12）",
+        f"# 能力覆盖矩阵（{datetime.date.today().isoformat()}）",
         "",
         f"- test_cases: {len(cases)}",
         "",

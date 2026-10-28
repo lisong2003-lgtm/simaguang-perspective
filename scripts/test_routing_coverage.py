@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
-"""Run a keyword routing hit test against test-prompts."""
+# -*- coding: utf-8 -*-
+"""Run a keyword routing hit test against test-prompts.
 
+报告输出位置三级：`--out` 参数 → 外部项目根/学习记录/（若解析到）→ 技能包内 handoff/。
+命中率只依赖包内 `references/技能路由配置.md` 与 `test-prompts.json`，
+没有外部项目也能跑完整回归。
+"""
+
+import argparse
+import datetime
 import json
 import re
 import sys
 from pathlib import Path
 
+import project_paths
+
 ROOT = Path(__file__).resolve().parents[1]
-PROJECT = (
-    ROOT.parents[1]
-    if (ROOT.parents[1] / "书籍蒸馏").exists()
-    else Path.home() / "Documents/Codex/2026-07-30/new-chat/资治通鉴蒸馏"
-)
 CONFIG = ROOT / "references" / "技能路由配置.md"
 TEST = ROOT / "test-prompts.json"
-OUT = PROJECT / "学习记录" / "技能路由命中测试-2026-08-20.md"
 META_IDS = (
     "first-meeting-",
     "identity-",
@@ -53,7 +57,22 @@ def hits(prompt, keywords):
     return [keyword for keyword in keywords if keyword and keyword in prompt]
 
 
+def resolve_out(explicit: str | None) -> Path:
+    """--out > 项目根/学习记录/ > 包内 handoff/。"""
+    if explicit:
+        return Path(explicit).expanduser()
+    root = project_paths.find_project_dir()
+    if root:
+        return root / "学习记录" / "技能路由命中测试.md"
+    return ROOT / "handoff" / "技能路由命中测试.md"
+
+
 def main():
+    parser = argparse.ArgumentParser(description="跑关键词路由命中回归，输出统计报告。")
+    parser.add_argument("--out", help="报告输出路径（默认：项目根/学习记录/ 或 包内 handoff/）")
+    parser.add_argument("--quiet", action="store_true", help="只打印一行统计，不写报告文件")
+    args = parser.parse_args()
+
     config = load_config()
     data = json.loads(TEST.read_text(encoding="utf-8"))
     cases = data["test_cases"]
@@ -124,7 +143,7 @@ def main():
     top_clusters = sorted(cluster_counts.items(), key=lambda item: item[1], reverse=True)
 
     lines = [
-        "# 技能路由命中测试（2026-08-20）",
+        f"# 技能路由命中测试（{datetime.date.today().isoformat()}）",
         "",
         "## 统计",
         "",
@@ -194,11 +213,18 @@ def main():
     if not expected_no_hit:
         lines.append("- 无")
 
-    OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    if not args.quiet:
+        out = resolve_out(args.out)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text("\n".join(lines) + "\n", encoding="utf-8")
     status = "OK" if not (content_no_route or missed or expected_no_hit) else "FAIL"
     print(
         f"prompts={len(cases)} no_route={len(no_route)} required_hit={len(required_hit)} exact={len(exact)} partial={len(partial)} missed={len(missed)} expected_no_hit={len(expected_no_hit)}"
     )
+    if recalls:
+        print(f"avg_precision={sum(precisions) / len(precisions) * 100:.1f}% avg_recall={sum(recalls) / len(recalls) * 100:.1f}%")
+    if not args.quiet:
+        print(f"report={out}")
     print(f"routing_accuracy_status={status}")
     return 0 if status == "OK" else 1
 

@@ -1,6 +1,6 @@
 # Sima Guang Perspective / Cognitive Advisory
 
-> simaguang-perspective (simaguang-perspective) v0.4.3 · overseas-friendly lightweight layer. 中文版见 [README.md](README.md).
+> simaguang-perspective (simaguang-perspective) v0.4.7 · overseas-friendly lightweight layer. 中文版见 [README.md](README.md).
 
 ## What it is
 A cognitive framework distilled from Sima Guang’s reasoning that helps analyze governance, people, decisions, history, strategy, psychology, law, investment, investigation, and high-productivity writing across scales. It is a perspective implant, not impersonation.
@@ -10,8 +10,8 @@ Use when you want historical/traditional cognitive structure applied to a manage
 
 ## Quick start
 ```bash
-python3 scripts/generate_work_product.py --type project-plan --output plan.md
-python3 scripts/prepare_input.py --input input.txt --output prepared.md
+bash scripts/generate_work_product.sh --type project-plan --output plan.md
+bash scripts/prepare_input.sh --input input.txt --output prepared.md
 ```
 
 ## Install across the three platforms

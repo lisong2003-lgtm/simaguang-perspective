@@ -2,7 +2,7 @@
 
 - 分析日期：2026-08-09
 - 图片来源：Wikimedia Commons，`Elon_Musk_Royal_Society_(crop2).jpg`
-- 图片路径：`/Users/lis/.codex/simaguang-celebrity/elon-musk.jpg`
+- 图片路径：`~/.cache/simaguang-celebrity/elon-musk.jpg`（由 `scripts/fetch-celebrity.py` 生成；换机器可重新抓，不必迁移）
 - 视觉通道状态：GLM 视觉 key 已配置并验证通过；OCR 未提取到文字，图片语义由 GLM-4V-Flash 补全。
 - 激活节点：N36、N2、N3、N10、N15、N28
 

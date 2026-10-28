@@ -1,21 +1,26 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""cad-file-reader 跨平台不可回归 lint。
+"""simaguang-perspective 跨平台不可回归 lint。
 
-扫描业务脚本（.py/.sh/.cmd/.ps1）里会破坏 Windows/Linux 的 darwin-only
-路径、命令与系统调用：
+扫描脚本（.py/.sh/.cmd/.ps1）里会破坏 Windows/Linux 或泄露作者本机信息的写法：
+作者本机绝对路径（macOS/Linux 用户目录前缀、Windows 用户目录前缀 + 用户名）、
+darwin-only 路径、命令与系统调用：
 
   ERROR  — 未见到平台分支保护（platform.system / sys.platform / os.name /
             darwin / win32 / nt / Linux / Windows 等），大概率在其它 OS 直接崩溃；
+           绝对用户路径（ABS_USER_PATH）**一律 ERROR**，没有"有分支就放行"的说法；
   WARN   — 已带平台分支保护，或在注释/说明里被提及，仍需人工复核；
   每条命中都会给一条建议 fix 命令。
 
-默认跳过 vendor/ 与 tests/；vendor 原生库用 --vendor-check 单列探测，
-允许仓库里存在 darwin .so，但三平台 CI 不因缺少其它平台二进制而失败。
+默认跳过 __pycache__/、tests/、samples/。本技能包不带原生二进制，`--vendor-check`
+只对确有 vendor/ 的包有意义（没有该目录时仅打印一行说明，不算失败）。
 用法：
-  python3 scripts/lint_cross_platform.py scripts/            # 只扫业务脚本
-  python3 scripts/lint_cross_platform.py scripts/ --vendor-check
-  python3 scripts/lint_cross_platform.py scripts/ --platform ubuntu  # CI 等价模拟
+  python3 scripts/lint_cross_platform.py scripts/            # 只扫脚本
+  python3 scripts/lint_cross_platform.py scripts/ --strict   # WARN 也算失败
+  python3 scripts/lint_cross_platform.py scripts/ --platform windows  # CI 等价模拟
+
+移植建议统一在 `scripts/project_paths.py`：外部项目根用 SIMAGUANG_PROJECT_DIR
+三级解析，可执行工具用 shutil.which 再回退，不写死任何本机路径。
 """
 from __future__ import annotations
 
@@ -32,15 +37,18 @@ DEFAULT_VENDOR = SKILL_DIR / "vendor"
 # 规则表：每条 = (名称, 正则, 建议 fix)。cmd/fix 是模板，{file} 会被替换。
 # --------------------------------------------------------------------------- #
 RULES = [
+    ("ABS_USER_PATH",
+     re.compile(r"(?<![\w.-])/(?:Users|home)/[A-Za-z0-9._-]+|\b[A-Za-z]:\\Users\\[A-Za-z0-9._-]+"),
+     "作者本机绝对路径，别人机器上一定不存在。fix: 改用 scripts/project_paths.py（SIMAGUANG_PROJECT_DIR → 相对探测 → 友好报错）或 ~/ 相对写法"),
     ("OPT_HOMEBREW",
      re.compile(r"(?<![\w./])/opt/homebrew(?:/|(?=[\s,'\"`]))"),
-     "用 platform_paths.find_tool() 发现工具，勿裸写 macOS 前缀。fix: python3 scripts/platform_paths.py"),
+     "用 shutil.which() 发现工具，勿裸写 macOS 前缀；本包统一走 scripts/project_paths.py"),
     ("APPLICATIONS_MAC",
      re.compile(r"(?<![\w./])/Applications/"),
-     "把 /Applications/... 收进 darwin 分支；非 macOS 用 where/winget/apt 路径。fix: python3 scripts/platform_paths.py"),
+     "把 /Applications/... 收进 sys.platform == 'darwin' 分支；其它平台用 shutil.which 探测"),
     ("VENV_BIN",
      re.compile(r"\.venv/bin/"),
-     "venv 可执行名跨平台不同：Windows 是 Scripts/python.exe。fix: python3 scripts/pyboot.py / platform_paths"),
+     "venv 可执行名跨平台不同：Windows 是 Scripts\\python.exe。用 sys.executable 代替硬编码路径"),
     ("OSASCRIPT",
      re.compile(r"\bosascript\b"),
      "osascript 仅 macOS 可用。fix: 用平台分支，非 darwin 用 win/posix 对应命令"),
@@ -52,16 +60,16 @@ RULES = [
      "xcode-select 仅 macOS。fix: darwin 分支才调用"),
     ("SETRLIMIT",
      re.compile(r"\b(?:resource\.)?setrlimit\b|RLIMIT_(?:AS|DATA|CPU|RSS|STACK)"),
-     "setrlimit/RLIMIT_* 不是全平台可用（Windows 无；macOS 部分受限）。fix: 用 mem_guard.py 看门狗"),
+     "setrlimit/RLIMIT_* 不是全平台可用（Windows 无；macOS 部分受限）。改为可选：try/except 后降级运行"),
     ("GETRUSAGE",
      re.compile(r"\bresource\.getrusage\b|RUSAGE_SELF"),
-     "resource.getrusage 仅 POSIX。fix: 包一层平台分支，Windows 用 psutil.Process().memory_info().rss"),
+     "resource.getrusage 仅 POSIX。包一层 sys.platform 分支，Windows 用 psutil.Process().memory_info().rss"),
     ("SIGALRM",
      re.compile(r"\bsignal\.SIGALRM\b|SIGALRM"),
-     "SIGALRM 仅 POSIX；Windows 需 Timer 协作式超时。fix: 用 scripts/safe_timeout.py 的 deadline()"),
+     "SIGALRM 仅 POSIX；Windows 需 threading.Timer 协作式超时。用 sys.platform 分支或改 subprocess timeout="),
     ("SIGKILL",
      re.compile(r"\bsignal\.SIGKILL\b|SIGKILL"),
-     "SIGKILL 仅 POSIX。fix: 平台分支外避免直接 kill；Windows 用 terminate()"),
+     "SIGKILL 仅 POSIX。避免直接 kill；Windows 用 Popen.terminate()"),
     ("NATIVE_DYLIB",
      re.compile(r"\b[\w.-]+\.dylib\b"),
      "dylib 是 macOS 原生库格式。fix: 仓库内 sudo 二进制请走 platform 分支；Windows/Linux 由 pip wheel 提供"),
@@ -70,6 +78,9 @@ RULES = [
      "darwin 专有扩展名出现在业务脚本里通常是误引用。fix: vendor 由各平台 setup/pip 重建，不应在脚本里硬依赖"),
 ]
 # 命中即视为“文件带平台分支”的提示词（大小写不敏感）。
+RULE_PAT = {name: pat for name, pat, _fix in RULES}
+# brew/osascript 在 .py 里只在“当作可执行程序名”时告警，避免把安装指引文案算命中。
+_CMD_ONLY_RULES = ("BREW_CMD", "OSASCRIPT")
 GUARD_TOKENS = (
     "platform.system", "sys.platform", "os.name", "platform.platform",
     "darwin", "linux", "win32", "windows", "mingw", "nt ", "nt", "posix",
@@ -108,18 +119,18 @@ def _scan_file(path: Path) -> list[dict]:
             continue
         line = raw
         if suffix == ".py":
-            # brew/osascript 只在作为可执行程序名（subprocess）出现时才告警，
-            # 避免把“建议文案”里的 brew 误报。
             filtered = line
-            if RULES[4][1].search(line) and "subprocess" not in line and "run(" not in line:
-                filtered = RULES[4][1].sub("", filtered)
-            if RULES[3][1].search(line) and "subprocess" not in line and "run(" not in line:
-                filtered = RULES[3][1].sub("", filtered)
+            if "subprocess" not in line and "run(" not in line:
+                for rule_name in _CMD_ONLY_RULES:
+                    pat = RULE_PAT[rule_name]
+                    if pat.search(filtered):
+                        filtered = pat.sub("", filtered)
         else:
             filtered = line
         for name, pat, fix in RULES:
             if pat.search(filtered):
-                level = "WARN" if guard else "ERROR"
+                # 绝对用户路径没有豁免：有平台分支也照样是别人机器上不存在的路径。
+                level = "ERROR" if name == "ABS_USER_PATH" else ("WARN" if guard else "ERROR")
                 findings.append({
                     "file": str(path),
                     "line": number,
@@ -185,7 +196,7 @@ def main() -> int:
     pyboot.ensure_utf8_io()
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("paths", nargs="+", help="要扫描的文件或目录（默认建议 scripts/）")
-    ap.add_argument("--skip-dirs", default="vendor,__pycache__,tests,.git",
+    ap.add_argument("--skip-dirs", default="__pycache__,tests,.git,samples",
                     help="跳过的目录名，逗号分隔")
     ap.add_argument("--vendor-check", action="store_true",
                     help="额外探测 vendor 原生库（允许 darwin .so，其它平台缺失不失败）")

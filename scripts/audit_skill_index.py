@@ -1,16 +1,19 @@
 #!/usr/bin/env python3
 """Audit current skill index coverage without modifying routing files."""
 
+import datetime
 import re
 from pathlib import Path
 
+import project_paths
+
 ROOT = Path(__file__).resolve().parents[1]
-PROJECT = ROOT.parents[1]
+PROJECT = project_paths.find_project_dir() or ROOT
 INDEX = ROOT / "references" / "技能合并索引.md"
 SKILL = ROOT / "SKILL.md"
 DISTILL = PROJECT / "书籍蒸馏"
 LEGACY = PROJECT / "其他书籍"
-OUT = PROJECT / "学习记录" / "技能索引审计-2026-08-20.md"
+OUT = (PROJECT / "学习记录" / "技能索引审计.md") if PROJECT != ROOT else (ROOT / "handoff" / "技能索引审计.md")
 
 
 def norm(text):
@@ -109,7 +112,7 @@ def main():
     index_links = len(set(re.findall(r"书籍蒸馏/[^` )]+SKILL\.md", index_text)))
 
     lines = [
-        "# 技能索引审计（2026-08-20）",
+        f"# 技能索引审计（{datetime.date.today().isoformat()}）",
         "",
         "## 统计",
         "",

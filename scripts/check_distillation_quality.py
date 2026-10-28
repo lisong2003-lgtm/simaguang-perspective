@@ -12,15 +12,21 @@ except Exception:
 
 import argparse
 import re
+import sys
 from pathlib import Path
+
+import project_paths
 
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="按蒸馏方法论清单检查蒸馏技能包。")
     parser.add_argument("--strict", action="store_true", help="fail on structural issues")
     args = parser.parse_args()
 
-    root = Path(__file__).resolve().parents[3]
+    root = project_paths.find_project_dir()
+    if root is None:
+        print(project_paths.project_dir_help(), file=sys.stderr)
+        return 2
     files = sorted((root / "书籍蒸馏").rglob("SKILL.md"))
     issues = []
     counts = {}
@@ -57,7 +63,8 @@ def main():
 
     if args.strict and (issues or over_limit):
         raise SystemExit(1)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

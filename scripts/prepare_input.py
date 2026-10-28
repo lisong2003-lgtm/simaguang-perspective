@@ -12,10 +12,11 @@ except Exception:
 
 import argparse
 import re
+import sys
 import zipfile
 from pathlib import Path
 
-PDFTOTEXT = "/Users/lis/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/poppler/bin/pdftotext"
+import project_paths
 
 
 def extract_txt(path):
@@ -44,13 +45,21 @@ def extract_epub(path):
 
 
 def extract_pdf(path):
+    """PDF 抽取：pdftotext 走三级解析（env → PATH → codex runtime）。"""
     import subprocess
 
+    exe, source = project_paths.find_pdftotext()
+    if not exe:
+        print(project_paths.pdftotext_help(), file=sys.stderr)
+        raise SystemExit(3)
     out = subprocess.run(
-        [PDFTOTEXT, "-layout", str(path), "-"],
+        [exe, "-layout", str(path), "-"],
         capture_output=True,
         text=True,
     )
+    if out.returncode != 0 and not out.stdout.strip():
+        print(f"[PDF_EXTRACT_EMPTY] pdftotext rc={out.returncode} ({source})", file=sys.stderr)
+        print((out.stderr or "").strip()[:400], file=sys.stderr)
     return out.stdout
 
 

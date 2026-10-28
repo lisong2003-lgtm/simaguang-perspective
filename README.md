@@ -12,7 +12,7 @@
 
 ## 结构
 
-- `SKILL.md` / `SKILL.lite.md`：主技能与轻量版（version 0.4.3）。
+- `SKILL.md` / `SKILL.lite.md`：主技能与轻量版（version 0.4.7）。
 - `references/`：协议、路由、判断尺、素材与案例库。
 - `scripts/`：路由测试、覆盖率、集成自检、蒸馏与高生产力检查。
 - `test-prompts.json`：311 条路由测试提示词。
@@ -27,13 +27,17 @@
 ## 自检
 
 ```bash
-python3 scripts/test_routing_coverage.py
-python3 scripts/check_integration.py
+python3 scripts/self_test.py                      # 38 项：文档/隐私/卫生/模板冒烟
+python3 scripts/test_routing_coverage.py --quiet  # 路由命中回归
 python3 scripts/run_test_prompts.py --prompts test-prompts.json
 ```
 
-期望输出：`routing_accuracy_status=OK`、`INTEGRATION_OK`、`test_cases: 311`。
+期望输出：`SELF_TEST_OK`、`routing_accuracy_status=OK`、`test_cases: 311`。
+
+没有外部项目目录也能全绿：`check_integration.py` 之外都不依赖 `书籍蒸馏/`。
+需要外部项目时设 `SIMAGUANG_PROJECT_DIR`（详见 `references/optional-本地扩展.md`）。
 
 ## 版本
 
+- 0.4.7（2026-10-28）：隐私清除与断链显性化——外部项目根/pdftotext 改三级解析、`build_handoff` 修 `parents[3]` Bug、路由索引标注「本地扩展」、lint 新增绝对路径规则、self_test 19→38 项。
 - 0.4.3（2026-10-18）：新增事件素材与跨源核验三件套，路由测试扩到 311；全平台版本对齐。

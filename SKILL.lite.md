@@ -7,7 +7,7 @@ description: |
 source_book: 《资治通鉴》及已蒸馏书籍清单，详见项目 学习记录/已蒸馏书籍全清单。
 tags: [governance, people, decision, history, strategy, psychology, systems, law, investment, investigation, yijing, qimen, productivity, film]
 related_skills: [ds-vision-skill]
-version: 0.4.3
+version: 0.4.7
 ---
 
 

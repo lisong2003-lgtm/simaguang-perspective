@@ -1,6 +1,6 @@
 # 冰鉴识人分析：Elon Musk
 
-- 依据图片：`/Users/lis/.codex/simaguang-celebrity/elon-musk.jpg`
+- 依据图片：`~/.cache/simaguang-celebrity/elon-musk.jpg`（`scripts/fetch-celebrity.py` 缓存目录）
 - 图片语义：中年男士半身像，棕色头发和胡须，微笑直视镜头；深蓝色西装、白色衬衫，白色背景。
 - 使用框架：曾国藩《冰鉴》识人判断尺
 
