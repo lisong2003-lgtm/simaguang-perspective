@@ -1,6 +1,6 @@
 {
   "name": "simaguang-perspective",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "entry": "SKILL.md",
   "scripts": [
     "scripts/archive_work_product_feedback.py",

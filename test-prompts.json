@@ -750,7 +750,7 @@
       "id": "distill-self-01",
       "type": "coverage",
       "prompt": "蒸馏一份新资料。",
-      "expected_behavior": "在资治通鉴项目内只使用内部蒸馏能力协议，不调用 cangjie-content-distill/cangjie 等外部蒸馏 skill；先对照主动学习补给单判断是否命中短板；若命中，标记定向补给并明确目标能力；再提取清理版、判断尺、归簇查重、并入同步并更新补给状态；视频/音频没有转写稿时先索取文本。",
+      "expected_behavior": "在资治通鉴项目内只使用内部蒸馏能力协议，不调用 cangjie-content-distill/cangjie 等外部蒸馏 skill；先对照主动学习补给单判断是否命中短板；若命中，标记定向补给并明确目标能力；再提取清洗稿、判断尺、归簇查重、并入同步并更新补给状态；视频/音频没有转写稿时先索取文本。",
       "notes": "独立蒸馏能力触发",
       "expected_clusters": [
         "蒸馏方法论强化簇"

@@ -1,6 +1,6 @@
 # Sima Guang Perspective / Cognitive Advisory
 
-> simaguang-perspective (simaguang-perspective) v0.4.7 · overseas-friendly lightweight layer. 中文版见 [README.md](README.md).
+> simaguang-perspective (simaguang-perspective) v0.4.8 · overseas-friendly lightweight layer. 中文版见 [README.md](README.md).
 
 ## What it is
 A cognitive framework distilled from Sima Guang’s reasoning that helps analyze governance, people, decisions, history, strategy, psychology, law, investment, investigation, and high-productivity writing across scales. It is a perspective implant, not impersonation.

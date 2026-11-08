@@ -18,6 +18,7 @@ from __future__ import annotations
 
 try:
     import os as _boot_os, sys as _boot_sys
+    _boot_sys.dont_write_bytecode = True
     _boot_sys.path.insert(0, _boot_os.path.dirname(_boot_os.path.abspath(__file__)))
     import pyboot as _boot_pyboot
     _boot_pyboot.ensure_utf8_io()
@@ -36,6 +37,13 @@ ROOT = HERE.parent
 PYTHON = sys.executable
 FAILURES: list[str] = []
 SKIPS: list[str] = []
+# SkillHub 平台轻量版按白名单裁剪的文件：缺失时记 SKIP，不算 FAIL
+PLATFORM_DROP = {
+    "SKILL.lite.md", "test-prompts.json", "AGENTS.md",
+    "scripts/generate_work_product.cmd", "scripts/prepare_input.cmd",
+    "references/冰鉴分析-Elon-Musk.md", "references/名人分析卡-Elon-Musk.md",
+}
+
 CHECK_FILES: list[str] = [
         "SKILL.md",
         "SKILL.lite.md",
@@ -97,6 +105,7 @@ def run(cmd: list[str], cwd: Path) -> tuple[int, str]:
     env = dict(_os.environ)
     env["PYTHONIOENCODING"] = "ascii"
     env["PYTHONUTF8"] = "1"
+    env["PYTHONDONTWRITEBYTECODE"] = "1"
     r = subprocess.run(cmd, cwd=str(cwd), env=env, capture_output=True, text=True)
     return r.returncode, (r.stdout or "") + (r.stderr or "")
 
@@ -165,15 +174,22 @@ def main() -> int:
         check(fv and fv == m.get("version"), f"版本单源一致 SKILL.md={fv} manifest={m.get('version')}")
         check(bool(str(m.get("description", "")).strip(" >")) and len(str(m.get("description", ""))) > 30,
               "manifest.description 非空且完整（不是 > 之类的残片）")
-        missing = [rel for rel in list(m.get("scripts", [])) + list(m.get("references", []))
-                   if not (ROOT / rel).is_file()]
-        check(not missing, f"manifest 列出的文件全部存在（缺 {len(missing)} 个）")
-        if missing:
-            for rel in missing[:10]:
-                print(f"      manifest 缺失：{rel}")
+        listed = list(m.get("scripts", [])) + list(m.get("references", []))
+        missing = [rel for rel in listed if not (ROOT / rel).is_file()]
+        hard = [rel for rel in missing if rel not in PLATFORM_DROP]
+        skipped = [rel for rel in missing if rel in PLATFORM_DROP]
+        if skipped:
+            skip(f"manifest 中 {len(skipped)} 项为平台轻量版裁剪项（不判失败）")
+        check(not hard, f"manifest 列出的文件全部存在（缺 {len(hard)} 个）")
+        for rel in hard[:10]:
+            print(f"      manifest 缺失：{rel}")
 
     for rel in CHECK_FILES:
-        check((ROOT / rel).is_file(), f"文件存在 {rel}")
+        exists = (ROOT / rel).is_file()
+        if not exists and (rel in PLATFORM_DROP or (sys.platform != "win32" and rel.endswith((".cmd", ".ps1")))):
+            skip(f"平台轻量版不随附：{rel}")
+            continue
+        check(exists, f"文件存在 {rel}")
 
     hits = privacy_hits()
     check(not hits, f"隐私扫描 0 命中（命中 {len(hits)} 处）")
@@ -197,6 +213,10 @@ def main() -> int:
         print(out)
 
     for cli in CLI_HELP:
+        if not (HERE / cli).is_file():
+            # 未随包的脚本只记缺口，不伪装通过：SKIP + 明确原因。
+            skip(f"CLI --help  {cli}（未随包，已知缺口）")
+            continue
         rc, out = run([PYTHON, str(HERE / cli), "--help"], HERE)
         check(rc == 0, f"CLI --help rc=0  {cli}")
         if rc != 0:

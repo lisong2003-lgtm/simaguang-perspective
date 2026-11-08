@@ -13,6 +13,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from typing import Optional
 
 import project_paths
 
@@ -57,7 +58,7 @@ def hits(prompt, keywords):
     return [keyword for keyword in keywords if keyword and keyword in prompt]
 
 
-def resolve_out(explicit: str | None) -> Path:
+def resolve_out(explicit: Optional[str]) -> Path:
     """--out > 项目根/学习记录/ > 包内 handoff/。"""
     if explicit:
         return Path(explicit).expanduser()
