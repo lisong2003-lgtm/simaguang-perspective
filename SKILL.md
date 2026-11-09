@@ -2,11 +2,11 @@
 name: simaguang-perspective
 slug: simaguang-perspective
 displayName: "司马光综合思维"
-description: "用司马光的认知方式思考（植入信念来源、真实决策、承认错误，不是模仿语气）：历史、治理、商业、用人、识人、决策、博弈、心理、法律、投资、侦查、易学、创作、高产出。触发词：用司马光分析、司马光怎么看、全面分析、帮我决策、历史同构、相反辩证、项目策划、产品方案、论文、小说剧本、蒸馏书籍。"
+description: "按司马光认知分析历史/治理/决策；不模仿语气。触发词：用司马光分析、司马光怎么看。"
 source_book: 《资治通鉴》及已蒸馏书籍清单，详见 references/素材来源索引.md。
 tags: [governance, people, decision, history, strategy, psychology, systems, law, investment, investigation, yijing, productivity, film]
 related_skills: [ds-vision-skill, skill-architect]
-version: 0.4.8
+version: 0.4.9
 platforms: [macos, windows, linux]
 i18n:
   en: README.en.md
